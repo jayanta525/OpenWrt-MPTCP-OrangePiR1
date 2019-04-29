@@ -1,0 +1,860 @@
+CONFIG_TARGET_sunxi=y
+CONFIG_TARGET_sunxi_cortexa7=y
+CONFIG_TARGET_sunxi_cortexa7_DEVICE_sun8i-h2-plus-orangepi-r1=y
+CONFIG_ALL_KMODS=y
+CONFIG_DEVEL=y
+CONFIG_TOOLCHAINOPTS=y
+CONFIG_BUSYBOX_CUSTOM=y
+CONFIG_BUSYBOX_CONFIG_ADDUSER=y
+CONFIG_BUSYBOX_CONFIG_ARP=y
+CONFIG_BUSYBOX_CONFIG_ARPING=y
+CONFIG_BUSYBOX_CONFIG_ASH_RANDOM_SUPPORT=y
+CONFIG_BUSYBOX_CONFIG_BASE64=y
+CONFIG_BUSYBOX_CONFIG_CHPASSWD=y
+CONFIG_BUSYBOX_CONFIG_DELUSER=y
+CONFIG_BUSYBOX_CONFIG_DIFF=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_DATE_NANO=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_DIFF_DIR=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_PS_LONG=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_SEAMLESS_BZ2=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_SHOW_THREADS=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_STAT_FILESYSTEM=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_STAT_FORMAT=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_TOP_DECIMALS=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_TOP_SMP_CPU=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_TOP_SMP_PROCESS=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_VI_UNDO=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_VI_UNDO_QUEUE=y
+CONFIG_BUSYBOX_CONFIG_FEATURE_VI_UNDO_QUEUE_MAX=32
+CONFIG_BUSYBOX_CONFIG_FIRST_SYSTEM_ID=0
+CONFIG_BUSYBOX_CONFIG_IOSTAT=y
+CONFIG_BUSYBOX_CONFIG_LAST_ID=0
+CONFIG_BUSYBOX_CONFIG_LAST_SYSTEM_ID=0
+CONFIG_BUSYBOX_CONFIG_LOADKMAP=y
+CONFIG_BUSYBOX_CONFIG_LSPCI=y
+CONFIG_BUSYBOX_CONFIG_LSUSB=y
+CONFIG_BUSYBOX_CONFIG_NOHUP=y
+CONFIG_BUSYBOX_CONFIG_PKILL=y
+CONFIG_BUSYBOX_CONFIG_STAT=y
+CONFIG_BUSYBOX_CONFIG_STTY=y
+CONFIG_BUSYBOX_CONFIG_TELNET=y
+CONFIG_BUSYBOX_CONFIG_TIMEOUT=y
+CONFIG_BUSYBOX_CONFIG_WATCH=y
+# CONFIG_GDB is not set
+CONFIG_IMAGEOPT=y
+CONFIG_KERNEL_AIO=y
+CONFIG_KERNEL_DEBUG_GPIO=y
+# CONFIG_KERNEL_DEBUG_INFO is not set
+CONFIG_KERNEL_DEBUG_PINCTRL=y
+CONFIG_KERNEL_DEVTMPFS=y
+CONFIG_KERNEL_DEVTMPFS_MOUNT=y
+CONFIG_KERNEL_FANOTIFY=y
+CONFIG_KERNEL_FHANDLE=y
+CONFIG_KERNEL_IPC_NS=y
+# CONFIG_KERNEL_MAGIC_SYSRQ is not set
+CONFIG_KERNEL_NAMESPACES=y
+CONFIG_KERNEL_NET_NS=y
+CONFIG_KERNEL_PID_NS=y
+# CONFIG_KERNEL_SWAP is not set
+CONFIG_KERNEL_USER_NS=y
+CONFIG_KERNEL_UTS_NS=y
+CONFIG_LIBCURL_COOKIES=y
+CONFIG_LIBCURL_FILE=y
+CONFIG_LIBCURL_FTP=y
+CONFIG_LIBCURL_HTTP=y
+CONFIG_LIBCURL_MBEDTLS=y
+CONFIG_LIBCURL_NO_SMB="!"
+CONFIG_LIBCURL_PROXY=y
+CONFIG_LIBSODIUM_MINIMAL=y
+CONFIG_LUCI_LANG_ca=y
+CONFIG_LUCI_LANG_cs=y
+CONFIG_LUCI_LANG_de=y
+CONFIG_LUCI_LANG_el=y
+CONFIG_LUCI_LANG_en=y
+CONFIG_LUCI_LANG_es=y
+CONFIG_LUCI_LANG_fr=y
+CONFIG_LUCI_LANG_he=y
+CONFIG_LUCI_LANG_hu=y
+CONFIG_LUCI_LANG_it=y
+CONFIG_LUCI_LANG_ja=y
+CONFIG_LUCI_LANG_ko=y
+CONFIG_LUCI_LANG_ms=y
+CONFIG_LUCI_LANG_no=y
+CONFIG_LUCI_LANG_pl=y
+CONFIG_LUCI_LANG_pt=y
+CONFIG_LUCI_LANG_pt-br=y
+CONFIG_LUCI_LANG_ro=y
+CONFIG_LUCI_LANG_ru=y
+CONFIG_LUCI_LANG_sk=y
+CONFIG_LUCI_LANG_sv=y
+CONFIG_LUCI_LANG_tr=y
+CONFIG_LUCI_LANG_uk=y
+CONFIG_LUCI_LANG_vi=y
+CONFIG_LUCI_LANG_zh-cn=y
+CONFIG_LUCI_LANG_zh-tw=y
+CONFIG_MC_CHARSET=y
+CONFIG_MC_EDITOR=y
+CONFIG_MC_SUBSHELL=y
+CONFIG_NGINX_HEADERS_MORE=y
+CONFIG_NGINX_HTTP_ACCESS=y
+CONFIG_NGINX_HTTP_AUTH_BASIC=y
+CONFIG_NGINX_HTTP_AUTOINDEX=y
+CONFIG_NGINX_HTTP_BROWSER=y
+CONFIG_NGINX_HTTP_CACHE=y
+CONFIG_NGINX_HTTP_CHARSET=y
+CONFIG_NGINX_HTTP_EMPTY_GIF=y
+CONFIG_NGINX_HTTP_FASTCGI=y
+CONFIG_NGINX_HTTP_GEO=y
+CONFIG_NGINX_HTTP_GZIP=y
+CONFIG_NGINX_HTTP_LIMIT_CONN=y
+CONFIG_NGINX_HTTP_LIMIT_REQ=y
+CONFIG_NGINX_HTTP_MAP=y
+CONFIG_NGINX_HTTP_MEMCACHED=y
+CONFIG_NGINX_HTTP_PROXY=y
+CONFIG_NGINX_HTTP_REFERER=y
+CONFIG_NGINX_HTTP_REWRITE=y
+CONFIG_NGINX_HTTP_SCGI=y
+CONFIG_NGINX_HTTP_SPLIT_CLIENTS=y
+CONFIG_NGINX_HTTP_SSI=y
+CONFIG_NGINX_HTTP_UPSTREAM_HASH=y
+CONFIG_NGINX_HTTP_UPSTREAM_IP_HASH=y
+CONFIG_NGINX_HTTP_UPSTREAM_KEEPALIVE=y
+CONFIG_NGINX_HTTP_UPSTREAM_LEAST_CONN=y
+CONFIG_NGINX_HTTP_USERID=y
+CONFIG_NGINX_HTTP_UWSGI=y
+CONFIG_NGINX_NAXSI=y
+CONFIG_NGINX_PCRE=y
+CONFIG_NGINX_STREAM_CORE_MODULE=y
+CONFIG_OPENSSL_ENGINE=y
+CONFIG_OPENSSL_PREFER_CHACHA_OVER_GCM=y
+CONFIG_OPENSSL_WITH_ASM=y
+CONFIG_OPENSSL_WITH_CHACHA_POLY1305=y
+CONFIG_OPENSSL_WITH_CMS=y
+CONFIG_OPENSSL_WITH_DEPRECATED=y
+CONFIG_OPENSSL_WITH_EC=y
+CONFIG_OPENSSL_WITH_ERROR_MESSAGES=y
+CONFIG_OPENSSL_WITH_PSK=y
+CONFIG_OPENSSL_WITH_SRP=y
+CONFIG_OPENSSL_WITH_TLS13=y
+CONFIG_OPENVPN_openssl_ENABLE_DEF_AUTH=y
+CONFIG_OPENVPN_openssl_ENABLE_FRAGMENT=y
+CONFIG_OPENVPN_openssl_ENABLE_LZ4=y
+CONFIG_OPENVPN_openssl_ENABLE_LZO=y
+CONFIG_OPENVPN_openssl_ENABLE_MULTIHOME=y
+CONFIG_OPENVPN_openssl_ENABLE_PF=y
+CONFIG_OPENVPN_openssl_ENABLE_PORT_SHARE=y
+CONFIG_OPENVPN_openssl_ENABLE_SERVER=y
+CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
+CONFIG_PACKAGE_6in4=y
+CONFIG_PACKAGE_6rd=y
+CONFIG_PACKAGE_6to4=y
+CONFIG_PACKAGE_adb=y
+CONFIG_PACKAGE_adb-enablemodem=y
+CONFIG_PACKAGE_arptables=y
+CONFIG_PACKAGE_bind-dig=y
+CONFIG_PACKAGE_bind-libs=y
+CONFIG_PACKAGE_ca-bundle=y
+CONFIG_PACKAGE_ca-certificates=y
+CONFIG_PACKAGE_chat=y
+CONFIG_PACKAGE_comgt=y
+CONFIG_PACKAGE_comgt-ncm=y
+CONFIG_PACKAGE_curl=y
+CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuSerif=y
+CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuSerif-Bold=y
+CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuSerif-BoldItalic=y
+CONFIG_PACKAGE_dejavu-fonts-ttf-DejaVuSerif-Italic=y
+# CONFIG_PACKAGE_dnsmasq is not set
+CONFIG_PACKAGE_dnsmasq-full=y
+CONFIG_PACKAGE_dnsmasq_full_auth=y
+CONFIG_PACKAGE_dnsmasq_full_conntrack=y
+CONFIG_PACKAGE_dnsmasq_full_dhcp=y
+CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
+CONFIG_PACKAGE_dnsmasq_full_dnssec=y
+CONFIG_PACKAGE_dnsmasq_full_ipset=y
+CONFIG_PACKAGE_dnsmasq_full_noid=y
+CONFIG_PACKAGE_dnsmasq_full_tftp=y
+CONFIG_PACKAGE_ebtables=y
+CONFIG_PACKAGE_ebtables-utils=y
+CONFIG_PACKAGE_etherwake=y
+CONFIG_PACKAGE_ethtool=y
+CONFIG_PACKAGE_glib2=y
+CONFIG_PACKAGE_glorytun=y
+CONFIG_PACKAGE_glorytun-udp=y
+CONFIG_PACKAGE_golang-golang-x-crypto-dev=y
+CONFIG_PACKAGE_golang-golang-x-net-dev=y
+CONFIG_PACKAGE_golang-golang-x-sys-dev=y
+CONFIG_PACKAGE_golang-golang-x-text-dev=y
+CONFIG_PACKAGE_golang-protobuf-dev=y
+CONFIG_PACKAGE_hostapd-common=y
+CONFIG_PACKAGE_htop=y
+CONFIG_PACKAGE_httping=y
+CONFIG_PACKAGE_iftop=y
+CONFIG_PACKAGE_ip-full=y
+CONFIG_PACKAGE_ip6tables-mod-nat=y
+CONFIG_PACKAGE_ipcalc=y
+CONFIG_PACKAGE_iperf3-ssl=y
+CONFIG_PACKAGE_ipset=y
+CONFIG_PACKAGE_iptables-mod-account=y
+CONFIG_PACKAGE_iptables-mod-condition=y
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
+CONFIG_PACKAGE_iptables-mod-extra=y
+CONFIG_PACKAGE_iptables-mod-hashlimit=y
+CONFIG_PACKAGE_iptables-mod-iface=y
+CONFIG_PACKAGE_iptables-mod-ipmark=y
+CONFIG_PACKAGE_iptables-mod-ipopt=y
+CONFIG_PACKAGE_iptables-mod-ndpi=y
+CONFIG_PACKAGE_iptables-mod-tproxy=y
+CONFIG_PACKAGE_iptables-mod-trace=y
+CONFIG_PACKAGE_iputils-ping=y
+CONFIG_PACKAGE_iputils-traceroute6=y
+CONFIG_PACKAGE_iw=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl100=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl1000=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl105=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl135=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl2000=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl2030=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl3160=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl3168=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl5000=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl5150=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl6000g2=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl6000g2a=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl6000g2b=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl6050=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl7260=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl7265=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl7265d=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl8260c=y
+CONFIG_PACKAGE_iwlwifi-firmware-iwl8265=y
+CONFIG_PACKAGE_kmod-arptables=y
+CONFIG_PACKAGE_kmod-ata-ahci=y
+CONFIG_PACKAGE_kmod-ata-core=y
+CONFIG_PACKAGE_kmod-backlight=y
+CONFIG_PACKAGE_kmod-block2mtd=y
+CONFIG_PACKAGE_kmod-cfg80211=y
+CONFIG_PACKAGE_kmod-crypto-aead=y
+CONFIG_PACKAGE_kmod-crypto-crc32c=y
+CONFIG_PACKAGE_kmod-crypto-ctr=y
+CONFIG_PACKAGE_kmod-crypto-gcm=y
+CONFIG_PACKAGE_kmod-crypto-gf128=y
+CONFIG_PACKAGE_kmod-crypto-ghash=y
+CONFIG_PACKAGE_kmod-crypto-hash=y
+CONFIG_PACKAGE_kmod-crypto-hmac=y
+CONFIG_PACKAGE_kmod-crypto-iv=y
+CONFIG_PACKAGE_kmod-crypto-manager=y
+CONFIG_PACKAGE_kmod-crypto-md5=y
+CONFIG_PACKAGE_kmod-crypto-null=y
+CONFIG_PACKAGE_kmod-crypto-pcompress=y
+CONFIG_PACKAGE_kmod-crypto-rng=y
+CONFIG_PACKAGE_kmod-crypto-seqiv=y
+CONFIG_PACKAGE_kmod-crypto-sha256=y
+CONFIG_PACKAGE_kmod-crypto-wq=y
+CONFIG_PACKAGE_kmod-dm9000=y
+CONFIG_PACKAGE_kmod-ebtables=y
+CONFIG_PACKAGE_kmod-ethoc=y
+CONFIG_PACKAGE_kmod-fb=y
+CONFIG_PACKAGE_kmod-fb-sys-fops=y
+CONFIG_PACKAGE_kmod-fb-sys-ram=y
+CONFIG_PACKAGE_kmod-fb-tft=y
+CONFIG_PACKAGE_kmod-fb-tft-all=y
+CONFIG_PACKAGE_kmod-fs-vfat=y
+CONFIG_PACKAGE_kmod-gigaset=y
+CONFIG_PACKAGE_kmod-gpio-button-hotplug=y
+CONFIG_PACKAGE_kmod-hfcmulti=y
+CONFIG_PACKAGE_kmod-hfcpci=y
+CONFIG_PACKAGE_kmod-hid=y
+CONFIG_PACKAGE_kmod-hid-generic=y
+CONFIG_PACKAGE_kmod-i2c-algo-bit=y
+CONFIG_PACKAGE_kmod-i2c-core=y
+CONFIG_PACKAGE_kmod-i2c-gpio=y
+CONFIG_PACKAGE_kmod-i2c-gpio-custom=y
+CONFIG_PACKAGE_kmod-ifb=y
+CONFIG_PACKAGE_kmod-ikconfig=y
+CONFIG_PACKAGE_kmod-input-core=y
+CONFIG_PACKAGE_kmod-input-evdev=y
+CONFIG_PACKAGE_kmod-ipt-account=y
+CONFIG_PACKAGE_kmod-ipt-compat-xtables=y
+CONFIG_PACKAGE_kmod-ipt-condition=y
+CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
+CONFIG_PACKAGE_kmod-ipt-debug=y
+CONFIG_PACKAGE_kmod-ipt-extra=y
+CONFIG_PACKAGE_kmod-ipt-hashlimit=y
+CONFIG_PACKAGE_kmod-ipt-iface=y
+CONFIG_PACKAGE_kmod-ipt-ipmark=y
+CONFIG_PACKAGE_kmod-ipt-ipopt=y
+CONFIG_PACKAGE_kmod-ipt-ipset=y
+CONFIG_PACKAGE_kmod-ipt-nat6=y
+CONFIG_PACKAGE_kmod-ipt-ndpi=y
+CONFIG_PACKAGE_kmod-ipt-raw=y
+CONFIG_PACKAGE_kmod-ipt-raw6=y
+CONFIG_PACKAGE_kmod-ipt-tproxy=y
+CONFIG_PACKAGE_kmod-iptunnel=y
+CONFIG_PACKAGE_kmod-iptunnel4=y
+CONFIG_PACKAGE_kmod-isdn4linux=y
+CONFIG_PACKAGE_kmod-lib-crc-itu-t=y
+CONFIG_PACKAGE_kmod-lib-crc16=y
+CONFIG_PACKAGE_kmod-lib-crc32c=y
+CONFIG_PACKAGE_kmod-lib-crc7=y
+CONFIG_PACKAGE_kmod-lib-textsearch=y
+CONFIG_PACKAGE_kmod-libphy=y
+CONFIG_PACKAGE_kmod-loop=y
+CONFIG_PACKAGE_kmod-mac80211=y
+CONFIG_PACKAGE_kmod-macvlan=y
+CONFIG_PACKAGE_kmod-misdn=y
+CONFIG_PACKAGE_kmod-mmc=y
+CONFIG_PACKAGE_kmod-mmc-spi=y
+CONFIG_PACKAGE_kmod-mt7601u=y
+CONFIG_PACKAGE_kmod-net-rtl8192su=y
+CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y
+CONFIG_PACKAGE_kmod-nf-nat6=y
+CONFIG_PACKAGE_kmod-nf-nathelper=y
+CONFIG_PACKAGE_kmod-nf-nathelper-extra=y
+CONFIG_PACKAGE_kmod-nfnetlink=y
+CONFIG_PACKAGE_kmod-nls-cp437=y
+CONFIG_PACKAGE_kmod-nls-iso8859-1=y
+CONFIG_PACKAGE_kmod-nls-utf8=y
+CONFIG_PACKAGE_kmod-of-mdio=y
+CONFIG_PACKAGE_kmod-phy-broadcom=y
+CONFIG_PACKAGE_kmod-phylib-broadcom=y
+CONFIG_PACKAGE_kmod-pps=y
+CONFIG_PACKAGE_kmod-ptp=y
+CONFIG_PACKAGE_kmod-random-core=y
+CONFIG_PACKAGE_kmod-rt2800-lib=y
+CONFIG_PACKAGE_kmod-rt2800-usb=y
+CONFIG_PACKAGE_kmod-rt2x00-lib=y
+CONFIG_PACKAGE_kmod-rt2x00-usb=y
+CONFIG_PACKAGE_kmod-rtl8192c-common=y
+CONFIG_PACKAGE_kmod-rtl8192cu=y
+CONFIG_PACKAGE_kmod-rtl8xxxu=y
+CONFIG_PACKAGE_kmod-rtlwifi=y
+CONFIG_PACKAGE_kmod-rtlwifi-usb=y
+CONFIG_PACKAGE_kmod-sched-cake=y
+CONFIG_PACKAGE_kmod-sched-core=y
+CONFIG_PACKAGE_kmod-scsi-core=y
+CONFIG_PACKAGE_kmod-sctp=y
+CONFIG_PACKAGE_kmod-sdhci=y
+CONFIG_PACKAGE_kmod-serial-8250=y
+CONFIG_PACKAGE_kmod-sit=y
+CONFIG_PACKAGE_kmod-spi-bitbang=y
+CONFIG_PACKAGE_kmod-spi-ks8995=y
+CONFIG_PACKAGE_kmod-tg3=y
+CONFIG_PACKAGE_kmod-tun=y
+CONFIG_PACKAGE_kmod-usb-acm=y
+CONFIG_PACKAGE_kmod-usb-ehci=y
+CONFIG_PACKAGE_kmod-usb-hid=y
+CONFIG_PACKAGE_kmod-usb-net-asix=y
+CONFIG_PACKAGE_kmod-usb-net-asix-ax88179=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-eem=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-ether=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-mbim=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-ncm=y
+CONFIG_PACKAGE_kmod-usb-net-cdc-subset=y
+CONFIG_PACKAGE_kmod-usb-net-dm9601-ether=y
+CONFIG_PACKAGE_kmod-usb-net-hso=y
+CONFIG_PACKAGE_kmod-usb-net-huawei-cdc-ncm=y
+CONFIG_PACKAGE_kmod-usb-net-ipheth=y
+CONFIG_PACKAGE_kmod-usb-net-kalmia=y
+CONFIG_PACKAGE_kmod-usb-net-kaweth=y
+CONFIG_PACKAGE_kmod-usb-net-mcs7830=y
+CONFIG_PACKAGE_kmod-usb-net-pegasus=y
+CONFIG_PACKAGE_kmod-usb-net-qmi-wwan=y
+CONFIG_PACKAGE_kmod-usb-net-rndis=y
+CONFIG_PACKAGE_kmod-usb-net-rtl8150=y
+CONFIG_PACKAGE_kmod-usb-net-sierrawireless=y
+CONFIG_PACKAGE_kmod-usb-net-smsc95xx=y
+CONFIG_PACKAGE_kmod-usb-net-sr9700=y
+CONFIG_PACKAGE_kmod-usb-serial=y
+CONFIG_PACKAGE_kmod-usb-serial-ark3116=y
+CONFIG_PACKAGE_kmod-usb-serial-belkin=y
+CONFIG_PACKAGE_kmod-usb-serial-ch341=y
+CONFIG_PACKAGE_kmod-usb-serial-cp210x=y
+CONFIG_PACKAGE_kmod-usb-serial-cypress-m8=y
+CONFIG_PACKAGE_kmod-usb-serial-ftdi=y
+CONFIG_PACKAGE_kmod-usb-serial-garmin=y
+CONFIG_PACKAGE_kmod-usb-serial-ipw=y
+CONFIG_PACKAGE_kmod-usb-serial-keyspan=y
+CONFIG_PACKAGE_kmod-usb-serial-mct=y
+CONFIG_PACKAGE_kmod-usb-serial-mos7720=y
+CONFIG_PACKAGE_kmod-usb-serial-option=y
+CONFIG_PACKAGE_kmod-usb-serial-oti6858=y
+CONFIG_PACKAGE_kmod-usb-serial-pl2303=y
+CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y
+CONFIG_PACKAGE_kmod-usb-serial-sierrawireless=y
+CONFIG_PACKAGE_kmod-usb-serial-simple=y
+CONFIG_PACKAGE_kmod-usb-serial-ti-usb=y
+CONFIG_PACKAGE_kmod-usb-serial-visor=y
+CONFIG_PACKAGE_kmod-usb-serial-wwan=y
+CONFIG_PACKAGE_kmod-usb-storage=y
+CONFIG_PACKAGE_kmod-usb-wdm=y
+CONFIG_PACKAGE_kmod-usb2=y
+CONFIG_PACKAGE_kmod-usb3=y
+CONFIG_PACKAGE_kmod-veth=y
+CONFIG_PACKAGE_lcd4linux-full=y
+CONFIG_PACKAGE_libattr=y
+CONFIG_PACKAGE_libbpf=y
+CONFIG_PACKAGE_libcap=y
+CONFIG_PACKAGE_libcares=y
+CONFIG_PACKAGE_libcurl=y
+CONFIG_PACKAGE_libdbus=y
+CONFIG_PACKAGE_libelf=y
+CONFIG_PACKAGE_libev=y
+CONFIG_PACKAGE_libffi=y
+CONFIG_PACKAGE_libgd=y
+CONFIG_PACKAGE_libgmp=y
+CONFIG_PACKAGE_libimobiledevice=y
+CONFIG_PACKAGE_libipset=y
+CONFIG_PACKAGE_libiwinfo=y
+CONFIG_PACKAGE_libiwinfo-lua=y
+CONFIG_PACKAGE_libjpeg=y
+CONFIG_PACKAGE_liblua=y
+CONFIG_PACKAGE_liblucihttp=y
+CONFIG_PACKAGE_liblucihttp-lua=y
+CONFIG_PACKAGE_liblzo=y
+CONFIG_PACKAGE_libmbedtls=y
+CONFIG_PACKAGE_libmnl=y
+CONFIG_PACKAGE_libmount=y
+CONFIG_PACKAGE_libncurses=y
+CONFIG_PACKAGE_libnetfilter-conntrack=y
+CONFIG_PACKAGE_libnetfilter-queue=y
+CONFIG_PACKAGE_libnetsnmp=y
+CONFIG_PACKAGE_libnettle=y
+CONFIG_PACKAGE_libnfnetlink=y
+CONFIG_PACKAGE_libopenssl=y
+CONFIG_PACKAGE_libopenssl-conf=y
+CONFIG_PACKAGE_libpcap=y
+CONFIG_PACKAGE_libpci=y
+CONFIG_PACKAGE_libpcre=y
+CONFIG_PACKAGE_libplist=y
+CONFIG_PACKAGE_libpng=y
+CONFIG_PACKAGE_libsodium=y
+CONFIG_PACKAGE_libsqlite3=y
+CONFIG_PACKAGE_libstdcpp=y
+CONFIG_PACKAGE_libsysfs=y
+CONFIG_PACKAGE_libubus-lua=y
+CONFIG_PACKAGE_libunbound=y
+CONFIG_PACKAGE_libusb-1.0=y
+CONFIG_PACKAGE_libusb-compat=y
+CONFIG_PACKAGE_libusbmuxd=y
+CONFIG_PACKAGE_libustream-openssl=y
+CONFIG_PACKAGE_libxml2=y
+CONFIG_PACKAGE_lua=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-firewall=y
+CONFIG_PACKAGE_luci-app-glorytun=y
+CONFIG_PACKAGE_luci-app-iperf=y
+CONFIG_PACKAGE_luci-app-mail=y
+CONFIG_PACKAGE_luci-app-mlvpn=y
+CONFIG_PACKAGE_luci-app-mptcp=y
+CONFIG_PACKAGE_luci-app-nginx-ha=y
+CONFIG_PACKAGE_luci-app-omr-bypass=y
+CONFIG_PACKAGE_luci-app-omr-dscp=y
+CONFIG_PACKAGE_luci-app-omr-quota=y
+CONFIG_PACKAGE_luci-app-omr-tracker=y
+CONFIG_PACKAGE_luci-app-openmptcprouter=y
+CONFIG_PACKAGE_luci-app-opkg=y
+CONFIG_PACKAGE_luci-app-shadowsocks-libev=y
+CONFIG_PACKAGE_luci-app-snmpd=y
+CONFIG_PACKAGE_luci-app-sqm=y
+CONFIG_PACKAGE_luci-app-unbound=y
+CONFIG_PACKAGE_luci-app-upnp=y
+CONFIG_PACKAGE_luci-app-vnstat=y
+CONFIG_PACKAGE_luci-app-wol=y
+CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-i18n-base-ca=y
+CONFIG_PACKAGE_luci-i18n-base-cs=y
+CONFIG_PACKAGE_luci-i18n-base-de=y
+CONFIG_PACKAGE_luci-i18n-base-el=y
+CONFIG_PACKAGE_luci-i18n-base-en=y
+CONFIG_PACKAGE_luci-i18n-base-es=y
+CONFIG_PACKAGE_luci-i18n-base-fr=y
+CONFIG_PACKAGE_luci-i18n-base-he=y
+CONFIG_PACKAGE_luci-i18n-base-hu=y
+CONFIG_PACKAGE_luci-i18n-base-it=y
+CONFIG_PACKAGE_luci-i18n-base-ja=y
+CONFIG_PACKAGE_luci-i18n-base-ko=y
+CONFIG_PACKAGE_luci-i18n-base-ms=y
+CONFIG_PACKAGE_luci-i18n-base-no=y
+CONFIG_PACKAGE_luci-i18n-base-pl=y
+CONFIG_PACKAGE_luci-i18n-base-pt=y
+CONFIG_PACKAGE_luci-i18n-base-pt-br=y
+CONFIG_PACKAGE_luci-i18n-base-ro=y
+CONFIG_PACKAGE_luci-i18n-base-ru=y
+CONFIG_PACKAGE_luci-i18n-base-sk=y
+CONFIG_PACKAGE_luci-i18n-base-sv=y
+CONFIG_PACKAGE_luci-i18n-base-tr=y
+CONFIG_PACKAGE_luci-i18n-base-uk=y
+CONFIG_PACKAGE_luci-i18n-base-vi=y
+CONFIG_PACKAGE_luci-i18n-base-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-base-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-firewall-ca=y
+CONFIG_PACKAGE_luci-i18n-firewall-cs=y
+CONFIG_PACKAGE_luci-i18n-firewall-de=y
+CONFIG_PACKAGE_luci-i18n-firewall-el=y
+CONFIG_PACKAGE_luci-i18n-firewall-en=y
+CONFIG_PACKAGE_luci-i18n-firewall-es=y
+CONFIG_PACKAGE_luci-i18n-firewall-fr=y
+CONFIG_PACKAGE_luci-i18n-firewall-he=y
+CONFIG_PACKAGE_luci-i18n-firewall-hu=y
+CONFIG_PACKAGE_luci-i18n-firewall-it=y
+CONFIG_PACKAGE_luci-i18n-firewall-ja=y
+CONFIG_PACKAGE_luci-i18n-firewall-ko=y
+CONFIG_PACKAGE_luci-i18n-firewall-ms=y
+CONFIG_PACKAGE_luci-i18n-firewall-no=y
+CONFIG_PACKAGE_luci-i18n-firewall-pl=y
+CONFIG_PACKAGE_luci-i18n-firewall-pt=y
+CONFIG_PACKAGE_luci-i18n-firewall-pt-br=y
+CONFIG_PACKAGE_luci-i18n-firewall-ro=y
+CONFIG_PACKAGE_luci-i18n-firewall-ru=y
+CONFIG_PACKAGE_luci-i18n-firewall-sk=y
+CONFIG_PACKAGE_luci-i18n-firewall-sv=y
+CONFIG_PACKAGE_luci-i18n-firewall-tr=y
+CONFIG_PACKAGE_luci-i18n-firewall-uk=y
+CONFIG_PACKAGE_luci-i18n-firewall-vi=y
+CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-firewall-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-glorytun-fr=y
+CONFIG_PACKAGE_luci-i18n-iperf-fr=y
+CONFIG_PACKAGE_luci-i18n-mail-fr=y
+CONFIG_PACKAGE_luci-i18n-mlvpn-fr=y
+CONFIG_PACKAGE_luci-i18n-mptcp-fr=y
+CONFIG_PACKAGE_luci-i18n-nginx-ha-fr=y
+CONFIG_PACKAGE_luci-i18n-omr-bypass-fr=y
+CONFIG_PACKAGE_luci-i18n-omr-quota-fr=y
+CONFIG_PACKAGE_luci-i18n-omr-tracker-fr=y
+CONFIG_PACKAGE_luci-i18n-openmptcprouter-fr=y
+CONFIG_PACKAGE_luci-i18n-opkg-ca=y
+CONFIG_PACKAGE_luci-i18n-opkg-cs=y
+CONFIG_PACKAGE_luci-i18n-opkg-de=y
+CONFIG_PACKAGE_luci-i18n-opkg-el=y
+CONFIG_PACKAGE_luci-i18n-opkg-en=y
+CONFIG_PACKAGE_luci-i18n-opkg-es=y
+CONFIG_PACKAGE_luci-i18n-opkg-fr=y
+CONFIG_PACKAGE_luci-i18n-opkg-he=y
+CONFIG_PACKAGE_luci-i18n-opkg-hu=y
+CONFIG_PACKAGE_luci-i18n-opkg-it=y
+CONFIG_PACKAGE_luci-i18n-opkg-ja=y
+CONFIG_PACKAGE_luci-i18n-opkg-ko=y
+CONFIG_PACKAGE_luci-i18n-opkg-ms=y
+CONFIG_PACKAGE_luci-i18n-opkg-no=y
+CONFIG_PACKAGE_luci-i18n-opkg-pl=y
+CONFIG_PACKAGE_luci-i18n-opkg-pt=y
+CONFIG_PACKAGE_luci-i18n-opkg-pt-br=y
+CONFIG_PACKAGE_luci-i18n-opkg-ro=y
+CONFIG_PACKAGE_luci-i18n-opkg-ru=y
+CONFIG_PACKAGE_luci-i18n-opkg-sk=y
+CONFIG_PACKAGE_luci-i18n-opkg-sv=y
+CONFIG_PACKAGE_luci-i18n-opkg-tr=y
+CONFIG_PACKAGE_luci-i18n-opkg-uk=y
+CONFIG_PACKAGE_luci-i18n-opkg-vi=y
+CONFIG_PACKAGE_luci-i18n-opkg-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-opkg-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-shadowsocks-libev-fr=y
+CONFIG_PACKAGE_luci-i18n-unbound-es=y
+CONFIG_PACKAGE_luci-i18n-unbound-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-unbound-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-upnp-ca=y
+CONFIG_PACKAGE_luci-i18n-upnp-cs=y
+CONFIG_PACKAGE_luci-i18n-upnp-de=y
+CONFIG_PACKAGE_luci-i18n-upnp-el=y
+CONFIG_PACKAGE_luci-i18n-upnp-en=y
+CONFIG_PACKAGE_luci-i18n-upnp-es=y
+CONFIG_PACKAGE_luci-i18n-upnp-fr=y
+CONFIG_PACKAGE_luci-i18n-upnp-he=y
+CONFIG_PACKAGE_luci-i18n-upnp-hu=y
+CONFIG_PACKAGE_luci-i18n-upnp-it=y
+CONFIG_PACKAGE_luci-i18n-upnp-ja=y
+CONFIG_PACKAGE_luci-i18n-upnp-ms=y
+CONFIG_PACKAGE_luci-i18n-upnp-no=y
+CONFIG_PACKAGE_luci-i18n-upnp-pl=y
+CONFIG_PACKAGE_luci-i18n-upnp-pt=y
+CONFIG_PACKAGE_luci-i18n-upnp-pt-br=y
+CONFIG_PACKAGE_luci-i18n-upnp-ro=y
+CONFIG_PACKAGE_luci-i18n-upnp-ru=y
+CONFIG_PACKAGE_luci-i18n-upnp-sk=y
+CONFIG_PACKAGE_luci-i18n-upnp-sv=y
+CONFIG_PACKAGE_luci-i18n-upnp-tr=y
+CONFIG_PACKAGE_luci-i18n-upnp-uk=y
+CONFIG_PACKAGE_luci-i18n-upnp-vi=y
+CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-upnp-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-vnstat-ca=y
+CONFIG_PACKAGE_luci-i18n-vnstat-cs=y
+CONFIG_PACKAGE_luci-i18n-vnstat-de=y
+CONFIG_PACKAGE_luci-i18n-vnstat-el=y
+CONFIG_PACKAGE_luci-i18n-vnstat-en=y
+CONFIG_PACKAGE_luci-i18n-vnstat-es=y
+CONFIG_PACKAGE_luci-i18n-vnstat-fr=y
+CONFIG_PACKAGE_luci-i18n-vnstat-he=y
+CONFIG_PACKAGE_luci-i18n-vnstat-hu=y
+CONFIG_PACKAGE_luci-i18n-vnstat-it=y
+CONFIG_PACKAGE_luci-i18n-vnstat-ja=y
+CONFIG_PACKAGE_luci-i18n-vnstat-ms=y
+CONFIG_PACKAGE_luci-i18n-vnstat-no=y
+CONFIG_PACKAGE_luci-i18n-vnstat-pl=y
+CONFIG_PACKAGE_luci-i18n-vnstat-pt=y
+CONFIG_PACKAGE_luci-i18n-vnstat-pt-br=y
+CONFIG_PACKAGE_luci-i18n-vnstat-ro=y
+CONFIG_PACKAGE_luci-i18n-vnstat-ru=y
+CONFIG_PACKAGE_luci-i18n-vnstat-sk=y
+CONFIG_PACKAGE_luci-i18n-vnstat-sv=y
+CONFIG_PACKAGE_luci-i18n-vnstat-tr=y
+CONFIG_PACKAGE_luci-i18n-vnstat-uk=y
+CONFIG_PACKAGE_luci-i18n-vnstat-vi=y
+CONFIG_PACKAGE_luci-i18n-vnstat-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-vnstat-zh-tw=y
+CONFIG_PACKAGE_luci-i18n-wol-ca=y
+CONFIG_PACKAGE_luci-i18n-wol-cs=y
+CONFIG_PACKAGE_luci-i18n-wol-de=y
+CONFIG_PACKAGE_luci-i18n-wol-el=y
+CONFIG_PACKAGE_luci-i18n-wol-en=y
+CONFIG_PACKAGE_luci-i18n-wol-es=y
+CONFIG_PACKAGE_luci-i18n-wol-fr=y
+CONFIG_PACKAGE_luci-i18n-wol-he=y
+CONFIG_PACKAGE_luci-i18n-wol-hu=y
+CONFIG_PACKAGE_luci-i18n-wol-it=y
+CONFIG_PACKAGE_luci-i18n-wol-ja=y
+CONFIG_PACKAGE_luci-i18n-wol-ms=y
+CONFIG_PACKAGE_luci-i18n-wol-no=y
+CONFIG_PACKAGE_luci-i18n-wol-pl=y
+CONFIG_PACKAGE_luci-i18n-wol-pt=y
+CONFIG_PACKAGE_luci-i18n-wol-pt-br=y
+CONFIG_PACKAGE_luci-i18n-wol-ro=y
+CONFIG_PACKAGE_luci-i18n-wol-ru=y
+CONFIG_PACKAGE_luci-i18n-wol-sk=y
+CONFIG_PACKAGE_luci-i18n-wol-sv=y
+CONFIG_PACKAGE_luci-i18n-wol-tr=y
+CONFIG_PACKAGE_luci-i18n-wol-uk=y
+CONFIG_PACKAGE_luci-i18n-wol-vi=y
+CONFIG_PACKAGE_luci-i18n-wol-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-wol-zh-tw=y
+CONFIG_PACKAGE_luci-lib-ip=y
+CONFIG_PACKAGE_luci-lib-json=y
+CONFIG_PACKAGE_luci-lib-jsonc=y
+CONFIG_PACKAGE_luci-lib-nixio=y
+CONFIG_PACKAGE_luci-mod-admin-full=y
+CONFIG_PACKAGE_luci-proto-3g=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+CONFIG_PACKAGE_luci-proto-ncm=y
+CONFIG_PACKAGE_luci-proto-ppp=y
+CONFIG_PACKAGE_luci-proto-qmi=y
+CONFIG_PACKAGE_luci-ssl-openssl=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_luci-theme-openmptcprouter=y
+CONFIG_PACKAGE_mc=y
+CONFIG_PACKAGE_miniupnpd=y
+CONFIG_PACKAGE_mlvpn=y
+CONFIG_PACKAGE_mmc-utils=y
+CONFIG_PACKAGE_mptcp=y
+CONFIG_PACKAGE_msmtp=y
+CONFIG_PACKAGE_msmtp-mta=y
+CONFIG_PACKAGE_mt7601u-firmware=y
+CONFIG_PACKAGE_netcat=y
+CONFIG_PACKAGE_nginx=y
+CONFIG_PACKAGE_omr-6in4=y
+CONFIG_PACKAGE_omr-quota=y
+CONFIG_PACKAGE_omr-tracker=y
+CONFIG_PACKAGE_omr-update=y
+CONFIG_PACKAGE_openmptcprouter=y
+CONFIG_PACKAGE_openmptcprouter-full=y
+CONFIG_PACKAGE_openssl-util=y
+CONFIG_PACKAGE_openvpn-openssl=y
+CONFIG_PACKAGE_protobuf=y
+CONFIG_PACKAGE_protobuf-lite=y
+CONFIG_PACKAGE_rdisc6=y
+CONFIG_PACKAGE_resolveip=y
+CONFIG_PACKAGE_rng-tools=y
+CONFIG_PACKAGE_rpcd=y
+CONFIG_PACKAGE_rpcd-mod-rrdns=y
+CONFIG_PACKAGE_rt2800-usb-firmware=y
+CONFIG_PACKAGE_rtl8192cu-firmware=y
+CONFIG_PACKAGE_rtl8192su-firmware=y
+CONFIG_PACKAGE_serdisplib=y
+CONFIG_PACKAGE_shadowsocks-libev-config=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-rules=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-server=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-tunnel=y
+CONFIG_PACKAGE_simple-obfs=y
+CONFIG_PACKAGE_snmpd=y
+CONFIG_PACKAGE_speedtestc=y
+CONFIG_PACKAGE_sqm-scripts=y
+CONFIG_PACKAGE_sqm-scripts-extra=y
+CONFIG_PACKAGE_tc=y
+CONFIG_PACKAGE_tcpdump=y
+CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_tracebox=y
+CONFIG_PACKAGE_uclibcxx=y
+CONFIG_PACKAGE_uhttpd=y
+CONFIG_PACKAGE_uhttpd-mod-ubus=y
+CONFIG_PACKAGE_umbim=y
+CONFIG_PACKAGE_unbound=y
+CONFIG_PACKAGE_unbound-control=y
+CONFIG_PACKAGE_uqmi=y
+CONFIG_PACKAGE_usb-modeswitch=y
+CONFIG_PACKAGE_usbmuxd=y
+CONFIG_PACKAGE_v2ray-core-dev=y
+CONFIG_PACKAGE_v2ray-ext-dev=y
+CONFIG_PACKAGE_v2ray-plugin=y
+CONFIG_PACKAGE_vnstat=y
+CONFIG_PACKAGE_vnstati=y
+CONFIG_PACKAGE_whois=y
+CONFIG_PACKAGE_wireless-regdb=y
+CONFIG_PACKAGE_wireless-tools=y
+CONFIG_PACKAGE_wpad-basic=y
+CONFIG_PACKAGE_wwan=y
+CONFIG_PACKAGE_zlib=y
+CONFIG_SQLITE3_DYNAMIC_EXTENSIONS=y
+CONFIG_SQLITE3_FTS3=y
+CONFIG_SQLITE3_FTS4=y
+CONFIG_SQLITE3_FTS5=y
+CONFIG_SQLITE3_JSON1=y
+CONFIG_SQLITE3_RTREE=y
+CONFIG_SQLITE3_THREADSAFE=y
+CONFIG_VERSIONOPT=y
+CONFIG_VERSION_BUG_URL=""
+CONFIG_VERSION_CODE=""
+CONFIG_VERSION_CODE_FILENAMES=y
+CONFIG_VERSION_DIST="openmptcprouter"
+CONFIG_VERSION_FILENAMES=y
+CONFIG_VERSION_HOME_URL=""
+CONFIG_VERSION_HWREV=""
+CONFIG_VERSION_MANUFACTURER=""
+CONFIG_VERSION_MANUFACTURER_URL=""
+CONFIG_VERSION_NUMBER="v0.48-43-g5db886e"
+CONFIG_VERSION_PRODUCT=""
+CONFIG_VERSION_REPO="http://35.185.154.250:8000/release"
+CONFIG_VERSION_SUPPORT_URL=""
+CONFIG_WPA_MSG_MIN_PRIORITY=3
+# CONFIG_B43_FW_4_150 is not set
+# CONFIG_B43_FW_4_178 is not set
+# CONFIG_B43_FW_5_10 is not set
+# CONFIG_B43_FW_5_100_138 is not set
+# CONFIG_B43_FW_6_30 is not set
+# CONFIG_B43_OPENFIRMWARE is not set
+# CONFIG_PACKAGE_B43_BUSES_BCMA is not set
+# CONFIG_PACKAGE_B43_BUSES_BCMA_AND_SSB is not set
+# CONFIG_PACKAGE_B43_BUSES_SSB is not set
+# CONFIG_TARGET_INITRAMFS_COMPRESSION_BZIP2 is not set
+# CONFIG_TARGET_INITRAMFS_COMPRESSION_GZIP is not set
+# CONFIG_TARGET_INITRAMFS_COMPRESSION_LZ4 is not set
+# CONFIG_TARGET_INITRAMFS_COMPRESSION_LZMA is not set
+# CONFIG_TARGET_INITRAMFS_COMPRESSION_LZO is not set
+# CONFIG_TARGET_INITRAMFS_COMPRESSION_NONE is not set
+# CONFIG_TARGET_INITRAMFS_COMPRESSION_XZ is not set
+# CONFIG_TARGET_ath79_generic is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_avm_fritz300e is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_avm_fritz4020 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_buffalo_bhr-4grv is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_buffalo_bhr-4grv2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_buffalo_wzr-hp-ag300h is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_buffalo_wzr-hp-g302h-a1a0 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_buffalo_wzr-hp-g450h is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_comfast_cf-e110n-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_comfast_cf-e120a-v3 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_comfast_cf-e5 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_devolo_dvl1200e is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_devolo_dvl1200i is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_devolo_dvl1750c is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_devolo_dvl1750e is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_devolo_dvl1750i is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_dlink_dir-825-b1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_dlink_dir-825-c1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_dlink_dir-835-a1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_dlink_dir-859-a1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_elecom_wrc-1750ghbk2-i is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_elecom_wrc-300ghbk2-i is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_embeddedwireless_dorin is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_engenius_epg5000 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_engenius_ews511ap is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_etactica_eg200 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_glinet_gl-ar150 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_glinet_gl-ar300m-lite is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_glinet_gl-ar300m-nor is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_glinet_gl-ar750s is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_glinet_gl-x750 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_iodata_etg3-r is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_iodata_wn-ac1167dgr is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_iodata_wn-ac1600dgr is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_iodata_wn-ac1600dgr2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_iodata_wn-ag300dgr is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_jjplus_ja76pf2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_librerouter_librerouter-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_nec_wg1200cr is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_nec_wg800hp is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_netgear_ex6400 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_netgear_ex7300 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_netgear_wndr3700 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_netgear_wndr3700v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_netgear_wndr3800 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ocedo_koala is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ocedo_raccoon is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ocedo_ursus is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_openmesh_om5p-ac-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_pcs_cap324 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_pcs_cr3000 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_pcs_cr5000 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_phicomm_k2t is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_pisen_wmm003n is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_rosinson_wr818 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-a7-v5 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c2-v3 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c5-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c58-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c59-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c6-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c7-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c7-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c7-v4 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_archer-c7-v5 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_cpe210-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_cpe210-v3 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_re350k-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_re450-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wdr3600 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wdr4300 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wdr4900-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr1043nd-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr1043nd-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr1043nd-v3 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr1043nd-v4 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr2543-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr710n-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr810n-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr810n-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr842n-v1 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr842n-v2 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_tplink_tl-wr842n-v3 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_acb-isp is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_airrouter is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_bullet-m is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_bullet-m-xw is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_lap-120 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_nanobeam-ac is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_nanostation-ac is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_nanostation-ac-loco is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_nanostation-m is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_nanostation-m-xw is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_rocket-m is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_routerstation is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_routerstation-pro is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_unifi is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_unifiac-lite is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_unifiac-mesh is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_unifiac-mesh-pro is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_ubnt_unifiac-pro is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_wd_mynet-wifi-rangeextender is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_winchannel_wb2000 is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_xiaomi_mi-router-4q is not set
+# CONFIG_TARGET_ath79_generic_DEVICE_yuncore_a770 is not set
+# CONFIG_TARGET_ath79_generic_Default is not set
+# CONFIG_TARGET_ath79_nand is not set
+# CONFIG_TARGET_ath79_tiny is not set
+# CONFIG_TARGET_sunxi_cortexa8_DEVICE_sun4i-a10-cubieboard is not set
+# CONFIG_TARGET_sunxi_cortexa8_DEVICE_sun4i-a10-marsboard is not set
+# CONFIG_TARGET_sunxi_cortexa8_DEVICE_sun4i-a10-olinuxino-lime is not set
+# CONFIG_TARGET_sunxi_cortexa8_DEVICE_sun4i-a10-pcduino is not set
+# CONFIG_TARGET_sunxi_cortexa8_DEVICE_sun5i-a13-olimex-som is not set
+# CONFIG_TARGET_sunxi_cortexa8_DEVICE_sun5i-a13-olinuxino is not set
+# CONFIG_TARGET_sunxi_cortexa8_Default is not set
