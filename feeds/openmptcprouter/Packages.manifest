@@ -1,0 +1,1369 @@
+Package: 6in4
+Version: 270-2
+Depends: libc, kmod-sit, uclient-fetch
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/6in4
+SourceName: 6in4
+License: GPL-2.0
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: all
+Installed-Size: 1548
+Filename: 6in4_270-2_all.ipk
+Size: 2369
+SHA256sum: 644ae9757d985ffd25eb0076d85bc2b0f68ee360e195202516085d44538d33ed
+Description:  Provides support for 6in4 tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: glorytun-udp
+Version: 0.1.1-db718d59426957eef89357d5b58ae59cae2f8c5d-22
+Depends: libc, kmod-tun, libsodium, librt
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/glorytun-udp
+SourceName: glorytun-udp
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 20116
+Filename: glorytun-udp_0.1.1-db718d59426957eef89357d5b58ae59cae2f8c5d-22_arm_cortex-a7_neon-vfpv4.ipk
+Size: 20883
+SHA256sum: f18f1aa1aefdf12946a99d7d740c5e740fce0e4154757db20e22ee291b1b5d9b
+Description:  Glorytun
+
+Package: glorytun
+Version: 0.0.35-6
+Depends: libc, kmod-tun, libsodium, librt
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/glorytun
+SourceName: glorytun
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13901
+Filename: glorytun_0.0.35-6_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14606
+SHA256sum: dc3ac154d18d91e0f3c3ba74b4d31c7fd56ebaf5ee87e86ebe3f083938c41322
+Description:  Glorytun
+
+Package: golang-golang-x-crypto-dev
+Version: 20180620-a49355c7-1
+Depends: libc, golang-golang-x-net-dev, golang-golang-x-sys-dev
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/golang/golang-golang-x-crypto
+SourceName: golang-golang-x-crypto-dev
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: all
+Installed-Size: 1616845
+Filename: golang-golang-x-crypto-dev_20180620-a49355c7-1_all.ipk
+Size: 1617322
+SHA256sum: 81c9fd989b8f6535bb9c2856b94c3a66cb19544537ab767abfe8fbf96443b079
+Description:  Supplementary Go cryptography libraries.
+
+Package: golang-golang-x-net-dev
+Version: 20180620-afe8f62b-1
+Depends: libc, golang-golang-x-text-dev
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/golang/golang-golang-x-net
+SourceName: golang-golang-x-net-dev
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: all
+Installed-Size: 880401
+Filename: golang-golang-x-net-dev_20180620-afe8f62b-1_all.ipk
+Size: 874402
+SHA256sum: 62c0a613c13913d97b9afd441a3f6224c8899aa243df9fa7b1bb8f1512de026f
+Description:  Supplementary Go networking libraries.
+
+Package: golang-golang-x-sys-dev
+Version: 20180621-63fc586f-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/golang/golang-golang-x-sys
+SourceName: golang-golang-x-sys-dev
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: all
+Installed-Size: 953002
+Filename: golang-golang-x-sys-dev_20180621-63fc586f-1_all.ipk
+Size: 894493
+SHA256sum: a29a5cdca8ed4ef941638627036faf6f340e0e00136772b07b96fe8dc44b6e6c
+Description:  Supplementary Go packages for low-level interactions with the operating
+ system.
+
+Package: golang-golang-x-text-dev
+Version: 20180520-5cec4b58-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/golang/golang-golang-x-text
+SourceName: golang-golang-x-text-dev
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: all
+Installed-Size: 6561694
+Filename: golang-golang-x-text-dev_20180520-5cec4b58-1_all.ipk
+Size: 6155166
+SHA256sum: bbc331751e3b1e290d22367885f4df1caaceaba45e8f9dd65b77108d5ab65094
+Description:  Supplementary Go libraries for text processing, many involving Unicode.
+
+Package: golang-protobuf-dev
+Version: 20190109-347cf4a8-1
+Depends: libc, protobuf
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/golang-protobuf
+SourceName: golang-protobuf-dev
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+Architecture: all
+Installed-Size: 321225
+Filename: golang-protobuf-dev_20190109-347cf4a8-1_all.ipk
+Size: 321045
+SHA256sum: 07c3ba40b845be27511234b0193223aa412df72ec0968696a5b3f9b00ee63d7b
+Description:  Go support for Google protocol buffers
+
+Package: ipcalc
+Version: e9f88461-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/ipcalc
+SourceName: ipcalc
+License: GPL-2.0
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 12339
+Filename: ipcalc_e9f88461-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13142
+SHA256sum: bfe6c6e280ac2921ede26a1294e07c164415f1a6db735417563712afadca9a12
+Description:  Modern tool to assist in network address calculations for IPv4 and IPv6.
+
+Package: iperf3-ssl
+Version: 3.6-40e7c05440583f229edd6b6ca05c5d97b66fcf15-2
+Depends: libc, libopenssl1.1
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/iperf3
+SourceName: iperf3-ssl
+License: BSD-3-Clause
+Section: net
+Maintainer: Yannick Chabanois <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 45636
+Filename: iperf3-ssl_3.6-40e7c05440583f229edd6b6ca05c5d97b66fcf15-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 46434
+SHA256sum: d2043ae1c856975c274a55dc219a7f92d0c0429ad711c6eb9b4b1406d0f84fc2
+Description:  Internet Protocol bandwidth measuring tool with iperf_auth support
+
+Package: iptables-mod-ndpi
+Version: 20e6253-2
+Depends: libc, iptables, kmod-ipt-ndpi, libpcap1
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/ndpi-netfilter2
+SourceName: iptables-mod-ndpi
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9915
+Filename: iptables-mod-ndpi_20e6253-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10715
+SHA256sum: ad52b7cbb66a5e828191ce45f3e5d85ca3cf0e426523813d3aa7a5f421f3281a
+Description:  nDPI is a ntop-maintained superset of the popular OpenDPI library
+
+Package: luci-app-glorytun
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, glorytun, glorytun-udp
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-glorytun
+SourceName: luci-app-glorytun
+License: GPLv2
+Section: luci
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: all
+Installed-Size: 4247
+Filename: luci-app-glorytun_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 5105
+SHA256sum: 2eefb48e441529e30c1a561f876179643595abdc4da79f128c603c19290073c1
+Description:  LuCI Support for Glorytun
+
+Package: luci-app-iperf
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, iperf3-ssl
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-iperf
+SourceName: luci-app-iperf
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 2980
+Filename: luci-app-iperf_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 3718
+SHA256sum: e38d2e37efc265e46dd6481a547e5f4d8b41fbd956c75574f86c75e24e9366bb
+Description:  LuCI Support for iPerf3
+
+Package: luci-app-mail
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, msmtp-mta
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-mail
+SourceName: luci-app-mail
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 1618
+Filename: luci-app-mail_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 2414
+SHA256sum: c544a73c920137283ab311d9b1d0fe80d5220201d76aaa66a48a7665189440b6
+Description:  LuCI Mail Configuration
+
+Package: luci-app-mlvpn
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, mlvpn
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-mlvpn
+SourceName: luci-app-mlvpn
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 1385
+Filename: luci-app-mlvpn_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 2107
+SHA256sum: a55266a898374d287156b535ed4a0f5c26b52931ac230d5ed9c97cb7578bcc7b
+Description:  LuCI Support for MLVPN
+
+Package: luci-app-mptcp
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-mptcp
+SourceName: luci-app-mptcp
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 14845
+Filename: luci-app-mptcp_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 15562
+SHA256sum: 1326db2b89f480285915d5b164f4b29263f7906197604f5867b7e2b3d2f5cc26
+Description:  LuCI Support for MPTCP
+
+Package: luci-app-nginx-ha
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, nginx
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-nginx-ha
+SourceName: luci-app-nginx-ha
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 2195
+Filename: luci-app-nginx-ha_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 3003
+SHA256sum: 9e618e61f995ba87ca194d2f94c0a2486d4aae2402d759ba76d8ca442c47ed29
+Description:  LuCI Support for nginx load balancing
+
+Package: luci-app-omr-bypass
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, dnsmasq-full, shadowsocks-libev-ss-rules, iptables-mod-ndpi, iptables-mod-extra, kmod-ipt-ndpi, iptables
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-omr-bypass
+SourceName: luci-app-omr-bypass
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 4488
+Filename: luci-app-omr-bypass_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 5361
+SHA256sum: 06faf3f2c922b9b04ec167ce6d84f3d14b20c1d441947862b3c7f4da5bfa765d
+Description:  LuCI Interface to bypass domains
+
+Package: luci-app-omr-dscp
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-omr-dscp
+SourceName: luci-app-omr-dscp
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 3848
+Filename: luci-app-omr-dscp_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 4581
+SHA256sum: 8443bfde11e7c299e25ccd5b3fbf32780370912f736d277ea5ae0402de1f7cc8
+Description:  LuCI Interface to DSCP
+
+Package: luci-app-omr-quota
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, omr-quota
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-omr-quota
+SourceName: luci-app-omr-quota
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 1301
+Filename: luci-app-omr-quota_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 2026
+SHA256sum: c741952ddf4b330cb29778e5180d2e090115b0bd9b538c5f9da1a12c63e47231
+Description:  Quota configuration module
+
+Package: luci-app-omr-tracker
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, omr-tracker
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-omr-tracker
+SourceName: luci-app-omr-tracker
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 1830
+Filename: luci-app-omr-tracker_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 2628
+SHA256sum: 67e7752458bf1f6a2881b5a1f52c2a81dc367a06673c414ba94b4ef9b79e3714
+Description:  LuCI Support for omr-tracker
+
+Package: luci-app-openmptcprouter
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-lib-json, rdisc6, curl, bind-dig, tracebox
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-openmptcprouter
+SourceName: luci-app-openmptcprouter
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 40969
+Filename: luci-app-openmptcprouter_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 41913
+SHA256sum: 450d7687d8c3cb9b1b0992037b941e439104281df4b2a18bfb001dd8ddc983e1
+Description:  LuCI Support for OpenMPTCProuter
+
+Package: luci-app-shadowsocks-libev
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, shadowsocks-libev-config, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-rules, shadowsocks-libev-ss-server, shadowsocks-libev-ss-tunnel, simple-obfs
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-shadowsocks-libev
+SourceName: luci-app-shadowsocks-libev
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6249
+Filename: luci-app-shadowsocks-libev_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 7117
+SHA256sum: 7765c52b27cbb157ab8c5e11c495db936282ceff97296d78f1bce39b4a6c7e43
+Description:  LuCI Support for shadowsocks-libev
+
+Package: luci-app-snmpd
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, snmpd
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-snmpd
+SourceName: luci-app-snmpd
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 5969
+Filename: luci-app-snmpd_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 6733
+SHA256sum: 3522e0d5ae8f1683554e0bd56ee45c19840474fc2640a90ed7e4aa5e5cd7cb4c
+Description:  LuCI SNMPD Interface
+
+Package: luci-base
+Version: f138fc93-1
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-base
+License: MIT
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 132960
+Filename: luci-base_f138fc93-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 133933
+SHA256sum: f6cb763de63bad3b0ea69d5daa625a29ea216d7c9b25d69e5aee7baf8ef8e49b
+Description:  LuCI core libraries
+
+Package: luci-i18n-base-ca
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-ca
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 15637
+Filename: luci-i18n-base-ca_f138fc93-1_all.ipk
+Size: 16425
+SHA256sum: c30086b4629a7d26770c7b9aea1e0502bcf321f371baf631ffa976765ce5e0ad
+Description:  Translation for luci-base - Català (Catalan)
+
+Package: luci-i18n-base-cs
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-cs
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 18867
+Filename: luci-i18n-base-cs_f138fc93-1_all.ipk
+Size: 19663
+SHA256sum: a3f0a56dd3617c301c01abd8817b78e8252129987c06fe064e55d8b4776debc8
+Description:  Translation for luci-base - Čeština (Czech)
+
+Package: luci-i18n-base-de
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-de
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 31745
+Filename: luci-i18n-base-de_f138fc93-1_all.ipk
+Size: 32640
+SHA256sum: 3b3f49a80a0bc4e1cf7908e5635b8e2e80625dbd6396154b3f3af2232d7a6a24
+Description:  Translation for luci-base - Deutsch (German)
+
+Package: luci-i18n-base-el
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-el
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 15707
+Filename: luci-i18n-base-el_f138fc93-1_all.ipk
+Size: 16514
+SHA256sum: 69b8d7c65c85396e7bb7b86f7d65d0bf156a9d8a62b6edc2645c4544378896fc
+Description:  Translation for luci-base - Ελληνικά (Greek)
+
+Package: luci-i18n-base-en
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-en
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 723
+Filename: luci-i18n-base-en_f138fc93-1_all.ipk
+Size: 1519
+SHA256sum: 076596e3b81eda94b561a5bcda4c668115d45ce8e71111af4bba325801e20d5d
+Description:  Translation for luci-base - English
+
+Package: luci-i18n-base-es
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-es
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 32654
+Filename: luci-i18n-base-es_f138fc93-1_all.ipk
+Size: 33529
+SHA256sum: d265f2bf247452baa4a6868b5906d833b386c6c4c54cc57db6db89058f147b82
+Description:  Translation for luci-base - Español (Spanish)
+
+Package: luci-i18n-base-fr
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-fr
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 19084
+Filename: luci-i18n-base-fr_f138fc93-1_all.ipk
+Size: 19893
+SHA256sum: a5653be9c31a9e7f5423719142c7486c20ac69d56c07ea768f92047d3ce3851d
+Description:  Translation for luci-base - Français (French)
+
+Package: luci-i18n-base-he
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-he
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 6113
+Filename: luci-i18n-base-he_f138fc93-1_all.ipk
+Size: 6933
+SHA256sum: 1fc25772f77c7ef0859ed3731a5e37af96c10b02040637ae5bf9673a9a78f1ba
+Description:  Translation for luci-base - עִבְרִית (Hebrew)
+
+Package: luci-i18n-base-hu
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-hu
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 19544
+Filename: luci-i18n-base-hu_f138fc93-1_all.ipk
+Size: 20362
+SHA256sum: 9e3b7ead7c81bc02da7cddcdc8d26ddeb491a0420410d4a422ba84a540b44f31
+Description:  Translation for luci-base - Magyar (Hungarian)
+
+Package: luci-i18n-base-it
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-it
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 17725
+Filename: luci-i18n-base-it_f138fc93-1_all.ipk
+Size: 18578
+SHA256sum: cc6695342657cdf4686f948c477e728b0be01674f2fdb7a383afc9ba0a648b19
+Description:  Translation for luci-base - Italiano (Italian)
+
+Package: luci-i18n-base-ja
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-ja
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 29667
+Filename: luci-i18n-base-ja_f138fc93-1_all.ipk
+Size: 30496
+SHA256sum: 1aca556be98f3598cbf74774cca6616282509ecc5aecb273afce964d74dbb1bf
+Description:  Translation for luci-base - 日本語 (Japanese)
+
+Package: luci-i18n-base-ko
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-ko
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 9956
+Filename: luci-i18n-base-ko_f138fc93-1_all.ipk
+Size: 10777
+SHA256sum: d8149ce07ed2c2fca8e6f48a58448b45f6d8f429fddc37abb4b0c0f0f92eefa5
+Description:  Translation for luci-base - 한국어 (Korean)
+
+Package: luci-i18n-base-ms
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-ms
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 6601
+Filename: luci-i18n-base-ms_f138fc93-1_all.ipk
+Size: 7440
+SHA256sum: 5e35119a2bc001082b4b0e7335e04ce2d58d39d1a86f9033c94ba1d435b6841d
+Description:  Translation for luci-base - Bahasa Melayu (Malay)
+
+Package: luci-i18n-base-no
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-no
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 18126
+Filename: luci-i18n-base-no_f138fc93-1_all.ipk
+Size: 18974
+SHA256sum: 894fd679bbc88c75c9562f1bc0e6aed062d7babef1d6b0987a55b37f8a39d067
+Description:  Translation for luci-base - Norsk (Norwegian)
+
+Package: luci-i18n-base-pl
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-pl
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 27410
+Filename: luci-i18n-base-pl_f138fc93-1_all.ipk
+Size: 28242
+SHA256sum: 184ff28abab74d54c8dfd0de699f4a1f01014d562abee122580eff595360932b
+Description:  Translation for luci-base - Polski (Polish)
+
+Package: luci-i18n-base-pt-br
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-pt-br
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 31378
+Filename: luci-i18n-base-pt-br_f138fc93-1_all.ipk
+Size: 32198
+SHA256sum: b9ece4f0e61eac40bbaa89757f56cdddcea2b777c091930fec4734ab9dd441f3
+Description:  Translation for luci-base - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-base-pt
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-pt
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 16475
+Filename: luci-i18n-base-pt_f138fc93-1_all.ipk
+Size: 17314
+SHA256sum: d4db27b03b3369931c44ab9f825c25762a39606ae0dbd6d96d8800f6b18a9903
+Description:  Translation for luci-base - Português (Portuguese)
+
+Package: luci-i18n-base-ro
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-ro
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 9210
+Filename: luci-i18n-base-ro_f138fc93-1_all.ipk
+Size: 10017
+SHA256sum: 7453e76747b6d4caece1b4ecdb2577721136c110a6d8469a77e08c6b6c15791a
+Description:  Translation for luci-base - Română (Romanian)
+
+Package: luci-i18n-base-ru
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-ru
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 37563
+Filename: luci-i18n-base-ru_f138fc93-1_all.ipk
+Size: 38486
+SHA256sum: a7f1171b41a051537ff79f38ff313196c1c15ab914c685baa88c9ac6e0fa8007
+Description:  Translation for luci-base - Русский (Russian)
+
+Package: luci-i18n-base-sk
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-sk
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 318
+Filename: luci-i18n-base-sk_f138fc93-1_all.ipk
+Size: 1124
+SHA256sum: 232d4967f8512c310f0292cac416407b37e3eee6001e774e2e9d0e0748da65b3
+Description:  Translation for luci-base - Slovenčina (Slovak)
+
+Package: luci-i18n-base-sv
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-sv
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 13815
+Filename: luci-i18n-base-sv_f138fc93-1_all.ipk
+Size: 14634
+SHA256sum: 9f24ff9b8331ef47d74d3067bd99a705234f3e1e4920f384aeef6bcd7294ac9e
+Description:  Translation for luci-base - Svenska (Swedish)
+
+Package: luci-i18n-base-tr
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-tr
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 5709
+Filename: luci-i18n-base-tr_f138fc93-1_all.ipk
+Size: 6499
+SHA256sum: 1b817d3df98952508197b7c97e4c9d8c5641244ec4ad81fc0cd1291f1937aa7f
+Description:  Translation for luci-base - Türkçe (Turkish)
+
+Package: luci-i18n-base-uk
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-uk
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 38309
+Filename: luci-i18n-base-uk_f138fc93-1_all.ipk
+Size: 39251
+SHA256sum: aaa367510261d23abbfaeca8a9811e85992540a761e22505be8e3d482c3b0b29
+Description:  Translation for luci-base - украї́нська (Ukrainian)
+
+Package: luci-i18n-base-vi
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-vi
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 5841
+Filename: luci-i18n-base-vi_f138fc93-1_all.ipk
+Size: 6658
+SHA256sum: 8d5383d315a9543a3c5d8fbd18a2cc91a764a95d61353dfa2b0fb53d9e976cb1
+Description:  Translation for luci-base - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-base-zh-cn
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-zh-cn
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 31430
+Filename: luci-i18n-base-zh-cn_f138fc93-1_all.ipk
+Size: 32211
+SHA256sum: 7780d1ea381842bed31809754d7bf65d50cf3b258388d569259719fd889d9d30
+Description:  Translation for luci-base - 中文 (Chinese)
+
+Package: luci-i18n-base-zh-tw
+Version: f138fc93-1
+Depends: libc, luci-base
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-base
+SourceName: luci-i18n-base-zh-tw
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 19012
+Filename: luci-i18n-base-zh-tw_f138fc93-1_all.ipk
+Size: 19871
+SHA256sum: 11ac3e68ce2373ea1f696bf9512adf49f49f746a8c0e0ba8413b4286a6b6449f
+Description:  Translation for luci-base - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-glorytun-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-glorytun
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-glorytun
+SourceName: luci-i18n-glorytun-fr
+License: GPLv2
+Section: luci
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: all
+Installed-Size: 938
+Filename: luci-i18n-glorytun-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1806
+SHA256sum: 8cca4780b3260bedd622de1f4e57cd71a3ecad0ba1f848c1d67e4c7f0f63a7b1
+Description:  Translation for luci-app-glorytun - Français (French)
+
+Package: luci-i18n-iperf-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-iperf
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-iperf
+SourceName: luci-i18n-iperf-fr
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 512
+Filename: luci-i18n-iperf-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1331
+SHA256sum: c6678f4aecc0163cb8a9fa18f000b0c75691f46986b793f4efe5091dc3479d78
+Description:  Translation for luci-app-iperf - Français (French)
+
+Package: luci-i18n-mail-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-mail
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-mail
+SourceName: luci-i18n-mail-fr
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 516
+Filename: luci-i18n-mail-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1335
+SHA256sum: ac1ccb5611fbdedc16b509ac9eb1ad5c4ef0ea50b01b66caa68296fec191b660
+Description:  Translation for luci-app-mail - Français (French)
+
+Package: luci-i18n-mlvpn-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-mlvpn
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-mlvpn
+SourceName: luci-i18n-mlvpn-fr
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 648
+Filename: luci-i18n-mlvpn-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1472
+SHA256sum: 18c8aee599fb60a66c4ecbe04be1fba60047df1ca3476a6c6d8382ed94ab58eb
+Description:  Translation for luci-app-mlvpn - Français (French)
+
+Package: luci-i18n-mptcp-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-mptcp
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-mptcp
+SourceName: luci-i18n-mptcp-fr
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 825
+Filename: luci-i18n-mptcp-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1650
+SHA256sum: e62a6dc235f143ef7a9368b6b4a46e6354410efdf3ff4def3a24a966a4adf6d7
+Description:  Translation for luci-app-mptcp - Français (French)
+
+Package: luci-i18n-nginx-ha-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-nginx-ha
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-nginx-ha
+SourceName: luci-i18n-nginx-ha-fr
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 656
+Filename: luci-i18n-nginx-ha-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1479
+SHA256sum: e94f3c2251103a70c1d7067099a824517fd26ac577493b7c095b526bf1bb00a9
+Description:  Translation for luci-app-nginx-ha - Français (French)
+
+Package: luci-i18n-omr-bypass-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-omr-bypass
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-omr-bypass
+SourceName: luci-i18n-omr-bypass-fr
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 835
+Filename: luci-i18n-omr-bypass-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1672
+SHA256sum: 1818feddf13fe2f4bb5d13ec94b4f034d84d7c955af1df51dabba741e421d260
+Description:  Translation for luci-app-omr-bypass - Français (French)
+
+Package: luci-i18n-omr-quota-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-omr-quota
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-omr-quota
+SourceName: luci-i18n-omr-quota-fr
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 536
+Filename: luci-i18n-omr-quota-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1366
+SHA256sum: 686a05a5192c475c32b0071b56e81276ce873ba0f7106e4050e93d831fefc617
+Description:  Translation for luci-app-omr-quota - Français (French)
+
+Package: luci-i18n-omr-tracker-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-omr-tracker
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-omr-tracker
+SourceName: luci-i18n-omr-tracker-fr
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 663
+Filename: luci-i18n-omr-tracker-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1489
+SHA256sum: 48771f36180ebcbb381dbe38ef4c0577662bd9fdaacf4fe4dd4ec44996d94555
+Description:  Translation for luci-app-omr-tracker - Français (French)
+
+Package: luci-i18n-openmptcprouter-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-openmptcprouter
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-openmptcprouter
+SourceName: luci-i18n-openmptcprouter-fr
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 2700
+Filename: luci-i18n-openmptcprouter-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 3501
+SHA256sum: e3e6a82eeaf852125828beacfbdc1a5c37dd24d4103caa96a03bfacd8bdda63e
+Description:  Translation for luci-app-openmptcprouter - Français (French)
+
+Package: luci-i18n-shadowsocks-libev-fr
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-app-shadowsocks-libev
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-app-shadowsocks-libev
+SourceName: luci-i18n-shadowsocks-libev-fr
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1493
+Filename: luci-i18n-shadowsocks-libev-fr_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 2343
+SHA256sum: 3d8111ea63938a2d01880264d6ab744296dc620df00190bdeb3998a73934bd6c
+Description:  Translation for luci-app-shadowsocks-libev - Français (French)
+
+Package: luci-mod-admin-full
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-mod-admin-full
+SourceName: luci-mod-admin-full
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 460
+Filename: luci-mod-admin-full_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 1218
+SHA256sum: 37b83455cf4162fdbf385292c6574d94f96145fb20185d8c022fb8811c2422c4
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-network
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, luci-base, libiwinfo-lua
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-mod-network
+SourceName: luci-mod-network
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 39244
+Filename: luci-mod-network_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 40191
+SHA256sum: 984962848e59fcf46a960820d0b6b33e3acd62bfb53294dfd3c470c6124e1642
+Description:  LuCI Network Administration
+
+Package: luci-proto-ipv6
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-proto-ipv6
+SourceName: luci-proto-ipv6
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4854
+Filename: luci-proto-ipv6_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 5612
+SHA256sum: 940ccdd71ea7f36e4badd66e0260eca0a420297626d934e27e2fcc410f583896
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+
+Package: luci-theme-openmptcprouter
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/luci-theme-openmptcprouter
+SourceName: luci-theme-openmptcprouter
+Section: luci
+Architecture: all
+Installed-Size: 63226
+Filename: luci-theme-openmptcprouter_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 64105
+SHA256sum: f9c39872278394441687bb90806ea7f0a9a8fed4584d4f376719072afbfe44ee
+Description:  OpenMPTCProuter Theme (default)
+
+Package: luci
+Version: git-19.148.71506-5ac9b15-1
+Depends: libc, uhttpd, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6, rpcd-mod-rrdns
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/collections/luci
+SourceName: luci
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 104
+Filename: luci_git-19.148.71506-5ac9b15-1_all.ipk
+Size: 926
+SHA256sum: f43e4e675c31ba3fb395372b1be0c9be16f77abcd923d5e7022babefab8aef5f
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: mlvpn
+Version: 8f972097-1
+Depends: libc, kmod-tun, libev, libpcap1, libsodium
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/mlvpn
+SourceName: mlvpn
+License: BSD-2-Clause
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33909
+Filename: mlvpn_8f972097-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34790
+SHA256sum: dc81ba231b7f078fdbdd79b308a79ec6b8757b911f62575105a2df04ca4c90dd
+Description:  Multi-Link Virtual Public Network
+ Bond your internet links to increase bandwidth (unlimited).
+ Secure your internet connection by actively monitoring your links and removing the faulty ones, without loosing your TCP connections.
+ Secure your internet connection to the aggregation server using strong cryptography.
+ Scriptable automation and monitoring.
+
+Package: mptcp
+Version: 6.1-1
+Depends: libc, ip, iptables, ethtool, ipcalc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/mptcp
+SourceName: mptcp
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: all
+Installed-Size: 8788
+Filename: mptcp_6.1-1_all.ipk
+Size: 9743
+SHA256sum: 29f9b90472e6f02cc5bb91414ff2f3a6ffb32e54157448a106537da14f7779cd
+Description:  MultiPath TCP (MPTCP) is an effort towards enabling the simultaneous use of
+ several IP-addresses/interfaces by a modification of TCP that presents a regular
+ TCP interface to applications, while in fact spreading data across several
+ subflows. Benefits of this include better resource utilization, better throughput
+ and smoother reaction to failures.
+
+Package: msmtp-mta
+Version: 1.6.8-2
+Depends: libc, msmtp
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/msmtp
+SourceName: msmtp-mta
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 205
+Filename: msmtp-mta_1.6.8-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1188
+SHA256sum: 768f6645f39196f373a84fb8716219cce5582d312183614ac5d9a00bf4cb4125
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package add a link from sendmail to msmtp
+ and is built with SSL support.
+
+Package: msmtp
+Version: 1.6.8-2
+Depends: libc, libopenssl1.1, ca-bundle
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/msmtp
+SourceName: msmtp
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 42061
+Filename: msmtp_1.6.8-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 43099
+SHA256sum: 301a9f9a1083e2f619d13903b1baac891c40cfc7adb4f1dbccef04c0e50864db
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built with SSL support.
+
+Package: nginx
+Version: 1.15.7-2
+Depends: libc, libpcre, libopenssl1.1, zlib, libpthread
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/nginx
+SourceName: nginx
+License: 2-clause BSD-like license
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de> Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 369606
+Filename: nginx_1.15.7-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 353346
+SHA256sum: 6866e68a6e84b6a9452f763f6f332e06e15d9b573fcc5e2fb5f10632e1869119
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server, written by Igor Sysoev. (Some module require SSL module enable to show up in config menu)
+
+Package: omr-6in4
+Version: 0.4-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/omr-6in4
+SourceName: omr-6in4
+Section: OMR
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1664
+Filename: omr-6in4_0.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2388
+SHA256sum: 1eba39cb4a6876c284fbcad0ac25354bac20fab5c6b62302eae699bac2f20621
+Description:  OpenMPTCProuter 6in4 package
+
+Package: omr-quota
+Version: 1.0-1
+Depends: libc, vnstat
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/omr-quota
+SourceName: omr-quota
+Section: net
+Architecture: all
+Installed-Size: 1291
+Filename: omr-quota_1.0-1_all.ipk
+Size: 2046
+SHA256sum: 16a2245dd99fca61d7c84bb73d054953118b1a980386c182a0ae515f293884a1
+Description:  A module to enforce quota limit
+
+Package: omr-tracker
+Version: 1.7-1
+Depends: libc, bind-dig, httping, whois
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/omr-tracker
+SourceName: omr-tracker
+Section: net
+Architecture: all
+Installed-Size: 5304
+Filename: omr-tracker_1.7-1_all.ipk
+Size: 6041
+SHA256sum: 9bf34dfdd198da2fd6b1059a6cfcdb3f234d156f24ac70e441468c509d3e4dd5
+Description:  A module to track OpenMPTCProuter connections
+
+Package: omr-update
+Version: 0.1-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/omr-update
+SourceName: omr-update
+Section: OMR
+Architecture: all
+Installed-Size: 698
+Filename: omr-update_0.1-1_all.ipk
+Size: 1399
+SHA256sum: b67ff1bc5383cbd45674dfb56a210a54f49b78e97768de9efab9aa6233d48829
+Description:  A module to update OpenMPTCProuter config
+
+Package: openmptcprouter
+Version: 0.95-1
+Depends: libc, omr-tracker
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/openmptcprouter
+SourceName: openmptcprouter
+Section: OMR
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10607
+Filename: openmptcprouter_0.95-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11332
+SHA256sum: ce33a7fa00040442cab3f6734949dd6ee80e007a280d48a6eb6d4cca92068b15
+Description:  OpenMPTCProuter package
+
+Package: protobuf-lite
+Version: 3.5.1-1
+Depends: libc, zlib, libpthread, libstdcpp6
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/protobuf
+SourceName: protobuf-lite
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Ken Keys <kkeys@caida.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 111855
+Filename: protobuf-lite_3.5.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 112121
+SHA256sum: fbb0acc5e91c4a8b504db2b56ab1d47a3830c91493d8eeec6f79c1a527c9800a
+Description:  Protocol Buffers are a way of encoding structured data in an efficient
+ yet extensible format. Google uses Protocol Buffers for almost all
+ of its internal RPC protocols and file formats.
+ 
+ This package provides the libprotobuf-lite library.
+ 
+
+Package: protobuf
+Version: 3.5.1-1
+Depends: libc, zlib, libpthread, libstdcpp6, protobuf-lite
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/protobuf
+SourceName: protobuf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Ken Keys <kkeys@caida.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1245284
+Filename: protobuf_3.5.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1236089
+SHA256sum: 382fc864e81f4cae91a11083f2f99f5d19776bcfe4f7d663edf27493e2f1b49b
+Description:  Protocol Buffers are a way of encoding structured data in an efficient
+ yet extensible format. Google uses Protocol Buffers for almost all
+ of its internal RPC protocols and file formats.
+ 
+ This package provides the libprotoc, libprotobuf, and libprotobuf-lite
+ libraries.  For a much smaller protobuf package, see "protobuf-lite".
+ 
+
+Package: rdisc6
+Version: 1.0.3-1
+Depends: libc, libpthread, librt
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/ndisc6
+SourceName: rdisc6
+Section: ipv6
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6445
+Filename: rdisc6_1.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7150
+SHA256sum: cf29ecf549b390d25ba733256ec57635e27d43f25b9e5a1c2f7a1b75d862fc69
+Description:  An ICMPv6 router discovery tool
+
+Package: shadowsocks-libev-config
+Version: 3.2.5-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/shadowsocks-libev
+SourceName: shadowsocks-libev-config
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3961
+Filename: shadowsocks-libev-config_3.2.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4721
+SHA256sum: 827d569ccb3e1eaa931d1e23a4d3cda50329c08fda0b03da263b12e29d4e7495
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.2.5-1
+Depends: libc, libcares, libev, libmbedtls12, libpcre, libpthread, libsodium, shadowsocks-libev-config, zlib, libpcap1, libcap, libstdcpp6, libelf1-1
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 57336
+Filename: shadowsocks-libev-ss-local_3.2.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 58177
+SHA256sum: 442b0b3d6597e0620fddb94be06a5d1fab38a2fa0296b72d5f2cc288c7c6300d
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.2.5-1
+Depends: libc, libcares, libev, libmbedtls12, libpcre, libpthread, libsodium, shadowsocks-libev-config, zlib, libpcap1, libcap, libstdcpp6, libelf1-1
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 50631
+Filename: shadowsocks-libev-ss-redir_3.2.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 51489
+SHA256sum: eb2e0d8a2d7e778ec7b255c441ccbcb1628dbb6c113b19eb1124a56a90fc2081
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-rules
+Version: 3.2.5-1
+Depends: libc, ip, ipset, iptables-mod-tproxy, resolveip, shadowsocks-libev-ss-redir, shadowsocks-libev-config
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-rules
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4431
+Filename: shadowsocks-libev-ss-rules_3.2.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5354
+SHA256sum: c18470843cdc3fedc8708674539268f6d0433f58fbe0712c964f2d6e40606bb0
+Description:  shadowsocks-libev ss-rules
+
+Package: shadowsocks-libev-ss-server
+Version: 3.2.5-1
+Depends: libc, libcares, libev, libmbedtls12, libpcre, libpthread, libsodium, shadowsocks-libev-config, zlib, libpcap1, libcap, libstdcpp6, libelf1-1
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-server
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 61403
+Filename: shadowsocks-libev-ss-server_3.2.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 62260
+SHA256sum: 8de8b9cdbcd0c384f82da33bab06194270767b1c15572c3c6f07b466058bb4d1
+Description:  shadowsocks-libev ss-server
+
+Package: shadowsocks-libev-ss-tunnel
+Version: 3.2.5-1
+Depends: libc, libcares, libev, libmbedtls12, libpcre, libpthread, libsodium, shadowsocks-libev-config, zlib, libpcap1, libcap, libstdcpp6, libelf1-1
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-tunnel
+License: GPL-3.0+
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 49269
+Filename: shadowsocks-libev-ss-tunnel_3.2.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 50068
+SHA256sum: f7cc75d5d35236bd00e216f5312b32207b3d3c5c617d3b45365c20ae9d885aaa
+Description:  shadowsocks-libev ss-tunnel
+
+Package: simple-obfs
+Version: 5cbfdcc2-3
+Depends: libc, libev, libpthread
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/simple-obfs
+SourceName: simple-obfs
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27104
+Filename: simple-obfs_5cbfdcc2-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27972
+SHA256sum: 41dcdeb7afdfa5d6e09eba901578f36342842866da108f3e9286b22a37b73c2c
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: speedtestc
+Version: f7623914-2
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/speedtestc
+SourceName: speedtestc
+License: GPL-2.0
+Section: net
+Maintainer: Ycarus (Yannick Chabanois) <ycarus@zugaina.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8846
+Filename: speedtestc_f7623914-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9680
+SHA256sum: 84a87c18fec5af511b3a71a8cfa803cd61dbb829d82c8986231357efa6642670
+Description:  Client for SpeedTest.net infrastructure written in pure C99 standard using only POSIX libraries.
+
+Package: tracebox
+Version: 0.4.4-2
+Depends: libc, liblua5.1.5, libpcap1, libpthread, librt, curl, libjson-c2, libnetfilter-queue1, libstdcpp6
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/tracebox
+SourceName: tracebox
+Section: net
+Maintainer: Gregory Detal <gregory.detal@uclouvain.be>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 158588
+Filename: tracebox_0.4.4-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 159169
+SHA256sum: 754d684da69aea2622ec3c24de28caa9fa78acbb9811016f2d9cf4f3459b8198
+Description:  Tracebox is a tool that allows to detect middleboxes on any paths, i.e.,
+ between a source and any destination. Tracebox can be viewed as a tool similar
+ to traceroute as it uses ICMP replies to identify changes in the packets.
+
+Package: v2ray-core-dev
+Version: 20190228-d21d02d0-1
+Depends: libc, protobuf
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/v2ray-core
+SourceName: v2ray-core-dev
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+Architecture: all
+Installed-Size: 693621
+Filename: v2ray-core-dev_20190228-d21d02d0-1_all.ipk
+Size: 694427
+SHA256sum: 80946856efe0c9e6faae1888ed023c80bbba4e343afc5d303d918a53b90cf200
+Description:  Go support for Google protocol buffers
+
+Package: v2ray-ext-dev
+Version: 20190301-ee571a46-1
+Depends: libc, protobuf
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/v2ray-ext
+SourceName: v2ray-ext-dev
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: lang
+Architecture: all
+Installed-Size: 36010
+Filename: v2ray-ext-dev_20190301-ee571a46-1_all.ipk
+Size: 36813
+SHA256sum: 6180f375e4a7ed141a570e6af7c57c1c0918a427dbd5fff404e637778ce7ff5b
+Description:  Go support for Google protocol buffers
+
+Package: v2ray-plugin
+Version: 1e5b3780
+Depends: libc, golang-protobuf-dev, v2ray-core-dev, v2ray-ext-dev, golang-golang-x-crypto-dev
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/shadowsocks-v2ray-plugin
+SourceName: v2ray-plugin
+Section: net
+Maintainer: chenhw2 <https://github.com/chenhw2>
+Architecture: all
+Installed-Size: 3239708
+Filename: v2ray-plugin_1e5b3780_all.ipk
+Size: 3235971
+SHA256sum: 260927cf92990462d13607e54f759cc51cb10dcaf66428cb6ead6cb34ae3742e
+Description:  Yet another SIP003 plugin for shadowsocks, based on v2ray
+
+Package: whois
+Version: 5.4.2-1
+Depends: libc
+Source: /home/ubnt/openmptcprouter/feeds/openmptcprouter/whois
+SourceName: whois
+Section: net
+Maintainer: Kihamo <dev@kihamo.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24223
+Filename: whois_5.4.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24949
+SHA256sum: 2f33537958154c4be3544869145892ffdc87170cc9c0ce2f9c52e4d69f8de18a
+Description:  Utility to display information from WHOIS servers
+
