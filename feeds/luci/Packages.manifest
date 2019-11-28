@@ -1,2006 +1,3181 @@
 Package: liblucihttp-lua
-Version: 2019-01-24-1afbdcc3-1
+Version: 2019-07-05-a34a17d5-1
 Depends: libc, liblucihttp0, liblua5.1.5
-Source: /home/ubnt/openmptcprouter/feeds/luci/contrib/package/lucihttp
+Source: /workspace/openmptcprouter/feeds/luci/contrib/package/lucihttp
 SourceName: liblucihttp-lua
 License: ISC
 LicenseFiles: LICENSE
 Section: libs
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3143
-Filename: liblucihttp-lua_2019-01-24-1afbdcc3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 3935
-SHA256sum: 678616ef13aae6e234b78366da74c38c81f11c088b7f43b6c29fad6e7a22d361
+Installed-Size: 3131
+Filename: liblucihttp-lua_2019-07-05-a34a17d5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3919
+SHA256sum: 797ae623be7fe6ca01005b51f98aa90fff6aacc67dc959268729ab849e4bf414
 Description:  Lua binding for the LuCI HTTP utility library
 
 Package: liblucihttp0
-Version: 2019-01-24-1afbdcc3-1
+Version: 2019-07-05-a34a17d5-1
 Depends: libc
 Provides: liblucihttp
-Source: /home/ubnt/openmptcprouter/feeds/luci/contrib/package/lucihttp
+Source: /workspace/openmptcprouter/feeds/luci/contrib/package/lucihttp
 SourceName: liblucihttp
 License: ISC
 LicenseFiles: LICENSE
 Section: libs
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 6595
-Filename: liblucihttp0_2019-01-24-1afbdcc3-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 7412
-SHA256sum: 6a79047349370783efa23b35fa4d144264ed7dfc7d25b4aac4ac2a129e2f6dc1
+Installed-Size: 6772
+Filename: liblucihttp0_2019-07-05-a34a17d5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7604
+SHA256sum: 069847e91c056cb54c1a82c64aee0ae15176dfbe52b9bf98c1c1c0738f9411eb
 Description:  LuCI HTTP utility library
 
 Package: luci-app-firewall
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 10825
-Filename: luci-app-firewall_git-19.127.24922-6b7afab-1_all.ipk
-Size: 11577
-SHA256sum: ab66fc4cdb0c6dcd81d11eda84cfea94ae9870e531e8cc6886636b6d57aca0d7
+Installed-Size: 8483
+Filename: luci-app-firewall_git-19.323.39847-15816e6-1_all.ipk
+Size: 9242
+SHA256sum: a8f2f7a373099a2f9c475bba40542dd6a27e465a4f70bb44c2609d79cb8593e8
 Description:  Firewall and Portforwarding application
 
+Package: luci-app-openvpn
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-compat
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-app-openvpn
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 11524
+Filename: luci-app-openvpn_git-19.323.39847-15816e6-1_all.ipk
+Size: 12278
+SHA256sum: e85fda0642c512f3fccf571a03003f2e20ddece3410a2157f89923d7d043ca72
+Description:  LuCI Support for OpenVPN
+
 Package: luci-app-opkg
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-app-opkg
 Section: luci
 Architecture: all
-Installed-Size: 8272
-Filename: luci-app-opkg_git-19.127.24922-6b7afab-1_all.ipk
-Size: 9022
-SHA256sum: cccd77da79c2a8b94b250cc2cded91942b64b4a28832de7ff71da7e3fb4dc269
+Installed-Size: 8245
+Filename: luci-app-opkg_git-19.323.39847-15816e6-1_all.ipk
+Size: 8979
+SHA256sum: 0dddd35d9250eecd64739e5b6c97b45e96eb7f6376c5f968892f03a4fd405250
 Description:  OPKG package management application
 
+Package: luci-app-uhttpd
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-compat, uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-app-uhttpd
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 2869
+Filename: luci-app-uhttpd_git-19.323.39847-15816e6-1_all.ipk
+Size: 3666
+SHA256sum: 8e2a9ac83927e27586863581a44fc229f607eb8eaf5146f91d4c9cbc3d8f4e60
+Description:  uHTTPd Webserver Configuration
+
 Package: luci-app-unbound
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, unbound
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-unbound
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-compat, unbound-daemon
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
 SourceName: luci-app-unbound
 Section: luci
 Architecture: all
-Installed-Size: 8215
-Filename: luci-app-unbound_git-19.127.24922-6b7afab-1_all.ipk
-Size: 9065
-SHA256sum: 2168562c779119a5b2ea7e02d0bff783c3df3033f73306f89b3c0780fa1597ff
+Installed-Size: 8351
+Filename: luci-app-unbound_git-19.323.39847-15816e6-1_all.ipk
+Size: 9208
+SHA256sum: ddd8068f11fd805db0f356291dfa49343f6d9d61f0f54d2b4370312a7d6b5be8
 Description:  Unbound Recursive DNS Resolver Configuration
 
 Package: luci-app-upnp
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, miniupnpd
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-compat, miniupnpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-app-upnp
 Section: luci
 Architecture: all
-Installed-Size: 3559
-Filename: luci-app-upnp_git-19.127.24922-6b7afab-1_all.ipk
-Size: 4353
-SHA256sum: 9abe507e357e1a65fba8e9bc89f1fb6cfc2a2d4b37a60c5f11ee06d67538afe9
+Installed-Size: 3557
+Filename: luci-app-upnp_git-19.323.39847-15816e6-1_all.ipk
+Size: 4361
+SHA256sum: bf241ab9e64bb0243e2be582cc96d04f30f29a54445fa2c1af029ca3ba96b1d5
 Description:  Universal Plug & Play configuration module
 
-Package: luci-app-vnstat
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, vnstat, vnstati
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-app-vnstat
-Section: luci
-Architecture: all
-Installed-Size: 2240
-Filename: luci-app-vnstat_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3044
-SHA256sum: b7e3bdc98696330915f8528702807646deda5f1415087aca6e5bc89a9d3bafe6
-Description:  LuCI Support for VnStat
-
 Package: luci-app-wol
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, etherwake
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-compat, etherwake
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-app-wol
 Section: luci
 Architecture: all
-Installed-Size: 1506
-Filename: luci-app-wol_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2260
-SHA256sum: cdfe25210c8d6c5b2101754f0ecf63de47f17db07fc5f628add4b6c3fc860c29
+Installed-Size: 1507
+Filename: luci-app-wol_git-19.323.39847-15816e6-1_all.ipk
+Size: 2265
+SHA256sum: 7415c355b8397a53b5590c212916dfbb1fee720de1e992d08a08dd52e94a8802
 Description:  LuCI Support for Wake-on-LAN
 
+Package: luci-base
+Version: git-19.323.39847-15816e6-1
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua, rpcd-mod-file, rpcd-mod-luci, cgi-io
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-base
+License: MIT
+Section: luci
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 138208
+Filename: luci-base_git-19.323.39847-15816e6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 139179
+SHA256sum: dd3486d1272a00223902b59734e56bcb9b6864456c28d20ff2c6521928fa6bc6
+Description:  LuCI core libraries
+
+Package: luci-compat
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-compat
+SourceName: luci-compat
+Section: luci
+Architecture: all
+Installed-Size: 37930
+Filename: luci-compat_git-19.323.39847-15816e6-1_all.ipk
+Size: 38808
+SHA256sum: 305847921468251a509d2477e0d637b21e2fb0d599c92bc2729f79e08383a9f6
+Description:  LuCI compatibility libraries
+
+Package: luci-i18n-base-ca
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ca
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 13836
+Filename: luci-i18n-base-ca_git-19.323.39847-15816e6-1_all.ipk
+Size: 14631
+SHA256sum: 47bb398a25d08baa0953c383122b5e0f775cea2302cbeed07308e26fd89f79d8
+Description:  Translation for luci-base - Català (Catalan)
+
+Package: luci-i18n-base-cs
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-cs
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 16614
+Filename: luci-i18n-base-cs_git-19.323.39847-15816e6-1_all.ipk
+Size: 17480
+SHA256sum: 5dc50cff6ddee3bf09e31159c51f632daf96835c6032e1ac99e12434d1be3789
+Description:  Translation for luci-base - Čeština (Czech)
+
+Package: luci-i18n-base-de
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-de
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 33676
+Filename: luci-i18n-base-de_git-19.323.39847-15816e6-1_all.ipk
+Size: 34627
+SHA256sum: cf0890483506ad2bd1925ce2d6a2cdf2d9459be1531dbbb1780c28ae783f1ae2
+Description:  Translation for luci-base - Deutsch (German)
+
+Package: luci-i18n-base-el
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-el
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 14255
+Filename: luci-i18n-base-el_git-19.323.39847-15816e6-1_all.ipk
+Size: 15108
+SHA256sum: 7b646e7af5dfebb12795879feb08719be8d64dd3e3a45c8a03faf3dad9c178a1
+Description:  Translation for luci-base - Ελληνικά (Greek)
+
+Package: luci-i18n-base-en
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-en
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 723
+Filename: luci-i18n-base-en_git-19.323.39847-15816e6-1_all.ipk
+Size: 1544
+SHA256sum: 207384593702097af8a1f8cbaf56467242a0cdc6475f5b8970fc078420cd73ea
+Description:  Translation for luci-base - English
+
+Package: luci-i18n-base-es
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-es
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 33171
+Filename: luci-i18n-base-es_git-19.323.39847-15816e6-1_all.ipk
+Size: 34069
+SHA256sum: 2a3467981746060c7330e3b7bfa75b81edb9832a459721c5a9df4f4c1891e937
+Description:  Translation for luci-base - Español (Spanish)
+
+Package: luci-i18n-base-fr
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-fr
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 18000
+Filename: luci-i18n-base-fr_git-19.323.39847-15816e6-1_all.ipk
+Size: 18816
+SHA256sum: 8c2210412097d59a8a7475590ab0c868108c352ed994474f95efc20f71ecdf42
+Description:  Translation for luci-base - Français (French)
+
+Package: luci-i18n-base-he
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-he
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 5466
+Filename: luci-i18n-base-he_git-19.323.39847-15816e6-1_all.ipk
+Size: 6291
+SHA256sum: 65b0d82bdf41780756d8133bafc1650a2cd74f1107a1985f52dc9860e573c2a1
+Description:  Translation for luci-base - עִבְרִית (Hebrew)
+
+Package: luci-i18n-base-hu
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-hu
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 17216
+Filename: luci-i18n-base-hu_git-19.323.39847-15816e6-1_all.ipk
+Size: 18082
+SHA256sum: c7144bbda8cc6dd7ad373892d57af9127ff22b02e6aab27a4ba41915b19e6890
+Description:  Translation for luci-base - Magyar (Hungarian)
+
+Package: luci-i18n-base-it
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-it
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 15753
+Filename: luci-i18n-base-it_git-19.323.39847-15816e6-1_all.ipk
+Size: 16537
+SHA256sum: a8e2f3cffa2c8d8083649d977119f19138398b1b06976b22daa0edd07549feb0
+Description:  Translation for luci-base - Italiano (Italian)
+
+Package: luci-i18n-base-ja
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ja
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 30940
+Filename: luci-i18n-base-ja_git-19.323.39847-15816e6-1_all.ipk
+Size: 31802
+SHA256sum: 6a849d4772ca98107b790e64184b84ac29a3e6edf167c1e52f1acb5b03f69aa1
+Description:  Translation for luci-base - 日本語 (Japanese)
+
+Package: luci-i18n-base-ko
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ko
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 9190
+Filename: luci-i18n-base-ko_git-19.323.39847-15816e6-1_all.ipk
+Size: 10031
+SHA256sum: 836042403747db3cd26e4c764ad9aab143cd39e4383c56b658a8f09d19c292ea
+Description:  Translation for luci-base - 한국어 (Korean)
+
+Package: luci-i18n-base-ms
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ms
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 5898
+Filename: luci-i18n-base-ms_git-19.323.39847-15816e6-1_all.ipk
+Size: 6699
+SHA256sum: f575cc5db414c45f92982bece635601869782244ba939e8d2dbdc75ecc6268b0
+Description:  Translation for luci-base - Bahasa Melayu (Malay)
+
+Package: luci-i18n-base-no
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-no
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 15874
+Filename: luci-i18n-base-no_git-19.323.39847-15816e6-1_all.ipk
+Size: 16663
+SHA256sum: 72ce05a42b563f7564270d61c18a7476964a048744129ffbd0c9fd40ea3a8a47
+Description:  Translation for luci-base - Norsk (Norwegian)
+
+Package: luci-i18n-base-pl
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-pl
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 32101
+Filename: luci-i18n-base-pl_git-19.323.39847-15816e6-1_all.ipk
+Size: 32976
+SHA256sum: af6be02cb014348e6c77e7285f4b4bbe972b1fba7572c29ae842327027d291e9
+Description:  Translation for luci-base - Polski (Polish)
+
+Package: luci-i18n-base-pt-br
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-pt-br
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 28050
+Filename: luci-i18n-base-pt-br_git-19.323.39847-15816e6-1_all.ipk
+Size: 28913
+SHA256sum: 082dedb92193fb25590736c6fa08c16714b265f143f5c08a42377a7d7ad63d84
+Description:  Translation for luci-base - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-base-pt
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-pt
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 29882
+Filename: luci-i18n-base-pt_git-19.323.39847-15816e6-1_all.ipk
+Size: 30725
+SHA256sum: 37a5659b8146c14c0438161ed56ed61d6cd62b4b82f5581aed19945ee0b0c323
+Description:  Translation for luci-base - Português (Portuguese)
+
+Package: luci-i18n-base-ro
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ro
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 8337
+Filename: luci-i18n-base-ro_git-19.323.39847-15816e6-1_all.ipk
+Size: 9206
+SHA256sum: e04ce27e429c481f4f33c7123d31c631a24967a10bc12459d3b389a2c865fdef
+Description:  Translation for luci-base - Română (Romanian)
+
+Package: luci-i18n-base-ru
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-ru
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 37788
+Filename: luci-i18n-base-ru_git-19.323.39847-15816e6-1_all.ipk
+Size: 38735
+SHA256sum: 35491ae6f917f887f75d45c6c8beef96f861c13f810f1ed008e8c9cac9a71ff3
+Description:  Translation for luci-base - Русский (Russian)
+
+Package: luci-i18n-base-sk
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-sk
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 318
+Filename: luci-i18n-base-sk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1145
+SHA256sum: 1ec632b265cdb50c4f6b3b2975320797cb75e8e5aafdd73c310100b59b3b44a3
+Description:  Translation for luci-base - Slovenčina (Slovak)
+
+Package: luci-i18n-base-sv
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-sv
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 12736
+Filename: luci-i18n-base-sv_git-19.323.39847-15816e6-1_all.ipk
+Size: 13578
+SHA256sum: 366379ffab2d888319f785cefcbebdb535a0ff0f418d88d99b061cebea6c2f06
+Description:  Translation for luci-base - Svenska (Swedish)
+
+Package: luci-i18n-base-tr
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-tr
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 5264
+Filename: luci-i18n-base-tr_git-19.323.39847-15816e6-1_all.ipk
+Size: 6071
+SHA256sum: 1ec6f10d6d53fdd8e01f2eeeab3cff8a16eda1ec133ae151c7397dfbb66efa60
+Description:  Translation for luci-base - Türkçe (Turkish)
+
+Package: luci-i18n-base-uk
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-uk
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 38836
+Filename: luci-i18n-base-uk_git-19.323.39847-15816e6-1_all.ipk
+Size: 39801
+SHA256sum: 698a06a467ebc7f966263d606b0eaec9bb47a34ef5eb106b19e69775b2f52468
+Description:  Translation for luci-base - Українська (Ukrainian)
+
+Package: luci-i18n-base-vi
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-vi
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 30731
+Filename: luci-i18n-base-vi_git-19.323.39847-15816e6-1_all.ipk
+Size: 31570
+SHA256sum: 20e03949fa7e75031aee96e7339262af21c1a8151f42fd9706b2566ace63518a
+Description:  Translation for luci-base - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-base-zh-cn
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-zh-cn
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 31834
+Filename: luci-i18n-base-zh-cn_git-19.323.39847-15816e6-1_all.ipk
+Size: 32684
+SHA256sum: fa45b2344bb1c65a2ad36075adc21d4cf1bda52d7c40c1364b3a500bfd48336c
+Description:  Translation for luci-base - 中文 (Chinese)
+
+Package: luci-i18n-base-zh-tw
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-zh-tw
+License: MIT
+Section: luci
+Architecture: all
+Installed-Size: 17969
+Filename: luci-i18n-base-zh-tw_git-19.323.39847-15816e6-1_all.ipk
+Size: 18833
+SHA256sum: ba2970093c08f30f7badd9ca75432f20e1f23d1e0fff428c78c8b03fb58e7261
+Description:  Translation for luci-base - 臺灣華語 (Taiwanese)
+
 Package: luci-i18n-firewall-ca
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-ca
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 4007
-Filename: luci-i18n-firewall-ca_git-19.127.24922-6b7afab-1_all.ipk
-Size: 4812
-SHA256sum: a935da4759450f8ddd6f88e864af9dc5dda331482e1fcb7cba11823b19cf730e
+Installed-Size: 3243
+Filename: luci-i18n-firewall-ca_git-19.323.39847-15816e6-1_all.ipk
+Size: 4045
+SHA256sum: 23dbb39754148ea747671cd8b04daff02ae547a541b4fb19977c43d59cd19e89
 Description:  Translation for luci-app-firewall - Català (Catalan)
 
 Package: luci-i18n-firewall-cs
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-cs
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 4155
-Filename: luci-i18n-firewall-cs_git-19.127.24922-6b7afab-1_all.ipk
-Size: 4970
-SHA256sum: 790b5afbb5c79215b266488f62b378d2729118fb61c09a76bc7ee5a5c2e398a1
+Installed-Size: 3226
+Filename: luci-i18n-firewall-cs_git-19.323.39847-15816e6-1_all.ipk
+Size: 4041
+SHA256sum: 371c36458b4d737f2b31f9988f061029183b68fefb77d77d349d6a159362bff2
 Description:  Translation for luci-app-firewall - Čeština (Czech)
 
 Package: luci-i18n-firewall-de
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-de
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 4089
-Filename: luci-i18n-firewall-de_git-19.127.24922-6b7afab-1_all.ipk
-Size: 4899
-SHA256sum: dc1d3fff5a8a42e520f0aef6b5d82c2b930282ac4fe94eebfae8439f96f7d00f
+Installed-Size: 4811
+Filename: luci-i18n-firewall-de_git-19.323.39847-15816e6-1_all.ipk
+Size: 5623
+SHA256sum: 15eac65e782cc6390e20e7ed05332681eebcf6dda27a93f0bc24766478c769ee
 Description:  Translation for luci-app-firewall - Deutsch (German)
 
 Package: luci-i18n-firewall-el
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-el
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 1758
-Filename: luci-i18n-firewall-el_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2623
-SHA256sum: 36ffa01cd40980c19b6896b7399365bebda492f600e816493de0bcde9a70f5c4
+Installed-Size: 1663
+Filename: luci-i18n-firewall-el_git-19.323.39847-15816e6-1_all.ipk
+Size: 2530
+SHA256sum: 46850bd43ece0114a8cf70632dabb0ec20ff5ffb4e34d2a528d259733dc11752
 Description:  Translation for luci-app-firewall - Ελληνικά (Greek)
 
 Package: luci-i18n-firewall-en
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-en
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 306
-Filename: luci-i18n-firewall-en_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1124
-SHA256sum: 3af4d9e0062ab44b0b1fc2fff3b733cc783d4d950031ebe3da832abc51c11ec7
+Filename: luci-i18n-firewall-en_git-19.323.39847-15816e6-1_all.ipk
+Size: 1128
+SHA256sum: e9a847a17b6eabca59231df33a597c4dd5cfd9f7c70b58425a16bff9efdd8f46
 Description:  Translation for luci-app-firewall - English
 
 Package: luci-i18n-firewall-es
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-es
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 5163
-Filename: luci-i18n-firewall-es_git-19.127.24922-6b7afab-1_all.ipk
-Size: 5983
-SHA256sum: 5d42ee21a9e3a054b908b28667e570db422826fc7ae39114f41ba4add02d010b
+Installed-Size: 5160
+Filename: luci-i18n-firewall-es_git-19.323.39847-15816e6-1_all.ipk
+Size: 5982
+SHA256sum: c00b48309d082b8f48413f631422a2a876c6d1e541f5967b02c065595da1b4d1
 Description:  Translation for luci-app-firewall - Español (Spanish)
 
 Package: luci-i18n-firewall-fr
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-fr
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 2792
-Filename: luci-i18n-firewall-fr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3611
-SHA256sum: 8bc347fe59713a9cf11089211b330967a9cc23b8e69c52ce7eeb09bda701902c
+Installed-Size: 2769
+Filename: luci-i18n-firewall-fr_git-19.323.39847-15816e6-1_all.ipk
+Size: 3584
+SHA256sum: 0cbcf01403a6ca8f3310eee1a2b22766c1b7f08ffd4408e505863e4f03a887f2
 Description:  Translation for luci-app-firewall - Français (French)
 
 Package: luci-i18n-firewall-he
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-he
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 337
-Filename: luci-i18n-firewall-he_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1193
-SHA256sum: f274db2164053163bd7f6344c89b172c75bfcc7f1fb36e0a44d715166b995017
+Filename: luci-i18n-firewall-he_git-19.323.39847-15816e6-1_all.ipk
+Size: 1192
+SHA256sum: 6da460186568cdb0e6d62f259cb2decf43d399a69147beefd6d6d7492b577948
 Description:  Translation for luci-app-firewall - עִבְרִית (Hebrew)
 
 Package: luci-i18n-firewall-hu
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-hu
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 4357
-Filename: luci-i18n-firewall-hu_git-19.127.24922-6b7afab-1_all.ipk
-Size: 5168
-SHA256sum: c8f0783c83e31e3a8e95cfb751749d14e877a724f54f220d21b7885d2510e23a
+Installed-Size: 3417
+Filename: luci-i18n-firewall-hu_git-19.323.39847-15816e6-1_all.ipk
+Size: 4231
+SHA256sum: f10d0ef3497b10730b611f3b84006f156a804480381e7b1d6531d6f30753268f
 Description:  Translation for luci-app-firewall - Magyar (Hungarian)
 
 Package: luci-i18n-firewall-it
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-it
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 4138
-Filename: luci-i18n-firewall-it_git-19.127.24922-6b7afab-1_all.ipk
-Size: 4944
-SHA256sum: 5ad89e0687ed57bcfbbb5ff742c052b6b91d75a8543074eaf7a683eba02b09f8
+Installed-Size: 3230
+Filename: luci-i18n-firewall-it_git-19.323.39847-15816e6-1_all.ipk
+Size: 4034
+SHA256sum: 6fdaebd824b2393f55da5d527f4db2681e4113d853a462d60df7af9ccf624e5f
 Description:  Translation for luci-app-firewall - Italiano (Italian)
 
 Package: luci-i18n-firewall-ja
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-ja
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 5345
-Filename: luci-i18n-firewall-ja_git-19.127.24922-6b7afab-1_all.ipk
-Size: 6186
-SHA256sum: 6adf263ae110d33d3a9f574b0f9cb6475f8c46118abe47dbd0be8522ba3a876f
+Installed-Size: 5301
+Filename: luci-i18n-firewall-ja_git-19.323.39847-15816e6-1_all.ipk
+Size: 6138
+SHA256sum: e8002580dfd575877f04cbf9f8a5e150bb00f6d7c90cfb08b91d8f122e301b11
 Description:  Translation for luci-app-firewall - 日本語 (Japanese)
 
 Package: luci-i18n-firewall-ko
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-ko
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 2792
-Filename: luci-i18n-firewall-ko_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3622
-SHA256sum: fb3189c282f1a6f3b85be553040a892407c00268accad6ebc58e6c61287b5ebd
+Installed-Size: 2303
+Filename: luci-i18n-firewall-ko_git-19.323.39847-15816e6-1_all.ipk
+Size: 3164
+SHA256sum: 4a9d3d616e51d974042aebe3fe3e2e05720509817278f5ab2536a07071c8a42a
 Description:  Translation for luci-app-firewall - 한국어 (Korean)
 
 Package: luci-i18n-firewall-ms
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-ms
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 320
-Filename: luci-i18n-firewall-ms_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1152
-SHA256sum: 2cf2347e78d580530acb4bd10ca5366440241c2f37abae59576668f6e9cdb0ec
+Filename: luci-i18n-firewall-ms_git-19.323.39847-15816e6-1_all.ipk
+Size: 1159
+SHA256sum: 205a2464dc0d613c522f8cceedc2ccdf818c85834f301403a67d7e659d216c2e
 Description:  Translation for luci-app-firewall - Bahasa Melayu (Malay)
 
 Package: luci-i18n-firewall-no
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-no
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 3982
-Filename: luci-i18n-firewall-no_git-19.127.24922-6b7afab-1_all.ipk
-Size: 4790
-SHA256sum: 0064552eeba340e4e4c02983ed4777845ccca9725c69e4a9d75a1a61e3d44923
+Installed-Size: 3132
+Filename: luci-i18n-firewall-no_git-19.323.39847-15816e6-1_all.ipk
+Size: 3937
+SHA256sum: 26573ffb32c9c2cad656fba4c33fb7295250827cb24512ade8b97fe3d0401f4c
 Description:  Translation for luci-app-firewall - Norsk (Norwegian)
 
 Package: luci-i18n-firewall-pl
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-pl
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 4199
-Filename: luci-i18n-firewall-pl_git-19.127.24922-6b7afab-1_all.ipk
-Size: 5011
-SHA256sum: dd77b29ffce646f05749cdabd37605c263b4159a8d2a42a6090555b03ddb3cdf
+Installed-Size: 3964
+Filename: luci-i18n-firewall-pl_git-19.323.39847-15816e6-1_all.ipk
+Size: 4771
+SHA256sum: 20b792c2eb48ba619ea7762e8cca61c5fd6da3e2bfa142ec482b3682234a2e53
 Description:  Translation for luci-app-firewall - Polski (Polish)
 
 Package: luci-i18n-firewall-pt-br
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-pt-br
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 5198
-Filename: luci-i18n-firewall-pt-br_git-19.127.24922-6b7afab-1_all.ipk
-Size: 6035
-SHA256sum: 0cdade6c2a1468e0048f6c34e6a19d48a875685c256b2a5d61a9000f6dfb54ab
+Installed-Size: 4153
+Filename: luci-i18n-firewall-pt-br_git-19.323.39847-15816e6-1_all.ipk
+Size: 4988
+SHA256sum: e2086a6c69d56e5d53639250bac9aadccc3543deb102c34b5a7f8a516d68784a
 Description:  Translation for luci-app-firewall - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-firewall-pt
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-pt
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 3423
-Filename: luci-i18n-firewall-pt_git-19.127.24922-6b7afab-1_all.ipk
-Size: 4241
-SHA256sum: 29971568449e42b3513a4511af5e28f970097ba9308905d5a08a357608b6f963
+Installed-Size: 5213
+Filename: luci-i18n-firewall-pt_git-19.323.39847-15816e6-1_all.ipk
+Size: 6028
+SHA256sum: 42755329b341f5b9b035ef6a1af60d0847c71e42b368edc4cbded21b7a252be7
 Description:  Translation for luci-app-firewall - Português (Portuguese)
 
 Package: luci-i18n-firewall-ro
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-ro
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 1728
-Filename: luci-i18n-firewall-ro_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2577
-SHA256sum: 2802f0c2c8df7df9e25d33c3cac7e285cefab13900c46fb2eb5df7c49d3faceb
+Installed-Size: 1456
+Filename: luci-i18n-firewall-ro_git-19.323.39847-15816e6-1_all.ipk
+Size: 2310
+SHA256sum: de890e1f116bc3081ad26518bdcc034741f455a50115cf3d7eb4a52069fdacd7
 Description:  Translation for luci-app-firewall - Română (Romanian)
 
 Package: luci-i18n-firewall-ru
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-ru
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 6005
-Filename: luci-i18n-firewall-ru_git-19.127.24922-6b7afab-1_all.ipk
-Size: 6820
-SHA256sum: 5ee0330706e81dd47fb4c966d6f9d1bda5f7369f597121a48acc6c2949803d6c
+Installed-Size: 5963
+Filename: luci-i18n-firewall-ru_git-19.323.39847-15816e6-1_all.ipk
+Size: 6775
+SHA256sum: 9feedbef954cc0d99fcb745f5cc78668e85ec8541d7c4c3d437ebe5c983d0584
 Description:  Translation for luci-app-firewall - Русский (Russian)
 
 Package: luci-i18n-firewall-sk
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-sk
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 322
-Filename: luci-i18n-firewall-sk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1158
-SHA256sum: a09772696e7d469e062b455a70e5354fe539e5fdc523d0b8733f8bc1b0bc14f3
+Filename: luci-i18n-firewall-sk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1163
+SHA256sum: 26a6dd44479c1de0947fbaab1f947e4858ea9662ed1d7ca5f38a7a881033249e
 Description:  Translation for luci-app-firewall - Slovenčina (Slovak)
 
 Package: luci-i18n-firewall-sv
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-sv
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 2755
-Filename: luci-i18n-firewall-sv_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3563
-SHA256sum: f8153e1c06c7da78349cab510d144d32f7ed9cdaa7d9fd98af60530d07796cb8
+Installed-Size: 2285
+Filename: luci-i18n-firewall-sv_git-19.323.39847-15816e6-1_all.ipk
+Size: 3130
+SHA256sum: 209a0e18a3bc54a9636f9446b11cca88cc27a6cd851a9058cce500c40ef4b93f
 Description:  Translation for luci-app-firewall - Svenska (Swedish)
 
 Package: luci-i18n-firewall-tr
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-tr
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 323
-Filename: luci-i18n-firewall-tr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1160
-SHA256sum: f83e361208875a6e0403557852013bfcace24a16ca2656f8ab8a3c3290f8160f
+Installed-Size: 385
+Filename: luci-i18n-firewall-tr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1220
+SHA256sum: 1c08130a55f1dcd941d59c4cd08d103a7e8158734a5a2af7076e52e5ba3108f3
 Description:  Translation for luci-app-firewall - Türkçe (Turkish)
 
 Package: luci-i18n-firewall-uk
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-uk
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 5970
-Filename: luci-i18n-firewall-uk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 6794
-SHA256sum: 2ff747b209c41c2b9f48246b74cc5eaef40b9d4c84ec157e3565644a004875c7
+Installed-Size: 5923
+Filename: luci-i18n-firewall-uk_git-19.323.39847-15816e6-1_all.ipk
+Size: 6749
+SHA256sum: 1175d29eb62b1b705681700c262d21efce62e63cdaa01bea6e5e1d72757e1f82
 Description:  Translation for luci-app-firewall - Українська (Ukrainian)
 
 Package: luci-i18n-firewall-vi
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-vi
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 843
-Filename: luci-i18n-firewall-vi_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1706
-SHA256sum: d2d1b169164ae53f33fe9f45124987c25bedad280f8b03ba8935529833872bab
+Installed-Size: 918
+Filename: luci-i18n-firewall-vi_git-19.323.39847-15816e6-1_all.ipk
+Size: 1779
+SHA256sum: a5cb4b5fc406746a40d0d8c964beb019967c6d30021134520df22c63d030e027
 Description:  Translation for luci-app-firewall - Tiếng Việt (Vietnamese)
 
 Package: luci-i18n-firewall-zh-cn
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-zh-cn
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 5005
-Filename: luci-i18n-firewall-zh-cn_git-19.127.24922-6b7afab-1_all.ipk
-Size: 5825
-SHA256sum: 41e04c8e9c22736b786a929fed0611a792b119039f04fd39d70818ba46329054
+Installed-Size: 4933
+Filename: luci-i18n-firewall-zh-cn_git-19.323.39847-15816e6-1_all.ipk
+Size: 5754
+SHA256sum: 0a33d47c47c5a66ccae17171b048e78db3c6b0abb1ddcc2b0300782f4d118f36
 Description:  Translation for luci-app-firewall - 中文 (Chinese)
 
 Package: luci-i18n-firewall-zh-tw
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-firewall
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-firewall
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-zh-tw
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 5000
-Filename: luci-i18n-firewall-zh-tw_git-19.127.24922-6b7afab-1_all.ipk
-Size: 5831
-SHA256sum: c1afe4f49cc15fcadb359faca5297abb2d93ec916a29286689b9fb29b321ca14
+Installed-Size: 4014
+Filename: luci-i18n-firewall-zh-tw_git-19.323.39847-15816e6-1_all.ipk
+Size: 4850
+SHA256sum: 456406aad7fcb3afb7af37dff5ae1534e76524c83b079ee024591885b2a5b9d0
 Description:  Translation for luci-app-firewall - 臺灣華語 (Taiwanese)
 
+Package: luci-i18n-openvpn-ca
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-ca
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 5278
+Filename: luci-i18n-openvpn-ca_git-19.323.39847-15816e6-1_all.ipk
+Size: 6089
+SHA256sum: 94d6e0628ac330327accc1a5d3d209c443983670bf2b7822b6880ac05dc28103
+Description:  Translation for luci-app-openvpn - Català (Catalan)
+
+Package: luci-i18n-openvpn-cs
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-cs
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1557
+Filename: luci-i18n-openvpn-cs_git-19.323.39847-15816e6-1_all.ipk
+Size: 2413
+SHA256sum: bec7b0f2649ae373e00155d92571bf89dd6dc1367891d4b4b43ad0ec08d6f8fe
+Description:  Translation for luci-app-openvpn - Čeština (Czech)
+
+Package: luci-i18n-openvpn-de
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-de
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6330
+Filename: luci-i18n-openvpn-de_git-19.323.39847-15816e6-1_all.ipk
+Size: 7205
+SHA256sum: 9a390c901740f4d2ae70b80c0065dbfe4b8a68a3606f7f4baf11cb38659673f5
+Description:  Translation for luci-app-openvpn - Deutsch (German)
+
+Package: luci-i18n-openvpn-el
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-el
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1628
+Filename: luci-i18n-openvpn-el_git-19.323.39847-15816e6-1_all.ipk
+Size: 2492
+SHA256sum: 1defc6543d2bfdf501de0b8cd9fb5f420097429c6bc5105d67ec98997a9dfdb7
+Description:  Translation for luci-app-openvpn - Ελληνικά (Greek)
+
+Package: luci-i18n-openvpn-en
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-en
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 305
+Filename: luci-i18n-openvpn-en_git-19.323.39847-15816e6-1_all.ipk
+Size: 1120
+SHA256sum: 452009adf874205132c32760fcb754662924c783df402fa7db5cf9b21d935e2e
+Description:  Translation for luci-app-openvpn - English
+
+Package: luci-i18n-openvpn-es
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-es
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6237
+Filename: luci-i18n-openvpn-es_git-19.323.39847-15816e6-1_all.ipk
+Size: 7115
+SHA256sum: 5fc81639ddb8bd0c735f44e9f40f74956473d0c95ef14ad055ca41881be62a77
+Description:  Translation for luci-app-openvpn - Español (Spanish)
+
+Package: luci-i18n-openvpn-fr
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-fr
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 5720
+Filename: luci-i18n-openvpn-fr_git-19.323.39847-15816e6-1_all.ipk
+Size: 6553
+SHA256sum: a0d462b044808ea39df901783d737219239e7eee0162ba60957488b50fd8eee6
+Description:  Translation for luci-app-openvpn - Français (French)
+
+Package: luci-i18n-openvpn-he
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-he
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 336
+Filename: luci-i18n-openvpn-he_git-19.323.39847-15816e6-1_all.ipk
+Size: 1191
+SHA256sum: aaf80e1b7c8a1cbd28e2d2f8d55c7e1be09de09c77e07ac9ff5816b6f0cefb82
+Description:  Translation for luci-app-openvpn - עִבְרִית (Hebrew)
+
+Package: luci-i18n-openvpn-hu
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-hu
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2708
+Filename: luci-i18n-openvpn-hu_git-19.323.39847-15816e6-1_all.ipk
+Size: 3526
+SHA256sum: 06ab1482f3fbe4d3a73d78d4b3ae6231b168b641775fae35fb7189e0126fa251
+Description:  Translation for luci-app-openvpn - Magyar (Hungarian)
+
+Package: luci-i18n-openvpn-it
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-it
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2771
+Filename: luci-i18n-openvpn-it_git-19.323.39847-15816e6-1_all.ipk
+Size: 3580
+SHA256sum: 1769b9e16ddde851b3ad21e7cc6cf8cd85743781077c9746e231c862cd374295
+Description:  Translation for luci-app-openvpn - Italiano (Italian)
+
+Package: luci-i18n-openvpn-ja
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-ja
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 1684
+Filename: luci-i18n-openvpn-ja_git-19.323.39847-15816e6-1_all.ipk
+Size: 2543
+SHA256sum: 242dca97f7e5cad4d7423d51b64fb6524afbbb602d990117a22584f806d372a4
+Description:  Translation for luci-app-openvpn - 日本語 (Japanese)
+
+Package: luci-i18n-openvpn-ko
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-ko
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 329
+Filename: luci-i18n-openvpn-ko_git-19.323.39847-15816e6-1_all.ipk
+Size: 1175
+SHA256sum: c3d01b39181caea40d06907ea1b413ff9a733b8743f934d6d38530a360d0fe7a
+Description:  Translation for luci-app-openvpn - 한국어 (Korean)
+
+Package: luci-i18n-openvpn-ms
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-ms
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 320
+Filename: luci-i18n-openvpn-ms_git-19.323.39847-15816e6-1_all.ipk
+Size: 1156
+SHA256sum: 3436f90da148bafb9423d47f920fa35e047b740226683005792b9997c3bff13f
+Description:  Translation for luci-app-openvpn - Bahasa Melayu (Malay)
+
+Package: luci-i18n-openvpn-no
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-no
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 382
+Filename: luci-i18n-openvpn-no_git-19.323.39847-15816e6-1_all.ipk
+Size: 1210
+SHA256sum: ed82a70d108dc21c807f71aa7ba9108c8211dc919e257b50ba3d85f22ce34073
+Description:  Translation for luci-app-openvpn - Norsk (Norwegian)
+
+Package: luci-i18n-openvpn-pl
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-pl
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6277
+Filename: luci-i18n-openvpn-pl_git-19.323.39847-15816e6-1_all.ipk
+Size: 7135
+SHA256sum: 35f4091d6477df2469fd4d817f49867c6a7a5f9b1a94a30dd90d378c5aa7c10d
+Description:  Translation for luci-app-openvpn - Polski (Polish)
+
+Package: luci-i18n-openvpn-pt-br
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-pt-br
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 5660
+Filename: luci-i18n-openvpn-pt-br_git-19.323.39847-15816e6-1_all.ipk
+Size: 6502
+SHA256sum: 664cf7a00a31b76026ea4cb719858a40a9c7509af2349576815cf125aedf47d9
+Description:  Translation for luci-app-openvpn - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-openvpn-pt
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-pt
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6366
+Filename: luci-i18n-openvpn-pt_git-19.323.39847-15816e6-1_all.ipk
+Size: 7242
+SHA256sum: ae924f63b03b21cfa68efc99b81a3b5c94029b18f2e1b32b60f2b22e3e66af15
+Description:  Translation for luci-app-openvpn - Português (Portuguese)
+
+Package: luci-i18n-openvpn-ro
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-ro
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 323
+Filename: luci-i18n-openvpn-ro_git-19.323.39847-15816e6-1_all.ipk
+Size: 1162
+SHA256sum: e50efdff9896b0f4a3772d4b131e2e4c467100c30cd8e47e022fdb2b6087a094
+Description:  Translation for luci-app-openvpn - Română (Romanian)
+
+Package: luci-i18n-openvpn-ru
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-ru
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 8658
+Filename: luci-i18n-openvpn-ru_git-19.323.39847-15816e6-1_all.ipk
+Size: 9540
+SHA256sum: e7d77c3f621438cf0efb15c80b2e2980b88d09c81eb8b71742bde58366984c8d
+Description:  Translation for luci-app-openvpn - Русский (Russian)
+
+Package: luci-i18n-openvpn-sk
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-sk
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 322
+Filename: luci-i18n-openvpn-sk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1154
+SHA256sum: 3ed204e35d7090d2c245a6c5d143a8b84c6ff442d5af1db37e9968eea7c4481f
+Description:  Translation for luci-app-openvpn - Slovenčina (Slovak)
+
+Package: luci-i18n-openvpn-sv
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-sv
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 686
+Filename: luci-i18n-openvpn-sv_git-19.323.39847-15816e6-1_all.ipk
+Size: 1521
+SHA256sum: 1a617b5d7a8576754e41b25de76f3adfbfa64fb2d2c67a3ea724c916ba8674cc
+Description:  Translation for luci-app-openvpn - Svenska (Swedish)
+
+Package: luci-i18n-openvpn-tr
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-tr
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 322
+Filename: luci-i18n-openvpn-tr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1159
+SHA256sum: b0de63740a01fa825d679350f88bcf58d6d40a8c37c7b5b986a8e91da2ce1ff3
+Description:  Translation for luci-app-openvpn - Türkçe (Turkish)
+
+Package: luci-i18n-openvpn-uk
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-uk
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 730
+Filename: luci-i18n-openvpn-uk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1600
+SHA256sum: 2162c756753cd51dfabffeb57ca9021a28df35f58627656310b480dfda677dcb
+Description:  Translation for luci-app-openvpn - Українська (Ukrainian)
+
+Package: luci-i18n-openvpn-vi
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-vi
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 5054
+Filename: luci-i18n-openvpn-vi_git-19.323.39847-15816e6-1_all.ipk
+Size: 5887
+SHA256sum: a5dd5f87e8184e9cd7f013ede7b789ab3e3f3af40f359ff7696d7d0896a1327f
+Description:  Translation for luci-app-openvpn - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-openvpn-zh-cn
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-zh-cn
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 6077
+Filename: luci-i18n-openvpn-zh-cn_git-19.323.39847-15816e6-1_all.ipk
+Size: 6913
+SHA256sum: 83a5d7476a7e7138e2df7ae7c63fa498768ad85473ccad78b2b92852425f86b1
+Description:  Translation for luci-app-openvpn - 中文 (Chinese)
+
+Package: luci-i18n-openvpn-zh-tw
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-openvpn
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-openvpn
+SourceName: luci-i18n-openvpn-zh-tw
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 5429
+Filename: luci-i18n-openvpn-zh-tw_git-19.323.39847-15816e6-1_all.ipk
+Size: 6286
+SHA256sum: 9b931f1b6d7f1b683d1a1b22df07042642567855e1e188fa6e42df1aa4319f9a
+Description:  Translation for luci-app-openvpn - 臺灣華語 (Taiwanese)
+
 Package: luci-i18n-opkg-ca
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-ca
 Section: luci
 Architecture: all
-Installed-Size: 1130
-Filename: luci-i18n-opkg-ca_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1953
-SHA256sum: ffbbbb93c62fd76dca82630eb56816ff641eee4263bcdf1d2e582ccec1ace84e
+Installed-Size: 1148
+Filename: luci-i18n-opkg-ca_git-19.323.39847-15816e6-1_all.ipk
+Size: 1963
+SHA256sum: e9f00511c6373c870a634fb7f445f5e04cafd234c6a654e47ae24f0172b0cd2d
 Description:  Translation for luci-app-opkg - Català (Catalan)
 
 Package: luci-i18n-opkg-cs
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-cs
 Section: luci
 Architecture: all
-Installed-Size: 1091
-Filename: luci-i18n-opkg-cs_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1915
-SHA256sum: d26f980c61076dfc06af3fe90728130ac9979349967ad3d321418d72dcbd6407
+Installed-Size: 2254
+Filename: luci-i18n-opkg-cs_git-19.323.39847-15816e6-1_all.ipk
+Size: 3085
+SHA256sum: aca9594ab7f3a3bb428336333f152f0333e35a9a86be73af966106c8c3dd91b9
 Description:  Translation for luci-app-opkg - Čeština (Czech)
 
 Package: luci-i18n-opkg-de
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-de
 Section: luci
 Architecture: all
-Installed-Size: 2191
-Filename: luci-i18n-opkg-de_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3021
-SHA256sum: 4bb473610f1ac2974d9a91d25262975b59568212752fe2d71e532aff67d4937e
+Installed-Size: 2277
+Filename: luci-i18n-opkg-de_git-19.323.39847-15816e6-1_all.ipk
+Size: 3108
+SHA256sum: e8e3860963c1e10ae001c003e3c3c4ada559ae10a75433e0cd961ff3df9f4421
 Description:  Translation for luci-app-opkg - Deutsch (German)
 
 Package: luci-i18n-opkg-el
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-el
 Section: luci
 Architecture: all
-Installed-Size: 1137
-Filename: luci-i18n-opkg-el_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1976
-SHA256sum: dbbb898a2072c052d8518030af13d8bb09a4e5d8a84c8fd524df5c95eb6f0241
+Installed-Size: 1157
+Filename: luci-i18n-opkg-el_git-19.323.39847-15816e6-1_all.ipk
+Size: 1998
+SHA256sum: 62ff93247fd59574db1895d7334a30df55b87329696d92e170af3cf8557f89c2
 Description:  Translation for luci-app-opkg - Ελληνικά (Greek)
 
 Package: luci-i18n-opkg-en
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-en
 Section: luci
 Architecture: all
-Installed-Size: 645
-Filename: luci-i18n-opkg-en_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1454
-SHA256sum: f92edce5cecf8c19e56aebe43c9c9336c733d0bb9188b5b507d7cae4d104f33a
+Installed-Size: 304
+Filename: luci-i18n-opkg-en_git-19.323.39847-15816e6-1_all.ipk
+Size: 1110
+SHA256sum: 6c2b398d6e1942597c7bba22ab648734f4f4e015a586c1a12fb638505242bf01
 Description:  Translation for luci-app-opkg - English
 
 Package: luci-i18n-opkg-es
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-es
 Section: luci
 Architecture: all
-Installed-Size: 2197
-Filename: luci-i18n-opkg-es_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3025
-SHA256sum: 5fcb005e05c985ca774dc3823ffbe01a868d65bedd36061b44960f5e99c755a8
+Installed-Size: 2294
+Filename: luci-i18n-opkg-es_git-19.323.39847-15816e6-1_all.ipk
+Size: 3124
+SHA256sum: 626084ac86b89f896bdd7bcd727c1d3db614492444f7a798d3b181ab616d255b
 Description:  Translation for luci-app-opkg - Español (Spanish)
 
 Package: luci-i18n-opkg-fr
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-fr
 Section: luci
 Architecture: all
-Installed-Size: 1064
-Filename: luci-i18n-opkg-fr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1886
-SHA256sum: 20ea93aac0d99ad6ec90292f52ee360b0c5af83b26189b49f3f7b90e254f0592
+Installed-Size: 1101
+Filename: luci-i18n-opkg-fr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1922
+SHA256sum: 1da0cc5aae42275c3d4cd246efffa245b2b15c700006658387e6e1dd93a6aed1
 Description:  Translation for luci-app-opkg - Français (French)
 
 Package: luci-i18n-opkg-he
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-he
 Section: luci
 Architecture: all
-Installed-Size: 778
-Filename: luci-i18n-opkg-he_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1621
-SHA256sum: f431b9b70a97a09efea9642664db4fd0ada01af2963708eb034484178a0d98db
+Installed-Size: 779
+Filename: luci-i18n-opkg-he_git-19.323.39847-15816e6-1_all.ipk
+Size: 1625
+SHA256sum: c11a970885e74d1aa1ece5e0b0b7bd6efb3f62ec1547136e91d27deb63249181
 Description:  Translation for luci-app-opkg - עִבְרִית (Hebrew)
 
 Package: luci-i18n-opkg-hu
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-hu
 Section: luci
 Architecture: all
-Installed-Size: 1117
-Filename: luci-i18n-opkg-hu_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1941
-SHA256sum: 190bebb3f88d0ffe8bb310259b2c534f3e8a931f66bda001ae7f5ae1cd2e9ac0
+Installed-Size: 1136
+Filename: luci-i18n-opkg-hu_git-19.323.39847-15816e6-1_all.ipk
+Size: 1961
+SHA256sum: 7b21e31876cd4139572739f42684840c1fd6854959eec078e03f8431e013a610
 Description:  Translation for luci-app-opkg - Magyar (Hungarian)
 
 Package: luci-i18n-opkg-it
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-it
 Section: luci
 Architecture: all
-Installed-Size: 1032
-Filename: luci-i18n-opkg-it_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1845
-SHA256sum: 635c1cc1f33d7c881ba2337100fbb1c67ac2d15b753f993545d6a475ba529edf
+Installed-Size: 1048
+Filename: luci-i18n-opkg-it_git-19.323.39847-15816e6-1_all.ipk
+Size: 1862
+SHA256sum: 4a31b87d0feb6200afb7d9ff771f142aad83ee6a145e056f6b92c68dc8445b16
 Description:  Translation for luci-app-opkg - Italiano (Italian)
 
 Package: luci-i18n-opkg-ja
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-ja
 Section: luci
 Architecture: all
-Installed-Size: 2427
-Filename: luci-i18n-opkg-ja_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3236
-SHA256sum: 063ea3e96e802f85a606b8017ec14c9688aa147bed971578a93e991c80f4ca6c
+Installed-Size: 2416
+Filename: luci-i18n-opkg-ja_git-19.323.39847-15816e6-1_all.ipk
+Size: 3225
+SHA256sum: 44dea620549d4f87b9ce03f881e6d571ee90f9c9f7d73e3cbfb90b0ceb1c5df8
 Description:  Translation for luci-app-opkg - 日本語 (Japanese)
 
 Package: luci-i18n-opkg-ko
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-ko
 Section: luci
 Architecture: all
-Installed-Size: 1020
-Filename: luci-i18n-opkg-ko_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1852
-SHA256sum: 4b3be372dea9e96fe576ad5b212d1bdf04ebfad49f1fc4c8ff2458cbc96f1b02
+Installed-Size: 1037
+Filename: luci-i18n-opkg-ko_git-19.323.39847-15816e6-1_all.ipk
+Size: 1872
+SHA256sum: 40a14ebd49348286cbebf9a4c2d38e65d2c37dfba60e55cf5b113d8fa6758ada
 Description:  Translation for luci-app-opkg - 한국어 (Korean)
 
 Package: luci-i18n-opkg-ms
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-ms
 Section: luci
 Architecture: all
-Installed-Size: 887
-Filename: luci-i18n-opkg-ms_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1721
-SHA256sum: 9f736af843a398018437039079fde346a44a98de3fb56118bf9a9f57192cf32f
+Installed-Size: 910
+Filename: luci-i18n-opkg-ms_git-19.323.39847-15816e6-1_all.ipk
+Size: 1738
+SHA256sum: 5d84c3474fba84e375f631209114c4b24eb90d181705a3bdbbb5d63f3bd9a955
 Description:  Translation for luci-app-opkg - Bahasa Melayu (Malay)
 
 Package: luci-i18n-opkg-no
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-no
 Section: luci
 Architecture: all
-Installed-Size: 1101
-Filename: luci-i18n-opkg-no_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1920
-SHA256sum: 0b840bb79ffcff7a0c000a3057439bf81fffb8187cdf93dfc0c368ce1650b4d1
+Installed-Size: 1122
+Filename: luci-i18n-opkg-no_git-19.323.39847-15816e6-1_all.ipk
+Size: 1938
+SHA256sum: 9c9dcfd8702e046fe41a81563c1964997cd05042e3123b09a9bea685933c2d44
 Description:  Translation for luci-app-opkg - Norsk (Norwegian)
 
 Package: luci-i18n-opkg-pl
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-pl
 Section: luci
 Architecture: all
-Installed-Size: 2278
-Filename: luci-i18n-opkg-pl_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3110
-SHA256sum: 9ffd559ace8810eb28323f3defa13c9e7e7201dbb1fa0f44b86202d4a6fb0bcb
+Installed-Size: 2336
+Filename: luci-i18n-opkg-pl_git-19.323.39847-15816e6-1_all.ipk
+Size: 3162
+SHA256sum: f91873c0ec8c121e957162c9f46f3c8f4dc7c4348cf1bdb82536326abe4e53e6
 Description:  Translation for luci-app-opkg - Polski (Polish)
 
 Package: luci-i18n-opkg-pt-br
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-pt-br
 Section: luci
 Architecture: all
-Installed-Size: 1150
-Filename: luci-i18n-opkg-pt-br_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1991
-SHA256sum: 6194f237478bb483a06480d087e268677a0ea6b9d1bedf60fda66b09feff8ec9
+Installed-Size: 1427
+Filename: luci-i18n-opkg-pt-br_git-19.323.39847-15816e6-1_all.ipk
+Size: 2276
+SHA256sum: 9a9277345e7b22be3b1c3d167db66583301f2e2fed8d04fdc138a304cd493658
 Description:  Translation for luci-app-opkg - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-opkg-pt
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-pt
 Section: luci
 Architecture: all
-Installed-Size: 1053
-Filename: luci-i18n-opkg-pt_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1877
-SHA256sum: af161278ad221ace133766274ea5acf0ee33c4b4e22b94e1ae9ac0a6c8123393
+Installed-Size: 2247
+Filename: luci-i18n-opkg-pt_git-19.323.39847-15816e6-1_all.ipk
+Size: 3079
+SHA256sum: 349b7fe5df85b40a794cd7ba3ce5c581f4f0aaa624555991468acd71fa8b518b
 Description:  Translation for luci-app-opkg - Português (Portuguese)
 
 Package: luci-i18n-opkg-ro
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-ro
 Section: luci
 Architecture: all
-Installed-Size: 956
-Filename: luci-i18n-opkg-ro_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1789
-SHA256sum: a5b5ccd47a358aea0c88c5601fb048eea00d0f9e0dde3fcb1edc09edf5735974
+Installed-Size: 978
+Filename: luci-i18n-opkg-ro_git-19.323.39847-15816e6-1_all.ipk
+Size: 1807
+SHA256sum: 3c7d9490a8a3ea503586b0a00ea836e8359a48abebfa0f121d9828bdd5161c8c
 Description:  Translation for luci-app-opkg - Română (Romanian)
 
 Package: luci-i18n-opkg-ru
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-ru
 Section: luci
 Architecture: all
-Installed-Size: 2541
-Filename: luci-i18n-opkg-ru_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3352
-SHA256sum: dba03978d871e2f4addb632273c12bfe1e53ab981224aa727124133ade152f7f
+Installed-Size: 2532
+Filename: luci-i18n-opkg-ru_git-19.323.39847-15816e6-1_all.ipk
+Size: 3341
+SHA256sum: 3d55cf10a60b6435f787dfa1bc4816c9f59fef4e5e1bf60cd2e4e7732fe05e24
 Description:  Translation for luci-app-opkg - Русский (Russian)
 
 Package: luci-i18n-opkg-sk
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-sk
 Section: luci
 Architecture: all
-Installed-Size: 318
-Filename: luci-i18n-opkg-sk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1133
-SHA256sum: 1202066b37949ef81b3464cd2d644ece8af2987fee39816100a67223298076a4
+Installed-Size: 319
+Filename: luci-i18n-opkg-sk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1136
+SHA256sum: 152e3d9135554af4599d0a713dc6885da303bccaa4ce8d40123c68106de6d13d
 Description:  Translation for luci-app-opkg - Slovenčina (Slovak)
 
 Package: luci-i18n-opkg-sv
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-sv
 Section: luci
 Architecture: all
-Installed-Size: 1082
-Filename: luci-i18n-opkg-sv_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1900
-SHA256sum: 46deff4b1a88f9f5467e81fcb4fa41c15dd3396377236ef3b40101faf7cf3ade
+Installed-Size: 1098
+Filename: luci-i18n-opkg-sv_git-19.323.39847-15816e6-1_all.ipk
+Size: 1914
+SHA256sum: d5849a9588d98ff6c6dfdd13f281d0e01c2f4fd84d62ed80311627853effb483
 Description:  Translation for luci-app-opkg - Svenska (Swedish)
 
 Package: luci-i18n-opkg-tr
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-tr
 Section: luci
 Architecture: all
-Installed-Size: 786
-Filename: luci-i18n-opkg-tr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1615
-SHA256sum: ffe75380d2bbf6bc4d6bde13be993748a9dbaacdf9880a95b15c561bd6a15cf5
+Installed-Size: 782
+Filename: luci-i18n-opkg-tr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1610
+SHA256sum: c1696f2bb0a484700968cfd47e81d1e7bc73a6e661a258dced28027403c07188
 Description:  Translation for luci-app-opkg - Türkçe (Turkish)
 
 Package: luci-i18n-opkg-uk
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-uk
 Section: luci
 Architecture: all
-Installed-Size: 2523
-Filename: luci-i18n-opkg-uk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3352
-SHA256sum: 94829469d5a6ce9f51787a737e54a316f58cd379be91a677b0d729f4c7919ff6
+Installed-Size: 2601
+Filename: luci-i18n-opkg-uk_git-19.323.39847-15816e6-1_all.ipk
+Size: 3431
+SHA256sum: f7371a17ce5ca30a135d464c434b471b33b67b8c7264d69ac0f2bfd19e2b3b2f
 Description:  Translation for luci-app-opkg - Українська (Ukrainian)
 
 Package: luci-i18n-opkg-vi
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-vi
 Section: luci
 Architecture: all
-Installed-Size: 928
-Filename: luci-i18n-opkg-vi_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1767
-SHA256sum: 8669984c2b41e538c7d38b51af429241897acd087c87c8fd7d70180228931df0
+Installed-Size: 946
+Filename: luci-i18n-opkg-vi_git-19.323.39847-15816e6-1_all.ipk
+Size: 1782
+SHA256sum: 9e010764bc80cc3542be7e8d7e54dff8fb20112db68582bcb9702dbf48d28083
 Description:  Translation for luci-app-opkg - Tiếng Việt (Vietnamese)
 
 Package: luci-i18n-opkg-zh-cn
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-zh-cn
 Section: luci
 Architecture: all
-Installed-Size: 2138
-Filename: luci-i18n-opkg-zh-cn_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2979
-SHA256sum: b664bfc0e1c871e360d4207533a75e66b5878a4f9ca3cc6973ea8c683d15748c
+Installed-Size: 2201
+Filename: luci-i18n-opkg-zh-cn_git-19.323.39847-15816e6-1_all.ipk
+Size: 3042
+SHA256sum: 33299ec22f2288288a34a04415dcdff5765e99d38760c082f6193d06ef5672fe
 Description:  Translation for luci-app-opkg - 中文 (Chinese)
 
 Package: luci-i18n-opkg-zh-tw
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-opkg
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-opkg
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-opkg
 SourceName: luci-i18n-opkg-zh-tw
 Section: luci
 Architecture: all
-Installed-Size: 1106
-Filename: luci-i18n-opkg-zh-tw_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1951
-SHA256sum: f5e3abf2c5c8a66251b3b15afc0be843e1acf6c87bd35c5b392e9b7c307bc704
+Installed-Size: 1126
+Filename: luci-i18n-opkg-zh-tw_git-19.323.39847-15816e6-1_all.ipk
+Size: 1973
+SHA256sum: 291be29afe3432522a0019c2d9b0f77556474737b4df5881c825b20a0d278dd7
 Description:  Translation for luci-app-opkg - 臺灣華語 (Taiwanese)
 
-Package: luci-i18n-unbound-es
-Version: git-19.127.24922-6b7afab-1
+Package: luci-i18n-uhttpd-ca
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-ca
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 315
+Filename: luci-i18n-uhttpd-ca_git-19.323.39847-15816e6-1_all.ipk
+Size: 1189
+SHA256sum: 38ae1c575467e465b03c513dfdac2bf0da807be2035779c9b6b122f9a0a6c482
+Description:  Translation for luci-app-uhttpd - Català (Catalan)
+
+Package: luci-i18n-uhttpd-cs
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-cs
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 322
+Filename: luci-i18n-uhttpd-cs_git-19.323.39847-15816e6-1_all.ipk
+Size: 1203
+SHA256sum: 4cbe30c7d7a86b94b76f3798644aede590fed94a5a3a7bdb00de81ebc4afa74d
+Description:  Translation for luci-app-uhttpd - Čeština (Czech)
+
+Package: luci-i18n-uhttpd-de
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-de
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 2360
+Filename: luci-i18n-uhttpd-de_git-19.323.39847-15816e6-1_all.ipk
+Size: 3247
+SHA256sum: 675c9f550d1bbadf5ebc17d74db689a9390ac06e8fad671cfeef6ae933b5220a
+Description:  Translation for luci-app-uhttpd - Deutsch (German)
+
+Package: luci-i18n-uhttpd-el
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-el
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 331
+Filename: luci-i18n-uhttpd-el_git-19.323.39847-15816e6-1_all.ipk
+Size: 1223
+SHA256sum: 28c975e0ba40fc4e842445e8866f7413f5b0e1f9af9d7a64517007a7f640bb97
+Description:  Translation for luci-app-uhttpd - Ελληνικά (Greek)
+
+Package: luci-i18n-uhttpd-en
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-en
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 305
+Filename: luci-i18n-uhttpd-en_git-19.323.39847-15816e6-1_all.ipk
+Size: 1167
+SHA256sum: 91780fe781faea8ab203ad0faa838b7e2c044ca8f7a3c64265752135af063a13
+Description:  Translation for luci-app-uhttpd - English
+
+Package: luci-i18n-uhttpd-es
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-es
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 2554
+Filename: luci-i18n-uhttpd-es_git-19.323.39847-15816e6-1_all.ipk
+Size: 3406
+SHA256sum: c9e93d3fb061fee4c6f9695015e3b3cd1fb27cacccddb1a118334683690e87c6
+Description:  Translation for luci-app-uhttpd - Español (Spanish)
+
+Package: luci-i18n-uhttpd-fr
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-fr
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 440
+Filename: luci-i18n-uhttpd-fr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1319
+SHA256sum: a30f3fd4b4504dc6cecc046158338a76316e19cbd49a4e1e386eab29368b8b48
+Description:  Translation for luci-app-uhttpd - Français (French)
+
+Package: luci-i18n-uhttpd-he
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-he
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 336
+Filename: luci-i18n-uhttpd-he_git-19.323.39847-15816e6-1_all.ipk
+Size: 1236
+SHA256sum: d327429d76ad85d72d65321b2f073739e2426b29514200e35a2467cff1fffb7c
+Description:  Translation for luci-app-uhttpd - עִבְרִית (Hebrew)
+
+Package: luci-i18n-uhttpd-hu
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-hu
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 317
+Filename: luci-i18n-uhttpd-hu_git-19.323.39847-15816e6-1_all.ipk
+Size: 1190
+SHA256sum: 3386c1802640fa8e038acb8eac74eb8cb35405ecd9b7254bd9f7d90ccf67a6b2
+Description:  Translation for luci-app-uhttpd - Magyar (Hungarian)
+
+Package: luci-i18n-uhttpd-it
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-it
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 310
+Filename: luci-i18n-uhttpd-it_git-19.323.39847-15816e6-1_all.ipk
+Size: 1182
+SHA256sum: 2964dad36caf0f60a384c6c8d98fcfa7d2a76ce35800de2ff814134e2e62f0b1
+Description:  Translation for luci-app-uhttpd - Italiano (Italian)
+
+Package: luci-i18n-uhttpd-ja
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-ja
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 2557
+Filename: luci-i18n-uhttpd-ja_git-19.323.39847-15816e6-1_all.ipk
+Size: 3423
+SHA256sum: 9981ab8fbc7545e349ff004d728c009fe9815053f2a62b2274c41decbb4267bf
+Description:  Translation for luci-app-uhttpd - 日本語 (Japanese)
+
+Package: luci-i18n-uhttpd-ko
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-ko
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 327
+Filename: luci-i18n-uhttpd-ko_git-19.323.39847-15816e6-1_all.ipk
+Size: 1217
+SHA256sum: 4cc2c2022d0f9fa2b7d13a38d60685cba0890ae2a43dfa95dbc2a392074ebaf9
+Description:  Translation for luci-app-uhttpd - 한국어 (Korean)
+
+Package: luci-i18n-uhttpd-ms
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-ms
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 319
+Filename: luci-i18n-uhttpd-ms_git-19.323.39847-15816e6-1_all.ipk
+Size: 1194
+SHA256sum: 308af21c4c55724cb78d553f0e87de0078d7b187064b95dcdbbe0042d2572223
+Description:  Translation for luci-app-uhttpd - Bahasa Melayu (Malay)
+
+Package: luci-i18n-uhttpd-pl
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-pl
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 1595
+Filename: luci-i18n-uhttpd-pl_git-19.323.39847-15816e6-1_all.ipk
+Size: 2482
+SHA256sum: 397fb90811a85d1116fba4b64806425b35cf82794f473ec9b57d76718f09d599
+Description:  Translation for luci-app-uhttpd - Polski (Polish)
+
+Package: luci-i18n-uhttpd-pt-br
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-pt-br
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 2574
+Filename: luci-i18n-uhttpd-pt-br_git-19.323.39847-15816e6-1_all.ipk
+Size: 3450
+SHA256sum: 24bef00005b04c25f2b4ff65eb443e3d7a47f757cfce466bea4cf875e4f1115d
+Description:  Translation for luci-app-uhttpd - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-uhttpd-pt
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-pt
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 473
+Filename: luci-i18n-uhttpd-pt_git-19.323.39847-15816e6-1_all.ipk
+Size: 1356
+SHA256sum: 5379d7b4fc379dfca2f03f1f84fe19c5ba1a545d79a57e694608af05934452a9
+Description:  Translation for luci-app-uhttpd - Português (Portuguese)
+
+Package: luci-i18n-uhttpd-ro
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-ro
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 322
+Filename: luci-i18n-uhttpd-ro_git-19.323.39847-15816e6-1_all.ipk
+Size: 1204
+SHA256sum: a14cb8a16e0eacbc1631587bcf53ae53e6f24e4446f40fac518b3b4f83b1518f
+Description:  Translation for luci-app-uhttpd - Română (Romanian)
+
+Package: luci-i18n-uhttpd-ru
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-ru
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 2956
+Filename: luci-i18n-uhttpd-ru_git-19.323.39847-15816e6-1_all.ipk
+Size: 3829
+SHA256sum: 6fdb1fac14016116502b9748a2393e31239673e57576889d93baf893e03d206f
+Description:  Translation for luci-app-uhttpd - Русский (Russian)
+
+Package: luci-i18n-uhttpd-sk
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-sk
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 320
+Filename: luci-i18n-uhttpd-sk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1202
+SHA256sum: ef5f9d8578c5194ded7926b6427da26181f9cd8a5f220d0e73c0cda22d60b117
+Description:  Translation for luci-app-uhttpd - Slovenčina (Slovak)
+
+Package: luci-i18n-uhttpd-sv
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-sv
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 462
+Filename: luci-i18n-uhttpd-sv_git-19.323.39847-15816e6-1_all.ipk
+Size: 1334
+SHA256sum: 8561bdb17c507d91cbceb9cb58dab863eae699ee52f9431d310df2e38d9c6d12
+Description:  Translation for luci-app-uhttpd - Svenska (Swedish)
+
+Package: luci-i18n-uhttpd-tr
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-tr
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 320
+Filename: luci-i18n-uhttpd-tr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1203
+SHA256sum: b18e4ccc2024e820b8f23376503f0d50930043f11507af2677ea7999a1539fe0
+Description:  Translation for luci-app-uhttpd - Türkçe (Turkish)
+
+Package: luci-i18n-uhttpd-uk
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-uk
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 483
+Filename: luci-i18n-uhttpd-uk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1388
+SHA256sum: 5a3726cbe75651b6109d6974a07d26228091f945ccec4fcb70e1b3b010b1db83
+Description:  Translation for luci-app-uhttpd - Українська (Ukrainian)
+
+Package: luci-i18n-uhttpd-vi
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-vi
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 333
+Filename: luci-i18n-uhttpd-vi_git-19.323.39847-15816e6-1_all.ipk
+Size: 1224
+SHA256sum: 3ba040d949fdd8a86c32a71047731b72710da5b36814703eb9353c94ebe36c80
+Description:  Translation for luci-app-uhttpd - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-uhttpd-zh-cn
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-zh-cn
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 2376
+Filename: luci-i18n-uhttpd-zh-cn_git-19.323.39847-15816e6-1_all.ipk
+Size: 3276
+SHA256sum: 6f70172cfb8af299eab97aa359d8bcd4b91f36a55d467a8a0a8e0bf22a43b55e
+Description:  Translation for luci-app-uhttpd - 中文 (Chinese)
+
+Package: luci-i18n-uhttpd-zh-tw
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-uhttpd
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-uhttpd
+SourceName: luci-i18n-uhttpd-zh-tw
+License: Apache-2.0
+Section: luci
+Maintainer: Daniel Dickinson <openwrt@daniel.thecshore.com>
+Architecture: all
+Installed-Size: 2356
+Filename: luci-i18n-uhttpd-zh-tw_git-19.323.39847-15816e6-1_all.ipk
+Size: 3268
+SHA256sum: 930f5623c68698807908837718abb5389a5fc1c4627c756a623d472e91af2690
+Description:  Translation for luci-app-uhttpd - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-unbound-ca
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-unbound
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-ca
+Section: luci
+Architecture: all
+Installed-Size: 467
+Filename: luci-i18n-unbound-ca_git-19.323.39847-15816e6-1_all.ipk
+Size: 1287
+SHA256sum: 199a819ad2c7836b9f076320756ec7651263106ff7f54eb78b1cb44f0b6ab455
+Description:  Translation for luci-app-unbound - Català (Catalan)
+
+Package: luci-i18n-unbound-cs
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-cs
+Section: luci
+Architecture: all
+Installed-Size: 386
+Filename: luci-i18n-unbound-cs_git-19.323.39847-15816e6-1_all.ipk
+Size: 1210
+SHA256sum: 8df4db91b9a8101ad55403f64c0c5c4330cd2a433b30b481cc342989fdf3949d
+Description:  Translation for luci-app-unbound - Čeština (Czech)
+
+Package: luci-i18n-unbound-de
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-de
+Section: luci
+Architecture: all
+Installed-Size: 1031
+Filename: luci-i18n-unbound-de_git-19.323.39847-15816e6-1_all.ipk
+Size: 1851
+SHA256sum: 9ed177d996d98f8466d91d3541e531e655e623356bd18c735bb12966cd71c233
+Description:  Translation for luci-app-unbound - Deutsch (German)
+
+Package: luci-i18n-unbound-el
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-el
+Section: luci
+Architecture: all
+Installed-Size: 332
+Filename: luci-i18n-unbound-el_git-19.323.39847-15816e6-1_all.ipk
+Size: 1166
+SHA256sum: bd01f3b3243132b7d669315556af69464adc32c7a6f5c30adb940484a98d4ccd
+Description:  Translation for luci-app-unbound - Ελληνικά (Greek)
+
+Package: luci-i18n-unbound-en
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-en
+Section: luci
+Architecture: all
+Installed-Size: 305
+Filename: luci-i18n-unbound-en_git-19.323.39847-15816e6-1_all.ipk
+Size: 1114
+SHA256sum: a1a40b865a9425bc7e4510c4073363cda7c1194985923fa08a9c2b1997344a98
+Description:  Translation for luci-app-unbound - English
+
+Package: luci-i18n-unbound-es
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
 SourceName: luci-i18n-unbound-es
 Section: luci
 Architecture: all
-Installed-Size: 5233
-Filename: luci-i18n-unbound-es_git-19.127.24922-6b7afab-1_all.ipk
-Size: 6029
-SHA256sum: 996148ad6dfaef11cba31743a04a3d0d6280b854f46de708527ac532d5867431
+Installed-Size: 5301
+Filename: luci-i18n-unbound-es_git-19.323.39847-15816e6-1_all.ipk
+Size: 6096
+SHA256sum: 315e760c526be7c1e4165e5caf85632d05b79fb330534620f09c5724994a3c8b
 Description:  Translation for luci-app-unbound - Español (Spanish)
 
-Package: luci-i18n-unbound-zh-cn
-Version: git-19.127.24922-6b7afab-1
+Package: luci-i18n-unbound-fr
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-unbound
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-fr
+Section: luci
+Architecture: all
+Installed-Size: 979
+Filename: luci-i18n-unbound-fr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1805
+SHA256sum: 01b2ef7a1e6779232d538a6098d8dcb2a02fc47abe5d9c500977c0280434c113
+Description:  Translation for luci-app-unbound - Français (French)
+
+Package: luci-i18n-unbound-he
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-he
+Section: luci
+Architecture: all
+Installed-Size: 335
+Filename: luci-i18n-unbound-he_git-19.323.39847-15816e6-1_all.ipk
+Size: 1176
+SHA256sum: df171295ad9cdd8b1bea3efd23c581ec8649dbc233faf4eece891d1bc6d815d3
+Description:  Translation for luci-app-unbound - עִבְרִית (Hebrew)
+
+Package: luci-i18n-unbound-hu
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-hu
+Section: luci
+Architecture: all
+Installed-Size: 317
+Filename: luci-i18n-unbound-hu_git-19.323.39847-15816e6-1_all.ipk
+Size: 1135
+SHA256sum: d09b73ff2d660b6a40ac4ccfc8a8d5b4944c72b5ac207747750cd5ba3963849f
+Description:  Translation for luci-app-unbound - Magyar (Hungarian)
+
+Package: luci-i18n-unbound-it
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-it
+Section: luci
+Architecture: all
+Installed-Size: 310
+Filename: luci-i18n-unbound-it_git-19.323.39847-15816e6-1_all.ipk
+Size: 1116
+SHA256sum: 55008ab47bde04be57e64702d0a3170b5b331fcd4d9323a1ff594abfc74c2bd0
+Description:  Translation for luci-app-unbound - Italiano (Italian)
+
+Package: luci-i18n-unbound-ja
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-ja
+Section: luci
+Architecture: all
+Installed-Size: 330
+Filename: luci-i18n-unbound-ja_git-19.323.39847-15816e6-1_all.ipk
+Size: 1162
+SHA256sum: 859342934097feb1498a200bb0f220677b30114630167789b4b83bbc967b1c09
+Description:  Translation for luci-app-unbound - 日本語 (Japanese)
+
+Package: luci-i18n-unbound-ko
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-ko
+Section: luci
+Architecture: all
+Installed-Size: 327
+Filename: luci-i18n-unbound-ko_git-19.323.39847-15816e6-1_all.ipk
+Size: 1160
+SHA256sum: 6cdc6668d76cea8cf84b84b193ed0cb1f92984cc6edc62ae86a1de919e21c45d
+Description:  Translation for luci-app-unbound - 한국어 (Korean)
+
+Package: luci-i18n-unbound-ms
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-ms
+Section: luci
+Architecture: all
+Installed-Size: 318
+Filename: luci-i18n-unbound-ms_git-19.323.39847-15816e6-1_all.ipk
+Size: 1135
+SHA256sum: 8cc0c7b94a3a8ab820dab73ed3b7ece0986be600e70c6b9b38cce4ffbd8a48fc
+Description:  Translation for luci-app-unbound - Bahasa Melayu (Malay)
+
+Package: luci-i18n-unbound-pl
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-pl
+Section: luci
+Architecture: all
+Installed-Size: 919
+Filename: luci-i18n-unbound-pl_git-19.323.39847-15816e6-1_all.ipk
+Size: 1746
+SHA256sum: 259cdc01ffef77d5b12027d80626be20799b23785f0bc6536ef6ab6a1bcc5bed
+Description:  Translation for luci-app-unbound - Polski (Polish)
+
+Package: luci-i18n-unbound-pt
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-pt
+Section: luci
+Architecture: all
+Installed-Size: 612
+Filename: luci-i18n-unbound-pt_git-19.323.39847-15816e6-1_all.ipk
+Size: 1435
+SHA256sum: 13a6bb14890ae353d4b9ad5f4a622575ea0e5d79144137d832429c234b5db844
+Description:  Translation for luci-app-unbound - Português (Portuguese)
+
+Package: luci-i18n-unbound-ro
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-ro
+Section: luci
+Architecture: all
+Installed-Size: 377
+Filename: luci-i18n-unbound-ro_git-19.323.39847-15816e6-1_all.ipk
+Size: 1195
+SHA256sum: 20dd36edda87dc703d7ff75a6d173435d85afaaacc590b9ce8b47ed26a15858d
+Description:  Translation for luci-app-unbound - Română (Romanian)
+
+Package: luci-i18n-unbound-ru
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-ru
+Section: luci
+Architecture: all
+Installed-Size: 332
+Filename: luci-i18n-unbound-ru_git-19.323.39847-15816e6-1_all.ipk
+Size: 1166
+SHA256sum: 406b1f611aa5c04b81169096c1911329514e2dc0db4d2a45aaf70d23ae26913f
+Description:  Translation for luci-app-unbound - Русский (Russian)
+
+Package: luci-i18n-unbound-sk
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-sk
+Section: luci
+Architecture: all
+Installed-Size: 320
+Filename: luci-i18n-unbound-sk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1139
+SHA256sum: c0d27d40a0c6e6bbf8221b5ae8df825e8781908c63213731bcc320f6ddac39a5
+Description:  Translation for luci-app-unbound - Slovenčina (Slovak)
+
+Package: luci-i18n-unbound-sv
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-sv
+Section: luci
+Architecture: all
+Installed-Size: 627
+Filename: luci-i18n-unbound-sv_git-19.323.39847-15816e6-1_all.ipk
+Size: 1448
+SHA256sum: 4a98f1ce4b6f3e1148a065d0208f38c0227159d866b677a02fa7ddaaf609704d
+Description:  Translation for luci-app-unbound - Svenska (Swedish)
+
+Package: luci-i18n-unbound-tr
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-tr
+Section: luci
+Architecture: all
+Installed-Size: 382
+Filename: luci-i18n-unbound-tr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1204
+SHA256sum: d54562364593da72c06571b18b7940f0a9d2c88c8bf958f050c70f0014b94f75
+Description:  Translation for luci-app-unbound - Türkçe (Turkish)
+
+Package: luci-i18n-unbound-uk
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-uk
+Section: luci
+Architecture: all
+Installed-Size: 568
+Filename: luci-i18n-unbound-uk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1413
+SHA256sum: df2d2740e884ffa707b7a8a9b4487f2fa64885e862fba634671e94c981d14641
+Description:  Translation for luci-app-unbound - Українська (Ukrainian)
+
+Package: luci-i18n-unbound-vi
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
+SourceName: luci-i18n-unbound-vi
+Section: luci
+Architecture: all
+Installed-Size: 484
+Filename: luci-i18n-unbound-vi_git-19.323.39847-15816e6-1_all.ipk
+Size: 1318
+SHA256sum: 2b731b920495028472586b69a94de47e9f74a34f96054c4a74eb8c07779214ad
+Description:  Translation for luci-app-unbound - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-unbound-zh-cn
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
 SourceName: luci-i18n-unbound-zh-cn
 Section: luci
 Architecture: all
-Installed-Size: 4903
-Filename: luci-i18n-unbound-zh-cn_git-19.127.24922-6b7afab-1_all.ipk
-Size: 5720
-SHA256sum: 69260d0346ed39d3e75141d9ad8fdf3492030c757df377edd5a6e1c953a53a64
+Installed-Size: 5124
+Filename: luci-i18n-unbound-zh-cn_git-19.323.39847-15816e6-1_all.ipk
+Size: 5929
+SHA256sum: 7f2fc69bf6d6874fec83edb444535a567623ce359b9fcc64348d881cb453f720
 Description:  Translation for luci-app-unbound - 中文 (Chinese)
 
 Package: luci-i18n-unbound-zh-tw
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-unbound
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-unbound
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-unbound
 SourceName: luci-i18n-unbound-zh-tw
 Section: luci
 Architecture: all
 Installed-Size: 4932
-Filename: luci-i18n-unbound-zh-tw_git-19.127.24922-6b7afab-1_all.ipk
-Size: 5759
-SHA256sum: 345f9983688ca5e248e7ceae9e77f5fbb0b661367b094e4a096290f3d488ec32
+Filename: luci-i18n-unbound-zh-tw_git-19.323.39847-15816e6-1_all.ipk
+Size: 5755
+SHA256sum: 7533b0defa6d3525645fc8697c0782e5b87f59c1cbec057dbb266df1f9308f44
 Description:  Translation for luci-app-unbound - 臺灣華語 (Taiwanese)
 
 Package: luci-i18n-upnp-ca
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-ca
 Section: luci
 Architecture: all
-Installed-Size: 1435
-Filename: luci-i18n-upnp-ca_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2268
-SHA256sum: f555f199ed2de78467d4ec6ffc06761b977afb2250d12a16c96b37f565e4cffe
+Installed-Size: 1527
+Filename: luci-i18n-upnp-ca_git-19.323.39847-15816e6-1_all.ipk
+Size: 2358
+SHA256sum: dbba09a991e6072a099bc91052704014a9ff4c4e13b573627b4b96fd02c779b1
 Description:  Translation for luci-app-upnp - Català (Catalan)
 
 Package: luci-i18n-upnp-cs
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-cs
 Section: luci
 Architecture: all
-Installed-Size: 1493
-Filename: luci-i18n-upnp-cs_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2330
-SHA256sum: 3d372f38f8baecedab2c15608efd4fee3d55e44554a2543491d25253d7123b7a
+Installed-Size: 1494
+Filename: luci-i18n-upnp-cs_git-19.323.39847-15816e6-1_all.ipk
+Size: 2328
+SHA256sum: 788f647fc46080fbbc6ff7ca9149f480812666787cdcde9439907a8508fa3fbd
 Description:  Translation for luci-app-upnp - Čeština (Czech)
 
 Package: luci-i18n-upnp-de
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-de
 Section: luci
 Architecture: all
-Installed-Size: 1423
-Filename: luci-i18n-upnp-de_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2252
-SHA256sum: 01093efcbeb02f67aa174b5df1251385cf56d1ec360a10f4d173fbfbc9cfb417
+Installed-Size: 1505
+Filename: luci-i18n-upnp-de_git-19.323.39847-15816e6-1_all.ipk
+Size: 2331
+SHA256sum: 041f7e7a73126e9c0728ef324f4c4614e79563f9d044d235e66fe57f40d70aa2
 Description:  Translation for luci-app-upnp - Deutsch (German)
 
 Package: luci-i18n-upnp-el
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-el
 Section: luci
 Architecture: all
-Installed-Size: 329
-Filename: luci-i18n-upnp-el_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1166
-SHA256sum: dd3987f40d257ff86aea58b4e9299fecc4c0e8a2f7797e57140afe2c7742b889
+Installed-Size: 330
+Filename: luci-i18n-upnp-el_git-19.323.39847-15816e6-1_all.ipk
+Size: 1163
+SHA256sum: fa951db98025833935e82b62ce25f8ab7fcb7bd6487021ccc32720b5980846d5
 Description:  Translation for luci-app-upnp - Ελληνικά (Greek)
 
 Package: luci-i18n-upnp-en
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-en
 Section: luci
 Architecture: all
 Installed-Size: 303
-Filename: luci-i18n-upnp-en_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1107
-SHA256sum: 76b7d4d8da0f60ffe15da06d743dcfa28a1dcab617f7e0af2dd451cd9514d044
+Filename: luci-i18n-upnp-en_git-19.323.39847-15816e6-1_all.ipk
+Size: 1109
+SHA256sum: ca160c32f6998001a546c6215c9e1d26a9e1c622ab360679cb9711443ddb228f
 Description:  Translation for luci-app-upnp - English
 
 Package: luci-i18n-upnp-es
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-es
 Section: luci
 Architecture: all
-Installed-Size: 1648
-Filename: luci-i18n-upnp-es_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2477
-SHA256sum: d6d8f5f38dbb4f43041d6df2a56f1482f08877d57b67291d5d9e0285ff322f13
+Installed-Size: 1654
+Filename: luci-i18n-upnp-es_git-19.323.39847-15816e6-1_all.ipk
+Size: 2491
+SHA256sum: fbde7f5f5063d09d9db665d403d5bc4664f25589f1766a365ddf66538f338b57
 Description:  Translation for luci-app-upnp - Español (Spanish)
 
 Package: luci-i18n-upnp-fr
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-fr
 Section: luci
 Architecture: all
-Installed-Size: 1507
-Filename: luci-i18n-upnp-fr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2337
-SHA256sum: 2639fc774dd153395e4695c209a7fd9ced60f2428b08d6fde1d82955bea307c7
+Installed-Size: 1508
+Filename: luci-i18n-upnp-fr_git-19.323.39847-15816e6-1_all.ipk
+Size: 2342
+SHA256sum: b8005c5f7d6717870b4225c202fe2be4597831f945c3e3043a1b72e7a95dfedc
 Description:  Translation for luci-app-upnp - Français (French)
 
 Package: luci-i18n-upnp-he
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-he
 Section: luci
 Architecture: all
-Installed-Size: 333
-Filename: luci-i18n-upnp-he_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1173
-SHA256sum: 46add007fd873d46ecd593cf07dd0571e01fb2f140667e0ba934c47fda6f580e
+Installed-Size: 334
+Filename: luci-i18n-upnp-he_git-19.323.39847-15816e6-1_all.ipk
+Size: 1172
+SHA256sum: 967e15d845fba60db7fd532ea158c4c483446caa81ee070fa018f4f7799a3ca5
 Description:  Translation for luci-app-upnp - עִבְרִית (Hebrew)
 
 Package: luci-i18n-upnp-hu
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-hu
 Section: luci
 Architecture: all
-Installed-Size: 1609
-Filename: luci-i18n-upnp-hu_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2448
-SHA256sum: 20cbb714c530bacc2214e8162dd11ca0949d5fa4708303be7439310493ea1a10
+Installed-Size: 1612
+Filename: luci-i18n-upnp-hu_git-19.323.39847-15816e6-1_all.ipk
+Size: 2440
+SHA256sum: e468c33b66f3118eee1e0a4ffd0cd7fde0547aa850a219f22c8111621513f571
 Description:  Translation for luci-app-upnp - Magyar (Hungarian)
 
 Package: luci-i18n-upnp-it
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-it
 Section: luci
 Architecture: all
-Installed-Size: 1404
-Filename: luci-i18n-upnp-it_git-19.127.24922-6b7afab-1_all.ipk
+Installed-Size: 1405
+Filename: luci-i18n-upnp-it_git-19.323.39847-15816e6-1_all.ipk
 Size: 2228
-SHA256sum: 71388f68ab5cf475a65c7d611e3036228c5931e08e726af3296e87c64c6d3173
+SHA256sum: e6455d4e716f880143ccf70b9cc322f5eefe689ce24061a9e4590acdc13f0405
 Description:  Translation for luci-app-upnp - Italiano (Italian)
 
 Package: luci-i18n-upnp-ja
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-ja
 Section: luci
 Architecture: all
-Installed-Size: 1687
-Filename: luci-i18n-upnp-ja_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2531
-SHA256sum: 61f2ad7a6e249c7831c025a024ae548ca69e24d63cae061fb3a71c85ce3c7ae7
+Installed-Size: 1689
+Filename: luci-i18n-upnp-ja_git-19.323.39847-15816e6-1_all.ipk
+Size: 2533
+SHA256sum: 7eaef0c8318796d4b52e4bba12cf95af4a3eccadfeb46a58eaedbc91c189f58d
 Description:  Translation for luci-app-upnp - 日本語 (Japanese)
 
-Package: luci-i18n-upnp-ms
-Version: git-19.127.24922-6b7afab-1
+Package: luci-i18n-upnp-ko
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
+SourceName: luci-i18n-upnp-ko
+Section: luci
+Architecture: all
+Installed-Size: 325
+Filename: luci-i18n-upnp-ko_git-19.323.39847-15816e6-1_all.ipk
+Size: 1151
+SHA256sum: 7299a65682beb1a31004f0a604533b1c64b878e6d5824e27d7de892c4d89c600
+Description:  Translation for luci-app-upnp - 한국어 (Korean)
+
+Package: luci-i18n-upnp-ms
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-ms
 Section: luci
 Architecture: all
 Installed-Size: 317
-Filename: luci-i18n-upnp-ms_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1131
-SHA256sum: ac14dc37a693a9e327eefdcebedf76152c86d9ece31a8484258b2f9f571d623a
+Filename: luci-i18n-upnp-ms_git-19.323.39847-15816e6-1_all.ipk
+Size: 1135
+SHA256sum: e3c26042d451398051da8abfe135d7cbce5fcd48d039ce2d8329feb1620c3cf2
 Description:  Translation for luci-app-upnp - Bahasa Melayu (Malay)
 
 Package: luci-i18n-upnp-no
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-no
 Section: luci
 Architecture: all
-Installed-Size: 1435
-Filename: luci-i18n-upnp-no_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2265
-SHA256sum: f4206b2f0eed36c19ae2e9ddd11dcce9a94eab6ca2b33a15a4c2348bc244eb70
+Installed-Size: 1457
+Filename: luci-i18n-upnp-no_git-19.323.39847-15816e6-1_all.ipk
+Size: 2284
+SHA256sum: f8627fb5ef94822b2e23ec842bf27cc268246590257577eb1866474c0bf3302e
 Description:  Translation for luci-app-upnp - Norsk (Norwegian)
 
 Package: luci-i18n-upnp-pl
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-pl
 Section: luci
 Architecture: all
-Installed-Size: 1473
-Filename: luci-i18n-upnp-pl_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2303
-SHA256sum: cdc7074bffe360fafa1eb3d3c499a9cad4d01fe0af73a38526f03d988bca5428
+Installed-Size: 1593
+Filename: luci-i18n-upnp-pl_git-19.323.39847-15816e6-1_all.ipk
+Size: 2417
+SHA256sum: 3bece4219d5aced1d4f3d3562a7f8976179966741f5b2ba9c3f8bea9ca3b648d
 Description:  Translation for luci-app-upnp - Polski (Polish)
 
 Package: luci-i18n-upnp-pt-br
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-pt-br
 Section: luci
 Architecture: all
-Installed-Size: 1809
-Filename: luci-i18n-upnp-pt-br_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2656
-SHA256sum: 5f133f4f7a4d8f8cc6df818bb4be0b4be45663453195082454d6813846baa001
+Installed-Size: 1814
+Filename: luci-i18n-upnp-pt-br_git-19.323.39847-15816e6-1_all.ipk
+Size: 2659
+SHA256sum: 9929785a032cecf83ac36ea67fcd0acfea09be96f69d8ecb2d06e1fddc747cea
 Description:  Translation for luci-app-upnp - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-upnp-pt
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-pt
 Section: luci
 Architecture: all
-Installed-Size: 445
-Filename: luci-i18n-upnp-pt_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1265
-SHA256sum: 61234f25b250c8ad111bee01d1427d2f86c0e6fa6c739c68a2b60760c2265e28
+Installed-Size: 1605
+Filename: luci-i18n-upnp-pt_git-19.323.39847-15816e6-1_all.ipk
+Size: 2439
+SHA256sum: bd17363c6998ee4a63144afc13f3effbb955f226ea4b7a41035a01bbd6f6d65c
 Description:  Translation for luci-app-upnp - Português (Portuguese)
 
 Package: luci-i18n-upnp-ro
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-ro
 Section: luci
 Architecture: all
 Installed-Size: 1401
-Filename: luci-i18n-upnp-ro_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2238
-SHA256sum: 64be758d2f137ac54892950c288041d0bb3408911d459f745f910ad218efb238
+Filename: luci-i18n-upnp-ro_git-19.323.39847-15816e6-1_all.ipk
+Size: 2239
+SHA256sum: 43b307d9e27a5144d7095fd5df9e0ff61651199787102e594acc55f45d5e1aef
 Description:  Translation for luci-app-upnp - Română (Romanian)
 
 Package: luci-i18n-upnp-ru
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-ru
 Section: luci
 Architecture: all
 Installed-Size: 1787
-Filename: luci-i18n-upnp-ru_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2636
-SHA256sum: 4694b99701c290f67aab436164837f99f128433cffb928d7ecd201a70e64c765
+Filename: luci-i18n-upnp-ru_git-19.323.39847-15816e6-1_all.ipk
+Size: 2630
+SHA256sum: 4ecd327462ba2db2da15a75b514698ff6bc9700c510f9d00ab9cb0cc4c7522eb
 Description:  Translation for luci-app-upnp - Русский (Russian)
 
 Package: luci-i18n-upnp-sk
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-sk
 Section: luci
 Architecture: all
-Installed-Size: 319
-Filename: luci-i18n-upnp-sk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1140
-SHA256sum: fa9d502b6890174bb18bf5eaa6062f9a83dfc1bb05f753580e9cd67cc4e4e3f1
+Installed-Size: 318
+Filename: luci-i18n-upnp-sk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1133
+SHA256sum: 8749b0108cd0313f11a80a6cf111baa19660eda148870b0598c7da7ee05e38f3
 Description:  Translation for luci-app-upnp - Slovenčina (Slovak)
 
 Package: luci-i18n-upnp-sv
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-sv
 Section: luci
 Architecture: all
-Installed-Size: 1399
-Filename: luci-i18n-upnp-sv_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2229
-SHA256sum: fc648d60aac1978a482bd442b88c0eedd1f4189110541f1ba68cfb26fac34516
+Installed-Size: 1471
+Filename: luci-i18n-upnp-sv_git-19.323.39847-15816e6-1_all.ipk
+Size: 2298
+SHA256sum: 6c28a35e71ccbb71befb5132df9d5d31d03dca1c090dd163c1e5837a730b45bd
 Description:  Translation for luci-app-upnp - Svenska (Swedish)
 
 Package: luci-i18n-upnp-tr
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-tr
 Section: luci
 Architecture: all
-Installed-Size: 320
-Filename: luci-i18n-upnp-tr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1141
-SHA256sum: ff176c9e7bfdfbed6e95b132a7cdf73d409dce0976b848b4ce0495fecb15b66f
+Installed-Size: 382
+Filename: luci-i18n-upnp-tr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1203
+SHA256sum: 838b781063ab7f288823e066ea5f4e2b43f686364965a45e4ce4f941a403ecbe
 Description:  Translation for luci-app-upnp - Türkçe (Turkish)
 
 Package: luci-i18n-upnp-uk
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-uk
 Section: luci
 Architecture: all
 Installed-Size: 1862
-Filename: luci-i18n-upnp-uk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2726
-SHA256sum: 3f8a86bea9626db5d8119e09e7e02abc26ec5ad2a30f86cc347802ebc5af682b
+Filename: luci-i18n-upnp-uk_git-19.323.39847-15816e6-1_all.ipk
+Size: 2727
+SHA256sum: 6752dec10724e12798fbb7e9aa215df6cb98e006bd793f767d79911db2ae1a93
 Description:  Translation for luci-app-upnp - Українська (Ukrainian)
 
 Package: luci-i18n-upnp-vi
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-vi
 Section: luci
 Architecture: all
-Installed-Size: 418
-Filename: luci-i18n-upnp-vi_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1250
-SHA256sum: 57d03273f4827d1669bbbac0b8bf1c1229149cb269abbcdb5f60ec87fc63ba07
+Installed-Size: 543
+Filename: luci-i18n-upnp-vi_git-19.323.39847-15816e6-1_all.ipk
+Size: 1379
+SHA256sum: d8bc614b6d2f22ac39ccb543e5d16979e49955b8e795338dae4b7771b32f56d2
 Description:  Translation for luci-app-upnp - Tiếng Việt (Vietnamese)
 
 Package: luci-i18n-upnp-zh-cn
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-zh-cn
 Section: luci
 Architecture: all
-Installed-Size: 1634
-Filename: luci-i18n-upnp-zh-cn_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2475
-SHA256sum: 7f6d4534994bba7f4860697e67a740e52bd03027befc5ec5b6c8b38769f74538
+Installed-Size: 1636
+Filename: luci-i18n-upnp-zh-cn_git-19.323.39847-15816e6-1_all.ipk
+Size: 2481
+SHA256sum: 5971a9dda4a2807581d4bd15c36cd855c7972d4aaff0e21356c44d33f56f2afd
 Description:  Translation for luci-app-upnp - 中文 (Chinese)
 
 Package: luci-i18n-upnp-zh-tw
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-upnp
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-upnp
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-zh-tw
 Section: luci
 Architecture: all
 Installed-Size: 1600
-Filename: luci-i18n-upnp-zh-tw_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2459
-SHA256sum: b343b21f3becd26f2403b5aa74d99beabf362e519956f71b1f1b34586c485b6d
+Filename: luci-i18n-upnp-zh-tw_git-19.323.39847-15816e6-1_all.ipk
+Size: 2457
+SHA256sum: 19a24ea8b01ebac3ad4e30e286552dfecab748a863af082da2c88a52b61857fc
 Description:  Translation for luci-app-upnp - 臺灣華語 (Taiwanese)
 
-Package: luci-i18n-vnstat-ca
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-ca
-Section: luci
-Architecture: all
-Installed-Size: 851
-Filename: luci-i18n-vnstat-ca_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1678
-SHA256sum: 2149b5d31e29b55f45b4117d43bf23d0859478832b84bb409182a5059d743532
-Description:  Translation for luci-app-vnstat - Català (Catalan)
-
-Package: luci-i18n-vnstat-cs
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-cs
-Section: luci
-Architecture: all
-Installed-Size: 877
-Filename: luci-i18n-vnstat-cs_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1714
-SHA256sum: 04221d75e00d1820f4afa3ec144407cb4ce2d1aef94fbee01e515f4b01d8d1eb
-Description:  Translation for luci-app-vnstat - Čeština (Czech)
-
-Package: luci-i18n-vnstat-de
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-de
-Section: luci
-Architecture: all
-Installed-Size: 877
-Filename: luci-i18n-vnstat-de_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1695
-SHA256sum: ad799b74b13f4a11f482ac6563d2472563cac2de981602b6f4ede32a7f4603b0
-Description:  Translation for luci-app-vnstat - Deutsch (German)
-
-Package: luci-i18n-vnstat-el
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-el
-Section: luci
-Architecture: all
-Installed-Size: 331
-Filename: luci-i18n-vnstat-el_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1167
-SHA256sum: aff2cd4d57204d3b5b3f32bee63d545b5d2870290bae18a41b814799e06c773d
-Description:  Translation for luci-app-vnstat - Ελληνικά (Greek)
-
-Package: luci-i18n-vnstat-en
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-en
-Section: luci
-Architecture: all
-Installed-Size: 305
-Filename: luci-i18n-vnstat-en_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1110
-SHA256sum: a5fab8abe6a7ddcb5c26f01fa192c05203588c854d2bb09e2998ed70f7f366f2
-Description:  Translation for luci-app-vnstat - English
-
-Package: luci-i18n-vnstat-es
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-es
-Section: luci
-Architecture: all
-Installed-Size: 861
-Filename: luci-i18n-vnstat-es_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1681
-SHA256sum: f3bdaa612817b014960b68ad81760d2b30ccd6c08419eef0ea90b01a76b89a24
-Description:  Translation for luci-app-vnstat - Español (Spanish)
-
-Package: luci-i18n-vnstat-fr
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-fr
-Section: luci
-Architecture: all
-Installed-Size: 852
-Filename: luci-i18n-vnstat-fr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1679
-SHA256sum: c2f770fa135c55824f16f633ed5eeebc761d9f4ca3de9689bf09f3af8ce9bcfd
-Description:  Translation for luci-app-vnstat - Français (French)
-
-Package: luci-i18n-vnstat-he
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-he
-Section: luci
-Architecture: all
-Installed-Size: 335
-Filename: luci-i18n-vnstat-he_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1172
-SHA256sum: 5b05cc934d595cd676582934199881e40188438cfb5f915900c883b9bda1403b
-Description:  Translation for luci-app-vnstat - עִבְרִית (Hebrew)
-
-Package: luci-i18n-vnstat-hu
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-hu
-Section: luci
-Architecture: all
-Installed-Size: 870
-Filename: luci-i18n-vnstat-hu_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1701
-SHA256sum: acd28f1e50cd9c2e2ab33d19527beda225d1f59a875034b20a2d1d0d1af38f6a
-Description:  Translation for luci-app-vnstat - Magyar (Hungarian)
-
-Package: luci-i18n-vnstat-it
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-it
-Section: luci
-Architecture: all
-Installed-Size: 787
-Filename: luci-i18n-vnstat-it_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1606
-SHA256sum: 772c58fb501feb09cae6f3c624d108dc50b019b40f1a7d0b9206f048b0670cb9
-Description:  Translation for luci-app-vnstat - Italiano (Italian)
-
-Package: luci-i18n-vnstat-ja
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-ja
-Section: luci
-Architecture: all
-Installed-Size: 914
-Filename: luci-i18n-vnstat-ja_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1756
-SHA256sum: e6f7c4b7406819f537408202eccea3b72246e22aedc73e09ac65d14e67b601ca
-Description:  Translation for luci-app-vnstat - 日本語 (Japanese)
-
-Package: luci-i18n-vnstat-ms
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-ms
-Section: luci
-Architecture: all
-Installed-Size: 318
-Filename: luci-i18n-vnstat-ms_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1134
-SHA256sum: af626fa3c51e496fa01d9691d4736661f1d58f2a22fca4b677d6b12dcea4b7cb
-Description:  Translation for luci-app-vnstat - Bahasa Melayu (Malay)
-
-Package: luci-i18n-vnstat-no
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-no
-Section: luci
-Architecture: all
-Installed-Size: 830
-Filename: luci-i18n-vnstat-no_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1655
-SHA256sum: 20a908a96f8caa5faae1564931ec2b095e28758b2c6a6e6a7cb14034259bdad3
-Description:  Translation for luci-app-vnstat - Norsk (Norwegian)
-
-Package: luci-i18n-vnstat-pl
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-pl
-Section: luci
-Architecture: all
-Installed-Size: 865
-Filename: luci-i18n-vnstat-pl_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1695
-SHA256sum: 9c89b89aa0302e322d6da9a3df436d4f97252487c534cc94459e9fe483b6ad6e
-Description:  Translation for luci-app-vnstat - Polski (Polish)
-
-Package: luci-i18n-vnstat-pt-br
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-pt-br
-Section: luci
-Architecture: all
-Installed-Size: 869
-Filename: luci-i18n-vnstat-pt-br_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1718
-SHA256sum: 3d27131582777d990a3acf75f2b44e67edb4c679aa8684b5c4ae6fafce196b4f
-Description:  Translation for luci-app-vnstat - Português do Brasil (Brazialian Portuguese)
-
-Package: luci-i18n-vnstat-pt
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-pt
-Section: luci
-Architecture: all
-Installed-Size: 848
-Filename: luci-i18n-vnstat-pt_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1680
-SHA256sum: 8b2259d78d65fe112a8cad4b592990e1c9df211f1f44c379dd0e5a2f1e939985
-Description:  Translation for luci-app-vnstat - Português (Portuguese)
-
-Package: luci-i18n-vnstat-ro
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-ro
-Section: luci
-Architecture: all
-Installed-Size: 826
-Filename: luci-i18n-vnstat-ro_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1653
-SHA256sum: 6c0a5eb5c542bf349b2523b8641e227b276297a8b83cca8b1d2b29c8568edc54
-Description:  Translation for luci-app-vnstat - Română (Romanian)
-
-Package: luci-i18n-vnstat-ru
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-ru
-Section: luci
-Architecture: all
-Installed-Size: 926
-Filename: luci-i18n-vnstat-ru_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1766
-SHA256sum: 093e205342c12ed237f098119932e83f79c4e96b55a8d1a14fbf352cd61c3b66
-Description:  Translation for luci-app-vnstat - Русский (Russian)
-
-Package: luci-i18n-vnstat-sk
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-sk
-Section: luci
-Architecture: all
-Installed-Size: 320
-Filename: luci-i18n-vnstat-sk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1139
-SHA256sum: 752fc1967d2f2dd66de4a8672d13234c2428672418943ad36e48dd16f9792720
-Description:  Translation for luci-app-vnstat - Slovenčina (Slovak)
-
-Package: luci-i18n-vnstat-sv
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-sv
-Section: luci
-Architecture: all
-Installed-Size: 734
-Filename: luci-i18n-vnstat-sv_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1557
-SHA256sum: a1d913cbbab387bffe084fa9e912279321aee2fef7fdb67d94c901e0448567e1
-Description:  Translation for luci-app-vnstat - Svenska (Swedish)
-
-Package: luci-i18n-vnstat-tr
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-tr
-Section: luci
-Architecture: all
-Installed-Size: 320
-Filename: luci-i18n-vnstat-tr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1139
-SHA256sum: 2248af35c4c0a93c9c673428cacfab029b51c74c9db50b5d40418b3bd9af3d13
-Description:  Translation for luci-app-vnstat - Türkçe (Turkish)
-
-Package: luci-i18n-vnstat-uk
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-uk
-Section: luci
-Architecture: all
-Installed-Size: 969
-Filename: luci-i18n-vnstat-uk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1819
-SHA256sum: 791e8037000d2e3ccb72a57562fb1586787c290402b19fc677e262ec01701af8
-Description:  Translation for luci-app-vnstat - Українська (Ukrainian)
-
-Package: luci-i18n-vnstat-vi
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-vi
-Section: luci
-Architecture: all
-Installed-Size: 331
-Filename: luci-i18n-vnstat-vi_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1170
-SHA256sum: 34e664e9b178b8d746bcf7abecbfea5a5cec9273fe74ae1c65a0a033d1288370
-Description:  Translation for luci-app-vnstat - Tiếng Việt (Vietnamese)
-
-Package: luci-i18n-vnstat-zh-cn
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-zh-cn
-Section: luci
-Architecture: all
-Installed-Size: 850
-Filename: luci-i18n-vnstat-zh-cn_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1686
-SHA256sum: 59db208762de4aed3f8be2b70e90daaba3878e7415783973644dfb445b11b3e4
-Description:  Translation for luci-app-vnstat - 中文 (Chinese)
-
-Package: luci-i18n-vnstat-zh-tw
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci-app-vnstat
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-vnstat
-SourceName: luci-i18n-vnstat-zh-tw
-Section: luci
-Architecture: all
-Installed-Size: 861
-Filename: luci-i18n-vnstat-zh-tw_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1713
-SHA256sum: f47d64910e954483418fce9b93b1aafdb8a0adf9b76ca09f2fb0aee44cf40755
-Description:  Translation for luci-app-vnstat - 臺灣華語 (Taiwanese)
-
 Package: luci-i18n-wol-ca
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-ca
 Section: luci
 Architecture: all
-Installed-Size: 815
-Filename: luci-i18n-wol-ca_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1636
-SHA256sum: f942c2b8b0c933ebf0549a27dd5e74527fe9841f14c79d65b6f34d99147fd3ec
+Installed-Size: 813
+Filename: luci-i18n-wol-ca_git-19.323.39847-15816e6-1_all.ipk
+Size: 1637
+SHA256sum: 8c1e4dbf3cf8e29e090010da3a93cb806a5c6160bb7eb6bd5276851b38226d01
 Description:  Translation for luci-app-wol - Català (Catalan)
 
 Package: luci-i18n-wol-cs
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-cs
 Section: luci
 Architecture: all
-Installed-Size: 889
-Filename: luci-i18n-wol-cs_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1727
-SHA256sum: d6724bd4eb0a0b0959f55695a8ca2bbd16fe1ce98c9f6e5fa648c3a8245c7b82
+Installed-Size: 901
+Filename: luci-i18n-wol-cs_git-19.323.39847-15816e6-1_all.ipk
+Size: 1730
+SHA256sum: 14029eb9e3afca3f9a4d59774d07968e80d387fa8c8e42867a938f352432563d
 Description:  Translation for luci-app-wol - Čeština (Czech)
 
 Package: luci-i18n-wol-de
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-de
 Section: luci
 Architecture: all
-Installed-Size: 824
-Filename: luci-i18n-wol-de_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1649
-SHA256sum: c279d3a5a4e502fb7e98c1dfe096a161007ca0085c08f50c01611c7f66cc719b
+Installed-Size: 862
+Filename: luci-i18n-wol-de_git-19.323.39847-15816e6-1_all.ipk
+Size: 1682
+SHA256sum: 1bee0a59f3f08ce82c50e5566eff6d2556b75881007713a17c391c5d64b0fa24
 Description:  Translation for luci-app-wol - Deutsch (German)
 
 Package: luci-i18n-wol-el
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-el
 Section: luci
 Architecture: all
-Installed-Size: 329
-Filename: luci-i18n-wol-el_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1160
-SHA256sum: d756c1590051706760140d36fc6200877f27c43aa98f71859ac01fa52a13e883
+Installed-Size: 330
+Filename: luci-i18n-wol-el_git-19.323.39847-15816e6-1_all.ipk
+Size: 1163
+SHA256sum: a092480e3ce327a2af570509b9c99012cf635246de20d1c430d15b34ed3a30a4
 Description:  Translation for luci-app-wol - Ελληνικά (Greek)
 
 Package: luci-i18n-wol-en
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-en
 Section: luci
 Architecture: all
-Installed-Size: 409
-Filename: luci-i18n-wol-en_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1213
-SHA256sum: 2d1708dfa91d9dbdeaaef204712f020c828bcb783ba5f9432e3b04ca72872a76
+Installed-Size: 408
+Filename: luci-i18n-wol-en_git-19.323.39847-15816e6-1_all.ipk
+Size: 1212
+SHA256sum: 330dcb1cd218a8fc87ef44c089d97fbb41b5a55be5207ab9054141317086cd1c
 Description:  Translation for luci-app-wol - English
 
 Package: luci-i18n-wol-es
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-es
 Section: luci
 Architecture: all
-Installed-Size: 832
-Filename: luci-i18n-wol-es_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1671
-SHA256sum: 9f732b2f55ad4636cb6dd2b83c551279de9fefdced46274baf98099f48ca5608
+Installed-Size: 822
+Filename: luci-i18n-wol-es_git-19.323.39847-15816e6-1_all.ipk
+Size: 1655
+SHA256sum: 8f144cbc07b974dc2beb6079459dce65cee9ef88c045fd976e9241f881f417aa
 Description:  Translation for luci-app-wol - Español (Spanish)
 
 Package: luci-i18n-wol-fr
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-fr
 Section: luci
 Architecture: all
 Installed-Size: 832
-Filename: luci-i18n-wol-fr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1669
-SHA256sum: 0158471d4e368545bb5bbc194022ddedf02333cbd9e794e67198a233c4caef05
+Filename: luci-i18n-wol-fr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1672
+SHA256sum: 030fd3cbbdaffe106730754b2ec2f48686935a950e303562135db8ff0c328d9c
 Description:  Translation for luci-app-wol - Français (French)
 
 Package: luci-i18n-wol-he
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-he
 Section: luci
 Architecture: all
 Installed-Size: 333
-Filename: luci-i18n-wol-he_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1175
-SHA256sum: 7057858e7c553b74f2dead7e09505c17a6e24f980e11fb6653e118b250407714
+Filename: luci-i18n-wol-he_git-19.323.39847-15816e6-1_all.ipk
+Size: 1173
+SHA256sum: 729a6e0c9426b118100076e7277bca965f94d3dcdd1134cfb71c4be5ce7a837c
 Description:  Translation for luci-app-wol - עִבְרִית (Hebrew)
 
 Package: luci-i18n-wol-hu
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-hu
 Section: luci
 Architecture: all
-Installed-Size: 834
-Filename: luci-i18n-wol-hu_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1668
-SHA256sum: 7f2c5683763f65c8be278a07e514797f6d9e332a822939768ea24ab3e1b76212
+Installed-Size: 836
+Filename: luci-i18n-wol-hu_git-19.323.39847-15816e6-1_all.ipk
+Size: 1661
+SHA256sum: 11cd76958c20bdbc1ea5d0e4badde588390b733d13c227320c00fba4fe1fa26d
 Description:  Translation for luci-app-wol - Magyar (Hungarian)
 
 Package: luci-i18n-wol-it
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-it
 Section: luci
 Architecture: all
-Installed-Size: 829
-Filename: luci-i18n-wol-it_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1655
-SHA256sum: 6e86094e158120360f8150b71702d18e0fbc21438b2b6e92fc4ae2cebc6a7538
+Installed-Size: 830
+Filename: luci-i18n-wol-it_git-19.323.39847-15816e6-1_all.ipk
+Size: 1651
+SHA256sum: 29f7efdeb585a32fab0de17a0ad17551cde429e81c8e20647b54a99c7f328875
 Description:  Translation for luci-app-wol - Italiano (Italian)
 
 Package: luci-i18n-wol-ja
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-ja
 Section: luci
 Architecture: all
-Installed-Size: 910
-Filename: luci-i18n-wol-ja_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1757
-SHA256sum: fbf64a7a9ee4e8b6980f25be2cd251baddff6eaaa74c0c79e212769a6d67e9e0
+Installed-Size: 914
+Filename: luci-i18n-wol-ja_git-19.323.39847-15816e6-1_all.ipk
+Size: 1758
+SHA256sum: c1abe13d84e8cbd9a670f88796597078dd4f7f683eb73febc1b93562faf531e2
 Description:  Translation for luci-app-wol - 日本語 (Japanese)
 
-Package: luci-i18n-wol-ms
-Version: git-19.127.24922-6b7afab-1
+Package: luci-i18n-wol-ko
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
+SourceName: luci-i18n-wol-ko
+Section: luci
+Architecture: all
+Installed-Size: 325
+Filename: luci-i18n-wol-ko_git-19.323.39847-15816e6-1_all.ipk
+Size: 1153
+SHA256sum: 4b95ef8d392e8435ad31df5ae718433074fbe254f577cdd94d152734f80ab032
+Description:  Translation for luci-app-wol - 한국어 (Korean)
+
+Package: luci-i18n-wol-ms
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-ms
 Section: luci
 Architecture: all
 Installed-Size: 316
-Filename: luci-i18n-wol-ms_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1135
-SHA256sum: 7681ea0e2c347fd8c29010c475f8485ae29d07f66a38ac6fc9af693aa562e809
+Filename: luci-i18n-wol-ms_git-19.323.39847-15816e6-1_all.ipk
+Size: 1130
+SHA256sum: 27a5b828a7490856799380886727f02585e0c6adba360f9e68a31b2c00fee757
 Description:  Translation for luci-app-wol - Bahasa Melayu (Malay)
 
 Package: luci-i18n-wol-no
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-no
 Section: luci
 Architecture: all
-Installed-Size: 790
-Filename: luci-i18n-wol-no_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1615
-SHA256sum: 8c2974b55d862bc126bec237ee4fcfc652051d8a08c94712bc0f5b7378d457bc
+Installed-Size: 791
+Filename: luci-i18n-wol-no_git-19.323.39847-15816e6-1_all.ipk
+Size: 1605
+SHA256sum: d2d015ddc267f96052364b0278397aedcbd1d538c28354a0cfc36b61fbc32808
 Description:  Translation for luci-app-wol - Norsk (Norwegian)
 
 Package: luci-i18n-wol-pl
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-pl
 Section: luci
 Architecture: all
-Installed-Size: 823
-Filename: luci-i18n-wol-pl_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1650
-SHA256sum: c922cebc57552de9c12a0d34d50f9fc0e22bfff56d0f3272a04f7bfc755c6da1
+Installed-Size: 858
+Filename: luci-i18n-wol-pl_git-19.323.39847-15816e6-1_all.ipk
+Size: 1684
+SHA256sum: d978c7376836c78f9bfb325c461bce2dd5b65b38cbca3c07c47e5b186c4270f8
 Description:  Translation for luci-app-wol - Polski (Polish)
 
 Package: luci-i18n-wol-pt-br
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-pt-br
 Section: luci
 Architecture: all
-Installed-Size: 845
-Filename: luci-i18n-wol-pt-br_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1697
-SHA256sum: 77643471b97eab021fea726a3a90b0ecf206d33dc213aee37833c2831ae7fedf
+Installed-Size: 844
+Filename: luci-i18n-wol-pt-br_git-19.323.39847-15816e6-1_all.ipk
+Size: 1701
+SHA256sum: 14a083e6c28a369672f7d52c5de54a5e8930910f1809178078d7c567cbab2617
 Description:  Translation for luci-app-wol - Português do Brasil (Brazialian Portuguese)
 
 Package: luci-i18n-wol-pt
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-pt
 Section: luci
 Architecture: all
-Installed-Size: 777
-Filename: luci-i18n-wol-pt_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1605
-SHA256sum: 1344a565d2b61196b2830777cd92da40bbad1e7031f6790d4231ba57e4af72f0
+Installed-Size: 815
+Filename: luci-i18n-wol-pt_git-19.323.39847-15816e6-1_all.ipk
+Size: 1646
+SHA256sum: 12df72d11a66e0911868ab03348c0fb51bcfcb7bb8ad2647062682d435942eb3
 Description:  Translation for luci-app-wol - Português (Portuguese)
 
 Package: luci-i18n-wol-ro
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-ro
 Section: luci
 Architecture: all
-Installed-Size: 803
-Filename: luci-i18n-wol-ro_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1636
-SHA256sum: b2f8523a9c7b5d384f1c5321977589e9002faa685aabdaba72793cfe55322870
+Installed-Size: 804
+Filename: luci-i18n-wol-ro_git-19.323.39847-15816e6-1_all.ipk
+Size: 1642
+SHA256sum: 2468216228fafc05014e9d575cdd57e5e9afc3af5168b5e1b57ee8d1918cd873
 Description:  Translation for luci-app-wol - Română (Romanian)
 
 Package: luci-i18n-wol-ru
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-ru
 Section: luci
 Architecture: all
-Installed-Size: 1184
-Filename: luci-i18n-wol-ru_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2031
-SHA256sum: 75355016dbcdaf0d29737c905e8459e726409ef0100947c87187f8b8ca88a37d
+Installed-Size: 1227
+Filename: luci-i18n-wol-ru_git-19.323.39847-15816e6-1_all.ipk
+Size: 2073
+SHA256sum: be8c5cd2d1dee176f7f5ed4484ae17e1305b75f4476b70ccb4ab6584d7bff80d
 Description:  Translation for luci-app-wol - Русский (Russian)
 
 Package: luci-i18n-wol-sk
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-sk
 Section: luci
 Architecture: all
 Installed-Size: 318
-Filename: luci-i18n-wol-sk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1138
-SHA256sum: 6ccdbc132445f425444e5106cb44e0bb4936dde97ebee9278059a5c2ad7fe713
+Filename: luci-i18n-wol-sk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1132
+SHA256sum: a53433b68ef702fd47605b26e2c6d1bb33c089735859773879b346d54fc7b3e6
 Description:  Translation for luci-app-wol - Slovenčina (Slovak)
 
 Package: luci-i18n-wol-sv
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-sv
 Section: luci
 Architecture: all
 Installed-Size: 872
-Filename: luci-i18n-wol-sv_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1691
-SHA256sum: e6d9c8db89773c838f3697b5e9aa40042cfe2d9acc69c68df01d89bc4f9fa64d
+Filename: luci-i18n-wol-sv_git-19.323.39847-15816e6-1_all.ipk
+Size: 1685
+SHA256sum: ba8bc7e1d9115f35038898bdd07047f5820ce039de3993c734d0eaf60cf9bc79
 Description:  Translation for luci-app-wol - Svenska (Swedish)
 
 Package: luci-i18n-wol-tr
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-tr
 Section: luci
 Architecture: all
-Installed-Size: 320
-Filename: luci-i18n-wol-tr_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1138
-SHA256sum: b3d5d39d175b94dd0a4dfd8bc78fe68579ccfac840edf1ea628323a842258c03
+Installed-Size: 319
+Filename: luci-i18n-wol-tr_git-19.323.39847-15816e6-1_all.ipk
+Size: 1143
+SHA256sum: 82eb95e795015ccff8c9f44dafcd94eaf2b6ac5041ddfcfbd8a828c9c811ae22
 Description:  Translation for luci-app-wol - Türkçe (Turkish)
 
 Package: luci-i18n-wol-uk
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-uk
 Section: luci
 Architecture: all
-Installed-Size: 1016
-Filename: luci-i18n-wol-uk_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1865
-SHA256sum: 963ec3147643acff373e83b8feb1db47d8652fcf38f5b320ee1621d86e566bae
+Installed-Size: 1012
+Filename: luci-i18n-wol-uk_git-19.323.39847-15816e6-1_all.ipk
+Size: 1860
+SHA256sum: ab64c43e05ba6366692c7bd6e01fe40509cd5662f65229f98cfbac883cbb9cad
 Description:  Translation for luci-app-wol - Українська (Ukrainian)
 
 Package: luci-i18n-wol-vi
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-vi
 Section: luci
 Architecture: all
 Installed-Size: 329
-Filename: luci-i18n-wol-vi_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1163
-SHA256sum: ff28bf2e5fbca76dc33e50489838ba2ba93e1df5fed9e9099140404751b81d51
+Filename: luci-i18n-wol-vi_git-19.323.39847-15816e6-1_all.ipk
+Size: 1164
+SHA256sum: c82a41c05b3b1bad96cf1fea4275b0a9385416fe861db5401e3fd47179c8125a
 Description:  Translation for luci-app-wol - Tiếng Việt (Vietnamese)
 
 Package: luci-i18n-wol-zh-cn
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-zh-cn
 Section: luci
 Architecture: all
-Installed-Size: 854
-Filename: luci-i18n-wol-zh-cn_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1695
-SHA256sum: af5bc3f4ac6e79501038383bda9efc00cdd2cb290c7c738565f25ad06fc96e89
+Installed-Size: 855
+Filename: luci-i18n-wol-zh-cn_git-19.323.39847-15816e6-1_all.ipk
+Size: 1692
+SHA256sum: 49fe0fc1bccf72fd05291428ed4c7bb144235872392b2818e0c6147f5d5ce5e9
 Description:  Translation for luci-app-wol - 中文 (Chinese)
 
 Package: luci-i18n-wol-zh-tw
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-app-wol
-Source: /home/ubnt/openmptcprouter/feeds/luci/applications/luci-app-wol
+Source: /workspace/openmptcprouter/feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-zh-tw
 Section: luci
 Architecture: all
-Installed-Size: 866
-Filename: luci-i18n-wol-zh-tw_git-19.127.24922-6b7afab-1_all.ipk
-Size: 1722
-SHA256sum: 8431058e8ada5ec1a21b62e89f5c00bd70760e167b6ff51d90f4312647af1400
+Installed-Size: 868
+Filename: luci-i18n-wol-zh-tw_git-19.323.39847-15816e6-1_all.ipk
+Size: 1723
+SHA256sum: d6f6b15f3b19de068383d82c1f3e7d19fe46b5a54241da713048cc9a2022872e
 Description:  Translation for luci-app-wol - 臺灣華語 (Taiwanese)
 
 Package: luci-lib-ip
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, liblua5.1.5, libnl-tiny
-Source: /home/ubnt/openmptcprouter/feeds/luci/libs/luci-lib-ip
+Source: /workspace/openmptcprouter/feeds/luci/libs/luci-lib-ip
 SourceName: luci-lib-ip
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 10116
-Filename: luci-lib-ip_git-19.127.24922-6b7afab-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 10832
-SHA256sum: 56afb0488862cd2b0a433056721066d3793af46e7a1465bb27df58f83f085a6e
+Installed-Size: 10156
+Filename: luci-lib-ip_git-19.323.39847-15816e6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 10881
+SHA256sum: 502a880a4ebe1a713a1e5283b4da30b674f695142164304d343d1c7225a7c9cf
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-json
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc
-Source: /home/ubnt/openmptcprouter/feeds/luci/libs/luci-lib-json
+Source: /workspace/openmptcprouter/feeds/luci/libs/luci-lib-json
 SourceName: luci-lib-json
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 3134
-Filename: luci-lib-json_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3863
-SHA256sum: 8b7d223731166f6a1b7e436c8f6d8d020e43c8024164ad6ce269101269fe9376
+Installed-Size: 3137
+Filename: luci-lib-json_git-19.323.39847-15816e6-1_all.ipk
+Size: 3874
+SHA256sum: 08c1e260bd23fd3587dbb3072799b648818413921bef22032f65beef8ee05cd7
 Description:  LuCI JSON library
 
 Package: luci-lib-jsonc
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, liblua5.1.5, libjson-c2
-Source: /home/ubnt/openmptcprouter/feeds/luci/libs/luci-lib-jsonc
+Version: git-19.323.39847-15816e6-1
+Depends: libc, liblua5.1.5, libjson-c4
+Source: /workspace/openmptcprouter/feeds/luci/libs/luci-lib-jsonc
 SourceName: luci-lib-jsonc
 Section: luci
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3533
-Filename: luci-lib-jsonc_git-19.127.24922-6b7afab-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4257
-SHA256sum: 427c482fcf0063997e770174fb573fb7340f5a0f21cd014adf8ae5c9afc10a05
+Installed-Size: 3650
+Filename: luci-lib-jsonc_git-19.323.39847-15816e6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4381
+SHA256sum: 089b2b9375b65041d6633765b11b5efc6adfdf30b1cd59e7392ad0bbfa54b030
 Description:  Lua binding for JSON-C
 
 Package: luci-lib-nixio
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, liblua5.1.5
-Source: /home/ubnt/openmptcprouter/feeds/luci/libs/luci-lib-nixio
+Source: /workspace/openmptcprouter/feeds/luci/libs/luci-lib-nixio
 SourceName: luci-lib-nixio
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 29052
-Filename: luci-lib-nixio_git-19.127.24922-6b7afab-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 29570
-SHA256sum: 5c996674e12475dfb15f60dae5c0a70e5b5b9ded841555ee137202c52ab0875e
+Installed-Size: 29035
+Filename: luci-lib-nixio_git-19.323.39847-15816e6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 29556
+SHA256sum: c304713aba24ac11b2022c42d4b654b23b31c841a9e950eaf44299cbd10b4f72
 Description:  NIXIO POSIX library
 
+Package: luci-mod-admin-full
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-mod-admin-full
+SourceName: luci-mod-admin-full
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci-mod-admin-full_git-19.323.39847-15816e6-1_all.ipk
+Size: 857
+SHA256sum: f502d6e41e44aca71545032bcc36340723bea3ccd6970cc78942c81bfedd00a3
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-mod-network
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-base, libiwinfo-lua, rpcd-mod-iwinfo
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-mod-network
+SourceName: luci-mod-network
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 31595
+Filename: luci-mod-network_git-19.323.39847-15816e6-1_all.ipk
+Size: 32455
+SHA256sum: 24fcae0eb9f84ab14873ced5fcef67adb1b9cb7443e7cf26130b9594589b90c3
+Description:  LuCI Network Administration
+
+Package: luci-mod-rpc
+Version: git-19.323.39847-15816e6-1
+Depends: libc, luci-lib-json
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-mod-rpc
+SourceName: luci-mod-rpc
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 3000
+Filename: luci-mod-rpc_git-19.323.39847-15816e6-1_all.ipk
+Size: 3746
+SHA256sum: 8d0a46cb9c12b99f71d6140f0d3a9e7db9d151f3f426c32c20ba824f1e4a5f07
+Description:  LuCI RPC - JSON-RPC API
+
 Package: luci-mod-status
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-base, libiwinfo20181126, libiwinfo-lua
-Source: /home/ubnt/openmptcprouter/feeds/luci/modules/luci-mod-status
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-mod-status
 SourceName: luci-mod-status
 License: Apache-2.0
 Section: luci
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 23272
-Filename: luci-mod-status_git-19.127.24922-6b7afab-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 24003
-SHA256sum: de0e08389513ab3b63016c21dc3dab866f9bd087f5ab6f2394b208f80e89c0e6
+Installed-Size: 23524
+Filename: luci-mod-status_git-19.323.39847-15816e6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24242
+SHA256sum: a51d9af903a9385c7e3a539338d6a0da5b77c1e7357a7e9b3472b02ba0f8360a
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, luci-base
-Source: /home/ubnt/openmptcprouter/feeds/luci/modules/luci-mod-system
+Source: /workspace/openmptcprouter/feeds/luci/modules/luci-mod-system
 SourceName: luci-mod-system
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 19059
-Filename: luci-mod-system_git-19.127.24922-6b7afab-1_all.ipk
-Size: 19813
-SHA256sum: d906c63c382781d51deaf4e52beebffda8ad12759b2bcd38ab63e70491767b8a
+Installed-Size: 15803
+Filename: luci-mod-system_git-19.323.39847-15816e6-1_all.ipk
+Size: 16518
+SHA256sum: 6c08d742aaff6c4c970cc8bc47caab809ce142bab83c852935ea0c5a0fa4fc06
 Description:  LuCI Administration - Global System Settings
 
 Package: luci-proto-3g
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, comgt
-Source: /home/ubnt/openmptcprouter/feeds/luci/protocols/luci-proto-3g
+Source: /workspace/openmptcprouter/feeds/luci/protocols/luci-proto-3g
 SourceName: luci-proto-3g
 Section: luci
 Architecture: all
-Installed-Size: 2093
-Filename: luci-proto-3g_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2801
-SHA256sum: 3f8fc0df842f3a73530e212d6a6f710153ed98fbe896102307b4a7c11317c71e
+Installed-Size: 1821
+Filename: luci-proto-3g_git-19.323.39847-15816e6-1_all.ipk
+Size: 2550
+SHA256sum: 18869353c6a208be4b09a6bf3b4b7657d26d061ecfc536699e7e8b24b370d1a4
 Description:  Support for 3G
 
+Package: luci-proto-ipv6
+Version: git-19.323.39847-15816e6-1
+Depends: libc
+Source: /workspace/openmptcprouter/feeds/luci/protocols/luci-proto-ipv6
+SourceName: luci-proto-ipv6
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2839
+Filename: luci-proto-ipv6_git-19.323.39847-15816e6-1_all.ipk
+Size: 3576
+SHA256sum: 9cf32d1f9f9dfcbbef0022e86ee03e6cc4b5055d578e42e2695a79f2e0376686
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
+
+Package: luci-proto-modemmanager
+Version: git-19.323.39847-15816e6-1
+Depends: libc, modemmanager
+Source: /workspace/openmptcprouter/feeds/luci/protocols/luci-proto-modemmanager
+SourceName: luci-proto-modemmanager
+Section: luci
+Architecture: all
+Installed-Size: 1196
+Filename: luci-proto-modemmanager_git-19.323.39847-15816e6-1_all.ipk
+Size: 1933
+SHA256sum: 024db4139fba022aa5b6fd8b8a6a8dbdd09d9097313dc99efc22515c8fdfa9ac
+Description:  Support for ModemManager
+
 Package: luci-proto-ncm
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, comgt-ncm
-Source: /home/ubnt/openmptcprouter/feeds/luci/protocols/luci-proto-ncm
+Source: /workspace/openmptcprouter/feeds/luci/protocols/luci-proto-ncm
 SourceName: luci-proto-ncm
 Section: luci
 Architecture: all
-Installed-Size: 2095
-Filename: luci-proto-ncm_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2806
-SHA256sum: 7386e90302404d3ae99eb0573ee523d6ae08f6986458db1bf41091aad8cfe175
+Installed-Size: 1557
+Filename: luci-proto-ncm_git-19.323.39847-15816e6-1_all.ipk
+Size: 2289
+SHA256sum: c9f59842859430c36c8910bb7593ddd8d22f6d581cdf51bcd3a11c47e88dbec4
 Description:  Support for NCM
 
 Package: luci-proto-ppp
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc
-Source: /home/ubnt/openmptcprouter/feeds/luci/protocols/luci-proto-ppp
+Source: /workspace/openmptcprouter/feeds/luci/protocols/luci-proto-ppp
 SourceName: luci-proto-ppp
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 2716
-Filename: luci-proto-ppp_git-19.127.24922-6b7afab-1_all.ipk
-Size: 3418
-SHA256sum: 5da5fc71bf47f8bbe9e03b2052806c5106f9ff7a7268a86d4859e427683aa34b
+Installed-Size: 2368
+Filename: luci-proto-ppp_git-19.323.39847-15816e6-1_all.ipk
+Size: 3072
+SHA256sum: e2a2ac1c9463fb82d5c441e592a2cff70dfbce0d2d6c041916c1fa559a499373
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
 Package: luci-proto-qmi
-Version: git-19.127.24922-6b7afab-1
+Version: git-19.323.39847-15816e6-1
 Depends: libc, uqmi
-Source: /home/ubnt/openmptcprouter/feeds/luci/protocols/luci-proto-qmi
+Source: /workspace/openmptcprouter/feeds/luci/protocols/luci-proto-qmi
 SourceName: luci-proto-qmi
 Section: luci
 Architecture: all
-Installed-Size: 1315
-Filename: luci-proto-qmi_git-19.127.24922-6b7afab-1_all.ipk
-Size: 2055
-SHA256sum: e44705cd1d3b6296b4fc55b47e80a46ee62a7c5389f78f7c44795642e4adcfbb
+Installed-Size: 1285
+Filename: luci-proto-qmi_git-19.323.39847-15816e6-1_all.ipk
+Size: 2016
+SHA256sum: 17a3824e45f1bb0473693d7c656186164a9a34e33edb2ab0e8d559bb88b6531d
 Description:  Support for QMI
 
-Package: luci-ssl-openssl
-Version: git-19.127.24922-6b7afab-1
-Depends: libc, luci, libustream-openssl20150806, openssl-util
-Source: /home/ubnt/openmptcprouter/feeds/luci/collections/luci-ssl-openssl
-SourceName: luci-ssl-openssl
+Package: luci-proto-wireguard
+Version: git-19.323.39847-15816e6-1
+Depends: libc, kmod-wireguard, wireguard-tools
+Source: /workspace/openmptcprouter/feeds/luci/protocols/luci-proto-wireguard
+SourceName: luci-proto-wireguard
 Section: luci
 Architecture: all
-Installed-Size: 104
-Filename: luci-ssl-openssl_git-19.127.24922-6b7afab-1_all.ipk
-Size: 929
-SHA256sum: 4b442052eae096f460e4c328b59484f72770216669339c3fcdcf39a3f605fb43
-Description:  LuCI with OpenSSL as the SSL backend (libustream-openssl). OpenSSL cmd tools (openssl-util) are used by uhttpd for SSL key generation instead of the default px5g. (If px5g is installed, uhttpd will prefer that.)
+Installed-Size: 1749
+Filename: luci-proto-wireguard_git-19.323.39847-15816e6-1_all.ipk
+Size: 2502
+SHA256sum: 981d08fa83f7c1814944115b2e9698a91de24acecbe84372d79f3f2823ff3d76
+Description:  Support for WireGuard VPN
 
-Package: luci-theme-bootstrap
-Version: git-19.127.24922-6b7afab-1
-Depends: libc
-Source: /home/ubnt/openmptcprouter/feeds/luci/themes/luci-theme-bootstrap
-SourceName: luci-theme-bootstrap
-License: Apache-2.0
-Section: luci
-Architecture: all
-Installed-Size: 13056
-Filename: luci-theme-bootstrap_git-19.127.24922-6b7afab-1_all.ipk
-Size: 13865
-SHA256sum: 7968bb22d6efcc0c4c35c712ff8073a6ca176e19cc64c5abf510aad15c3c1c74
-Description:  Bootstrap Theme (default)
-
-Package: rpcd-mod-rrdns
-Version: 20170710
-Depends: libc, rpcd, libubox20170601, libubus20170705
-Source: /home/ubnt/openmptcprouter/feeds/luci/libs/rpcd-mod-rrdns
-SourceName: rpcd-mod-rrdns
+Package: rpcd-mod-luci
+Version: 20191114
+Depends: libc, rpcd, libubox20170601, libubus20170705, libnl-tiny
+Source: /workspace/openmptcprouter/feeds/luci/libs/rpcd-mod-luci
+SourceName: rpcd-mod-luci
 License: Apache-2.0
 Section: libs
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3500
-Filename: rpcd-mod-rrdns_20170710_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4329
-SHA256sum: 1c65ce2d1978df1afedde0edf25a62cf95936fe16bb63235f2be8282cafe60b2
-Description:  Provides rapid mass reverse DNS lookup functionality.
+Installed-Size: 11981
+Filename: rpcd-mod-luci_20191114_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12863
+SHA256sum: c2996dff2d6d151213f2d0bace890002fe6360bca68713223cee59499f35e40a
+Description:  Provides LuCI backend ubus RPC operations.
 
