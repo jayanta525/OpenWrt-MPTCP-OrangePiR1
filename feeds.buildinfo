@@ -1,3 +1,5 @@
-src-link packages /workspace/openmptcprouter/feeds/packages
-src-link luci /workspace/openmptcprouter/feeds/luci
-src-link openmptcprouter /workspace/openmptcprouter/feeds/openmptcprouter
+src-git packages https://git.openwrt.org/feed/packages.git^1d8d456
+src-git luci https://git.openwrt.org/project/luci.git^e523bfd
+src-git routing https://git.openwrt.org/feed/routing.git^512240f
+src-git telephony https://git.openwrt.org/feed/telephony.git^bbd6f65
+src-git openmptcprouter https://github.com/ysurac/openmptcprouter-feeds.git^6c730f1

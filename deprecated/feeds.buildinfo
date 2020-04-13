@@ -1,0 +1,3 @@
+src-link packages /workspace/openmptcprouter/feeds/packages
+src-link luci /workspace/openmptcprouter/feeds/luci
+src-link openmptcprouter /workspace/openmptcprouter/feeds/openmptcprouter
